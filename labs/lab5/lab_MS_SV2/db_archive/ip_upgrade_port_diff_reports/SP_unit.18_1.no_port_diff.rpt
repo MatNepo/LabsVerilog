@@ -1,0 +1,23 @@
+IP Ports Diff Report for SP_unit
+Tue Feb 27 21:06:35 2024
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. IP Information
+
+
+
++----------------------------------------------------+
+; IP Information                                     ;
++----------------------+-----------------------------+
+; IP Variation Name    ; SP_unit                     ;
+; Prior Version        ; 16.1                        ;
+; New Version          ; 18.1                        ;
+; New File             ; SP_unit/synthesis/SP_unit.v ;
+; Has Port Differences ; No                          ;
++----------------------+-----------------------------+
+
+
