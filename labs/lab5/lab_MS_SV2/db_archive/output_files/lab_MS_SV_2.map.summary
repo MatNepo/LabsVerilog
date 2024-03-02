@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Feb 28 16:37:01 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : lab_MS_SV_2
+Top-level Entity Name : db_lab_MS_SV2
+Family : Cyclone IV E
+Total logic elements : 823
+    Total combinational functions : 580
+    Dedicated logic registers : 574
+Total registers : 574
+Total pins : 1
+Total virtual pins : 0
+Total memory bits : 1,792
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
