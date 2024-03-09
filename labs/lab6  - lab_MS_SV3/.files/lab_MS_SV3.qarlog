@@ -1,0 +1,42 @@
+Quartus Prime Archive log --	D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/lab_MS_SV3.qarlog
+
+Archive:	D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/lab_MS_SV3.qar
+Date:		Sat Mar 09 23:04:44 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/LFSR_8764321_F.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/PLL.ppf
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/PLL.qip
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/PLL.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/PLL_bb.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/PLL_inst.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/RAM.qip
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/RAM.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/RAM_bb.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/RAM_inst.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/SDC1.sdc
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/SP_unit.qsys
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/SP_unit.sopcinfo
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/SP_unit/SP_unit.cmp
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/SP_unit/synthesis/SP_unit.debuginfo
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/SP_unit/synthesis/SP_unit.qip
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/SP_unit/synthesis/SP_unit.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/SP_unit/synthesis/submodules/altsource_probe_top.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/assignment_defaults.qdf
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/db/stp1_auto_stripped.stp
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/db_lab_MS_SV_3.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/histogram_unit.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/lab_MS_SV3.qpf
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/lab_MS_SV3.qsf
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/lab_MS_SV3_assignment_defaults.qdf
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/lab_MS_SV_3.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/output_files/Spf1.spf
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/stp1.stp
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/tb_LFSR_8764321_F.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/tb_histogram_unit.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/tb_lab_MS_SV_3.sv
+	======= Total: 31 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

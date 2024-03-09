@@ -1,0 +1,129 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/simulation/modelsim
+vhistogram_unit
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1709731333
+!i10b 1
+!s100 i350kPlAFNK>Tg:A5L95M0
+I_W5Nnno8N0iKfDNTX[aof0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 histogram_unit_sv_unit
+S1
+R0
+w1709729265
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/histogram_unit.sv
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/histogram_unit.sv
+L0 2
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1709731333.000000
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/histogram_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/histogram_unit.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work {+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3}
+Z8 tCvgOpt 0
+vPLL
+R2
+!i10b 1
+!s100 [M_^j_VYG5N?M=g<P1O082
+I4o<]4=?8lOJI2Y0M]>OHO2
+R3
+R0
+w1709716163
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/PLL.v
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/PLL.v
+Z9 L0 39
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/PLL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/PLL.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work {+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3}
+R8
+n@p@l@l
+vPLL_altpll
+R2
+!i10b 1
+!s100 h4z>id;>KY6<bJ2@0cl8[1
+I_ZbNQzYGg067PbSLRnD=30
+R3
+R0
+w1709731172
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/db/pll_altpll.v
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/db/pll_altpll.v
+L0 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/db/pll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/db|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/db/pll_altpll.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work {+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/db}
+R8
+n@p@l@l_altpll
+vRAM
+R2
+!i10b 1
+!s100 nb`;cDSnoL9P^lC@Bz?dD3
+IVKe@PKg<YZ?IjOXJleQ1l2
+R3
+R0
+w1709716988
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/RAM.v
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/RAM.v
+R9
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/RAM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/RAM.v|
+!i113 1
+R10
+R11
+R8
+n@r@a@m
+vtb_histogram_unit
+R1
+R2
+!i10b 1
+!s100 W3g7Q;dENg^:5Dekeh3J32
+IW;PQXkHOGQ>?^Og@:00e_0
+R3
+!s105 tb_histogram_unit_sv_unit
+S1
+R0
+w1709729247
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/tb_histogram_unit.sv
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/tb_histogram_unit.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/tb_histogram_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab6/lab_MS_SV3/tb_histogram_unit.sv|
+!i113 1
+R6
+R7
+R8
