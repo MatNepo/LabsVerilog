@@ -1,0 +1,71 @@
+|impl_lab_MS_SV2
+front_door_in => front_door_in~0.DATAIN
+rear_door_in => rear_door_in~0.DATAIN
+window_in => window_in~0.DATAIN
+clk => clk~0.DATAIN
+reset_in => reset_in~0.DATAIN
+keypad_in[0] => keypad_in[0]~0.DATAIN
+keypad_in[1] => keypad_in[1]~1.DATAIN
+keypad_in[2] => keypad_in[2]~2.DATAIN
+keypad_in[3] => keypad_in[3]~3.DATAIN
+alarm_siren <= lab_MS_SV2:u_lab_MS_SV2.alarm_siren
+is_armed <= lab_MS_SV2:u_lab_MS_SV2.is_armed
+is_wait_delay <= lab_MS_SV2:u_lab_MS_SV2.is_wait_delay
+
+
+|impl_lab_MS_SV2|lab_MS_SV2:u_lab_MS_SV2
+front_door => Equal2.IN0
+rear_door => Equal2.IN1
+window => Equal2.IN2
+clk => delay_cntr[0].CLK
+clk => delay_cntr[1].CLK
+clk => delay_cntr[2].CLK
+clk => delay_cntr[3].CLK
+clk => delay_cntr[4].CLK
+clk => delay_cntr[5].CLK
+clk => delay_cntr[6].CLK
+clk => alarm_siren~reg0.CLK
+clk => is_wait_delay~reg0.CLK
+clk => is_armed~reg0.CLK
+clk => curr_state~5.DATAIN
+reset => curr_state.OUTPUTSELECT
+reset => curr_state.OUTPUTSELECT
+reset => curr_state.OUTPUTSELECT
+reset => curr_state.OUTPUTSELECT
+reset => is_armed.OUTPUTSELECT
+reset => is_wait_delay.OUTPUTSELECT
+reset => alarm_siren.OUTPUTSELECT
+reset => delay_cntr.OUTPUTSELECT
+reset => delay_cntr.OUTPUTSELECT
+reset => delay_cntr.OUTPUTSELECT
+reset => delay_cntr.OUTPUTSELECT
+reset => delay_cntr.OUTPUTSELECT
+reset => delay_cntr.OUTPUTSELECT
+reset => delay_cntr.OUTPUTSELECT
+ENA => curr_state.OUTPUTSELECT
+ENA => curr_state.OUTPUTSELECT
+ENA => curr_state.OUTPUTSELECT
+ENA => curr_state.OUTPUTSELECT
+ENA => delay_cntr[1].ENA
+ENA => delay_cntr[0].ENA
+ENA => alarm_siren~reg0.ENA
+ENA => delay_cntr[2].ENA
+ENA => delay_cntr[3].ENA
+ENA => delay_cntr[4].ENA
+ENA => delay_cntr[5].ENA
+ENA => delay_cntr[6].ENA
+ENA => is_wait_delay~reg0.ENA
+ENA => is_armed~reg0.ENA
+keypad[0] => Equal0.IN1
+keypad[0] => Equal1.IN3
+keypad[1] => Equal0.IN0
+keypad[1] => Equal1.IN2
+keypad[2] => Equal0.IN3
+keypad[2] => Equal1.IN1
+keypad[3] => Equal0.IN2
+keypad[3] => Equal1.IN0
+alarm_siren <= alarm_siren~reg0.DB_MAX_OUTPUT_PORT_TYPE
+is_armed <= is_armed~reg0.DB_MAX_OUTPUT_PORT_TYPE
+is_wait_delay <= is_wait_delay~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

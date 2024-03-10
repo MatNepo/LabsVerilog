@@ -1,0 +1,73 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "alarm_siren",
+					"strict" : false
+				},
+				{
+					"name" : "is_armed",
+					"strict" : false
+				},
+				{
+					"name" : "is_wait_delay",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "front_door_in",
+					"strict" : false
+				},
+				{
+					"name" : "keypad_in[0]",
+					"strict" : false
+				},
+				{
+					"name" : "keypad_in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "keypad_in[2]",
+					"strict" : false
+				},
+				{
+					"name" : "keypad_in[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rear_door_in",
+					"strict" : false
+				},
+				{
+					"name" : "window_in",
+					"strict" : false
+				},
+				{
+					"name" : "reset_in",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,7 @@
+
+State Machine - |impl_lab_MS_SV2|lab_MS_SV2:u_lab_MS_SV2|curr_state
+Name curr_state.alarm curr_state.wait_delay curr_state.armed curr_state.disarmed 
+curr_state.disarmed 0 0 0 0 
+curr_state.armed 0 0 1 1 
+curr_state.wait_delay 0 1 0 1 
+curr_state.alarm 1 0 0 1 

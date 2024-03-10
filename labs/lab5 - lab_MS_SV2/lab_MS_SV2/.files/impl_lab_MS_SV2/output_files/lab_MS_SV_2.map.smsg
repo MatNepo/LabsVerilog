@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at lab_MS_SV2.sv(23): always construct contains both blocking and non-blocking assignments File: D:/Users/Legion/Quartus and Verilog/Works_Verilog/Third year/6th semester/labs/lab5/impl_lab_MS_SV2/lab_MS_SV2.sv Line: 23

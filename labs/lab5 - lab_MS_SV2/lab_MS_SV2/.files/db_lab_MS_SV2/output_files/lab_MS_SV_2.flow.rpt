@@ -1,0 +1,175 @@
+Flow report for lab_MS_SV_2
+Wed Feb 28 16:37:11 2024
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Wed Feb 28 16:37:11 2024       ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                      ; lab_MS_SV_2                                 ;
+; Top-level Entity Name              ; db_lab_MS_SV2                               ;
+; Family                             ; Cyclone IV E                                ;
+; Device                             ; EP4CE6E22C8                                 ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 782 / 6,272 ( 12 % )                        ;
+;     Total combinational functions  ; 582 / 6,272 ( 9 % )                         ;
+;     Dedicated logic registers      ; 574 / 6,272 ( 9 % )                         ;
+; Total registers                    ; 574                                         ;
+; Total pins                         ; 1 / 92 ( 1 % )                              ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 1,792 / 276,480 ( < 1 % )                   ;
+; Embedded Multiplier 9-bit elements ; 0 / 30 ( 0 % )                              ;
+; Total PLLs                         ; 0 / 2 ( 0 % )                               ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 02/28/2024 16:36:44 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; lab_MS_SV_2         ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                            ;
++--------------------------------------+---------------------------------------------------------------------+---------------+---------------+----------------+
+; Assignment Name                      ; Value                                                               ; Default Value ; Entity Name   ; Section Id     ;
++--------------------------------------+---------------------------------------------------------------------+---------------+---------------+----------------+
+; COMPILER_SIGNATURE_ID                ; 127943352807685.170912740441216                                     ; --            ; --            ; --             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                  ; --            ; --            ; tb_lab_MS_SV2  ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_lab_MS_SV2                                                       ; --            ; --            ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                                                   ; --            ; --            ; eda_simulation ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (SystemVerilog)                                     ; <None>        ; --            ; --             ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                                                     ; --            ; --            ; eda_simulation ;
+; EDA_TEST_BENCH_FILE                  ; tb_lab_MS_SV2.sv                                                    ; --            ; --            ; tb_lab_MS_SV2  ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_lab_MS_SV2                                                       ; --            ; --            ; tb_lab_MS_SV2  ;
+; EDA_TEST_BENCH_NAME                  ; tb_lab_MS_SV2                                                       ; --            ; --            ; eda_simulation ;
+; EDA_TIME_SCALE                       ; 1 ps                                                                ; --            ; --            ; eda_simulation ;
+; ENABLE_LOGIC_ANALYZER_INTERFACE      ; Off                                                                 ; --            ; --            ; --             ;
+; ENABLE_SIGNALTAP                     ; On                                                                  ; --            ; --            ; --             ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                                                  ; --            ; --            ; --             ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                                                   ; --            ; --            ; --             ;
+; MISC_FILE                            ; SP_unit/synthesis/../SP_unit.cmp                                    ; --            ; --            ; --             ;
+; MISC_FILE                            ; SP_unit/synthesis/../../SP_unit.qsys                                ; --            ; --            ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE          ; 1.2V                                                                ; --            ; --            ; --             ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family)                              ; --            ; db_lab_MS_SV2 ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)                              ; --            ; db_lab_MS_SV2 ; Top            ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)                              ; --            ; db_lab_MS_SV2 ; Top            ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                                                 ; --            ; --            ; --             ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                               ; --            ; --            ; --             ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                                                        ; --            ; --            ; --             ;
+; SLD_FILE                             ; SP_unit/synthesis/SP_unit.debuginfo                                 ; --            ; --            ; --             ;
+; SLD_FILE                             ; db/stp1_auto_stripped.stp                                           ; --            ; --            ; --             ;
+; SLD_INFO                             ; QSYS_NAME SP_unit HAS_SOPCINFO 1 GENERATION_ID 1709057194           ; --            ; SP_unit       ; --             ;
+; SLD_NODE_CREATOR_ID                  ; 110                                                                 ; --            ; --            ; inst_1         ;
+; SLD_NODE_ENTITY_NAME                 ; sld_signaltap                                                       ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_RAM_BLOCK_TYPE=AUTO                                             ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_DATA_BITS=14                                                    ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_BITS=7                                                  ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STORAGE_QUALIFIER_BITS=14                                       ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_NODE_INFO=805334528                                             ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_POWER_UP_TRIGGER=0                                              ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INVERSION_MASK=000000000000000000000                            ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INVERSION_MASK_LENGTH=21                                        ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0                       ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_SEGMENT_SIZE=128                                                ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ATTRIBUTE_MEM_MODE=OFF                                          ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STATE_FLOW_USE_GENERATED=0                                      ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STATE_BITS=11                                                   ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_BUFFER_FULL_STOP=1                                              ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_CURRENT_RESOURCE_WIDTH=1                                        ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INCREMENTAL_ROUTING=1                                           ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_LEVEL=1                                                 ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_SAMPLE_DEPTH=128                                                ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_IN_ENABLED=0                                            ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_PIPELINE=0                                              ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_RAM_PIPELINE=0                                                  ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_COUNTER_PIPELINE=0                                              ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ADVANCED_TRIGGER_ENTITY=sld_reserved_lab_MS_SV_2_inst_1_1_8a62, ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_LEVEL_PIPELINE=1                                        ; --            ; --            ; inst_1         ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ENABLE_ADVANCED_TRIGGER=1                                       ; --            ; --            ; inst_1         ;
+; SOPCINFO_FILE                        ; SP_unit/synthesis/../../SP_unit.sopcinfo                            ; --            ; --            ; --             ;
+; SYNTHESIS_ONLY_QIP                   ; On                                                                  ; --            ; --            ; --             ;
+; TOP_LEVEL_ENTITY                     ; db_lab_MS_SV2                                                       ; lab_MS_SV_2   ; --            ; --             ;
+; USE_SIGNALTAP_FILE                   ; stp1.stp                                                            ; --            ; --            ; --             ;
++--------------------------------------+---------------------------------------------------------------------+---------------+---------------+----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:17     ; 1.0                     ; 4898 MB             ; 00:00:16                           ;
+; Fitter               ; 00:00:03     ; 1.3                     ; 6493 MB             ; 00:00:02                           ;
+; Assembler            ; 00:00:01     ; 1.0                     ; 4675 MB             ; 00:00:01                           ;
+; Timing Analyzer      ; 00:00:02     ; 1.2                     ; 4910 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4653 MB             ; 00:00:02                           ;
+; Total                ; 00:00:24     ; --                      ; --                  ; 00:00:22                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; MatNepo          ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; MatNepo          ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; MatNepo          ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; MatNepo          ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; MatNepo          ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off lab_MS_SV_2 -c lab_MS_SV_2
+quartus_fit --read_settings_files=off --write_settings_files=off lab_MS_SV_2 -c lab_MS_SV_2
+quartus_asm --read_settings_files=off --write_settings_files=off lab_MS_SV_2 -c lab_MS_SV_2
+quartus_sta lab_MS_SV_2 -c lab_MS_SV_2
+quartus_eda --read_settings_files=off --write_settings_files=off lab_MS_SV_2 -c lab_MS_SV_2
+
+
+

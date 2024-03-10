@@ -1,0 +1,7 @@
+	component SP_unit is
+		port (
+			source_clk : in  std_logic                    := 'X'; -- clk
+			source     : out std_logic_vector(8 downto 0)         -- source
+		);
+	end component SP_unit;
+
