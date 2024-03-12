@@ -1,0 +1,32 @@
+
+WORK > DEFAULT
+DEFAULT:                    ./libraries/work/                      
+work:                       ./libraries/work/                      
+error_adapter_0:            ./libraries/error_adapter_0/           
+timing_adapter_0:           ./libraries/timing_adapter_0/          
+avalon_st_adapter:          ./libraries/avalon_st_adapter/         
+rsp_mux:                    ./libraries/rsp_mux/                   
+rsp_demux:                  ./libraries/rsp_demux/                 
+cmd_mux:                    ./libraries/cmd_mux/                   
+cmd_demux:                  ./libraries/cmd_demux/                 
+router_001:                 ./libraries/router_001/                
+router:                     ./libraries/router/                    
+ST_ALU_0_s0_agent_rsp_fifo: ./libraries/ST_ALU_0_s0_agent_rsp_fifo/
+ST_ALU_0_s0_agent:          ./libraries/ST_ALU_0_s0_agent/         
+my_masterB_m0_agent:        ./libraries/my_masterB_m0_agent/       
+ST_ALU_0_s0_translator:     ./libraries/ST_ALU_0_s0_translator/    
+my_masterB_m0_translator:   ./libraries/my_masterB_m0_translator/  
+mm_interconnect_1:          ./libraries/mm_interconnect_1/         
+mm_interconnect_0:          ./libraries/mm_interconnect_0/         
+st_splitter:                ./libraries/st_splitter/               
+st_delay:                   ./libraries/st_delay/                  
+my_masterB:                 ./libraries/my_masterB/                
+my_masterA:                 ./libraries/my_masterA/                
+ST_ALU_0:                   ./libraries/ST_ALU_0/                  
+MM_Stream_source:           ./libraries/MM_Stream_source/          
+altera_ver:                 ./libraries/altera_ver/                
+lpm_ver:                    ./libraries/lpm_ver/                   
+sgate_ver:                  ./libraries/sgate_ver/                 
+altera_mf_ver:              ./libraries/altera_mf_ver/             
+altera_lnsim_ver:           ./libraries/altera_lnsim_ver/          
+cycloneive_ver:             ./libraries/cycloneive_ver/            

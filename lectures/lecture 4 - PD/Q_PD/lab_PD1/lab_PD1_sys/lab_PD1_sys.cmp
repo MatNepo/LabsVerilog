@@ -1,0 +1,15 @@
+	component lab_PD1_sys is
+		port (
+			alu0_out_data   : out std_logic_vector(31 downto 0);        -- data
+			alu0_out_ready  : in  std_logic                     := 'X'; -- ready
+			alu0_out_valid  : out std_logic;                            -- valid
+			alu1_out_data   : out std_logic_vector(31 downto 0);        -- data
+			alu1_out_ready  : in  std_logic                     := 'X'; -- ready
+			alu1_out_valid  : out std_logic;                            -- valid
+			clk_clk         : in  std_logic                     := 'X'; -- clk
+			delay_out_valid : out std_logic;                            -- valid
+			delay_out_data  : out std_logic_vector(31 downto 0);        -- data
+			reset_reset_n   : in  std_logic                     := 'X'  -- reset_n
+		);
+	end component lab_PD1_sys;
+
