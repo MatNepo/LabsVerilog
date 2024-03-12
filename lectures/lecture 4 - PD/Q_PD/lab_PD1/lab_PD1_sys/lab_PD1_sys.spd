@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="simulation/submodules/lab_PD1_sys_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv"
+   type="SYSTEM_VERILOG"
+   library="error_adapter_0" />
+ <file
+   path="simulation/submodules/lab_PD1_sys_avalon_st_adapter_timing_adapter_0.sv"
+   type="SYSTEM_VERILOG"
+   library="timing_adapter_0" />
+ <file
+   path="simulation/submodules/lab_PD1_sys_mm_interconnect_0_avalon_st_adapter.v"
+   type="VERILOG"
+   library="avalon_st_adapter" />
+ <file
+   path="simulation/submodules/lab_PD1_sys_mm_interconnect_0_rsp_mux.sv"
+   type="SYSTEM_VERILOG"
+   library="rsp_mux" />
+ <file
+   path="simulation/submodules/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="rsp_mux" />
+ <file
+   path="simulation/submodules/lab_PD1_sys_mm_interconnect_0_rsp_demux.sv"
+   type="SYSTEM_VERILOG"
+   library="rsp_demux" />
+ <file
+   path="simulation/submodules/lab_PD1_sys_mm_interconnect_0_cmd_mux.sv"
+   type="SYSTEM_VERILOG"
+   library="cmd_mux" />
+ <file
+   path="simulation/submodules/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="cmd_mux" />
+ <file
+   path="simulation/submodules/lab_PD1_sys_mm_interconnect_0_cmd_demux.sv"
+   type="SYSTEM_VERILOG"
+   library="cmd_demux" />
+ <file
+   path="simulation/submodules/lab_PD1_sys_mm_interconnect_0_router_001.sv"
+   type="SYSTEM_VERILOG"
+   library="router_001" />
+ <file
+   path="simulation/submodules/lab_PD1_sys_mm_interconnect_0_router.sv"
+   type="SYSTEM_VERILOG"
+   library="router" />
+ <file
+   path="simulation/submodules/altera_avalon_sc_fifo.v"
+   type="VERILOG"
+   library="ST_ALU_0_s0_agent_rsp_fifo" />
+ <file
+   path="simulation/submodules/altera_merlin_slave_agent.sv"
+   type="SYSTEM_VERILOG"
+   library="ST_ALU_0_s0_agent" />
+ <file
+   path="simulation/submodules/altera_merlin_burst_uncompressor.sv"
+   type="SYSTEM_VERILOG"
+   library="ST_ALU_0_s0_agent" />
+ <file
+   path="simulation/submodules/altera_merlin_master_agent.sv"
+   type="SYSTEM_VERILOG"
+   library="my_masterB_m0_agent" />
+ <file
+   path="simulation/submodules/altera_merlin_slave_translator.sv"
+   type="SYSTEM_VERILOG"
+   library="ST_ALU_0_s0_translator" />
+ <file
+   path="simulation/submodules/altera_merlin_master_translator.sv"
+   type="SYSTEM_VERILOG"
+   library="my_masterB_m0_translator" />
+ <file
+   path="simulation/submodules/lab_PD1_sys_avalon_st_adapter.v"
+   type="VERILOG"
+   library="avalon_st_adapter" />
+ <file
+   path="simulation/submodules/lab_PD1_sys_mm_interconnect_1.v"
+   type="VERILOG"
+   library="mm_interconnect_1" />
+ <file
+   path="simulation/submodules/lab_PD1_sys_mm_interconnect_0.v"
+   type="VERILOG"
+   library="mm_interconnect_0" />
+ <file
+   path="simulation/submodules/altera_avalon_st_splitter.sv"
+   type="SYSTEM_VERILOG"
+   library="st_splitter" />
+ <file
+   path="simulation/submodules/altera_avalon_st_delay.sv"
+   type="SYSTEM_VERILOG"
+   library="st_delay" />
+ <file
+   path="simulation/submodules/my_masterB.sv"
+   type="SYSTEM_VERILOG"
+   library="my_masterB" />
+ <file
+   path="simulation/submodules/my_masterA.sv"
+   type="SYSTEM_VERILOG"
+   library="my_masterA" />
+ <file
+   path="simulation/submodules/ST_ALU.sv"
+   type="SYSTEM_VERILOG"
+   library="ST_ALU_0" />
+ <file
+   path="simulation/submodules/MM_Stream_source.sv"
+   type="SYSTEM_VERILOG"
+   library="MM_Stream_source" />
+ <file path="simulation/lab_PD1_sys.v" type="VERILOG" />
+ <topLevel name="lab_PD1_sys" />
+ <deviceFamily name="cycloneive" />
+</simPackage>
