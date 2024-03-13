@@ -1,0 +1,29 @@
+Quartus Prime Archive log --	D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab7  - lab_MS_SV4/lab_MS_SV4/lab_MS_SV4.qarlog
+
+Archive:	D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab7  - lab_MS_SV4/lab_MS_SV4/lab_MS_SV4.qar
+Date:		Thu Mar 14 02:26:25 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab7  - lab_MS_SV4/lab_MS_SV4/db/stp1_auto_stripped.stp
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab7  - lab_MS_SV4/lab_MS_SV4/db_lab_MS_SV4.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab7  - lab_MS_SV4/lab_MS_SV4/lab_MS_SV4.qpf
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab7  - lab_MS_SV4/lab_MS_SV4/lab_MS_SV4.qsf
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab7  - lab_MS_SV4/lab_MS_SV4/lab_MS_SV4.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab7  - lab_MS_SV4/lab_MS_SV4/lab_MS_SV4_pack.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab7  - lab_MS_SV4/lab_MS_SV4/output_files/Spf1.spf
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab7  - lab_MS_SV4/lab_MS_SV4/sp_unit.qsys
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab7  - lab_MS_SV4/lab_MS_SV4/sp_unit.sopcinfo
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab7  - lab_MS_SV4/lab_MS_SV4/sp_unit/sp_unit.cmp
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab7  - lab_MS_SV4/lab_MS_SV4/sp_unit/synthesis/sp_unit.debuginfo
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab7  - lab_MS_SV4/lab_MS_SV4/sp_unit/synthesis/sp_unit.qip
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab7  - lab_MS_SV4/lab_MS_SV4/sp_unit/synthesis/sp_unit.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab7  - lab_MS_SV4/lab_MS_SV4/sp_unit/synthesis/submodules/altsource_probe_top.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab7  - lab_MS_SV4/lab_MS_SV4/stp1.stp
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab7  - lab_MS_SV4/lab_MS_SV4/tb_lab_MS_SV4.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab7  - lab_MS_SV4/lab_MS_SV4/tb_lab_MS_SV4_special_cases.sv
+d:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 18 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,8 @@
+	component sp_unit is
+		port (
+			probe      : in  std_logic_vector(7 downto 0)  := (others => 'X'); -- probe
+			source_clk : in  std_logic                     := 'X';             -- clk
+			source     : out std_logic_vector(18 downto 0)                     -- source
+		);
+	end component sp_unit;
+

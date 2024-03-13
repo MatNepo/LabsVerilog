@@ -1,0 +1,27 @@
+`timescale 1ps/1ps
+
+import lab_MS_SV4_pack::*;
+
+module tb_lab_MS_SV4();
+    INST_t INST;
+    data_y ALU_out;
+
+lab_MS_SV4 UUT (.ALU_out, .INST);
+
+initial begin
+    INST.opc = INST.opc.first();
+    do begin
+        INST.op_a = 10;
+        INST.op_a = -5;
+        #10;
+        INST.opc = INST.opc.next();
+    end
+    while (INST.opc != INST.opc.last());
+        #10;
+    $$display("\n");
+    $stop;
+end
+    initial begin
+        $monitor("\n \tinstruction=%p \top_a=%d \top_b=%d \ALU_out=%d", INST.opc, INST.op_a, INST.op_b, ALU_out);
+    end
+endmodule
