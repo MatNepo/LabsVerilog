@@ -1,0 +1,27 @@
+Quartus Prime Archive log --	D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/__lab_ms_sv5.auto.qarlog
+
+Archive:	D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/__lab_ms_sv5.auto.qar
+Date:		Tue Mar 19 00:15:33 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/db/lab_ms_sv5.qpf
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/output_files/lab_ms_sv5.flow.rpt
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/output_files/lab_ms_sv5.map.rpt
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/output_files/lab_ms_sv5.map.summary
+assignment_defaults.qdf
+db_lab_MS_SV5.sv
+lab_MS_SV5_interface.sv
+lab_ms_sv5.archive.rpt
+lab_ms_sv5.qsf
+lab_ms_sv5.restore.rpt
+lab_ms_sv5.sv
+lab_ms_sv5_extra.qarlog
+master.sv
+slave_EVEN.sv
+slave_ODD.sv
+tb_lab_MS_SV5.sv
+	======= Total: 16 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

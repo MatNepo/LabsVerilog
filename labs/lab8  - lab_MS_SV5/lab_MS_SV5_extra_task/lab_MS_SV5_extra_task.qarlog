@@ -1,0 +1,21 @@
+Quartus Prime Archive log --	D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/lab_MS_SV5_extra_task.qarlog
+
+Archive:	D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/lab_MS_SV5_extra_task.qar
+Date:		Tue Mar 19 00:18:24 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/assignment_defaults.qdf
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/db_lab_MS_SV5.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/lab_MS_SV5_interface.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/lab_ms_sv5.qpf
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/lab_ms_sv5.qsf
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/lab_ms_sv5.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/master.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/slave_EVEN.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/slave_ODD.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/tb_lab_MS_SV5.sv
+	======= Total: 10 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
