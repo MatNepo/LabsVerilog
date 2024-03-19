@@ -1,0 +1,85 @@
+Archive Project report for lab_ms_sv5
+Tue Mar 19 00:07:33 2024
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Tue Mar 19 00:07:33 2024 ;
+; Revision Name          ; lab_ms_sv5                            ;
+; Top-level Entity Name  ; lab_ms_sv5                            ;
+; Family                 ; Cyclone IV E                          ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5/lab_ms_sv5.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'lab_ms_sv5.archive.rpt'
+Info (23030): Evaluation of Tcl script d:/intelfpga_lite/18.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4826 megabytes
+    Info: Processing ended: Tue Mar 19 00:07:33 2024
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+
++--------------------------------------------------------------+
+; Files Archived                                               ;
++--------------------------------------------------------------+
+; File Name                                                    ;
++--------------------------------------------------------------+
+; d:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf ;
+; db_lab_MS_SV5.sv                                             ;
+; lab_ms_sv5.qpf                                               ;
+; lab_ms_sv5.qsf                                               ;
+; lab_ms_sv5.sv                                                ;
+; lab_MS_SV5_interface.sv                                      ;
+; master.sv                                                    ;
+; slave_EVEN.sv                                                ;
+; slave_ODD.sv                                                 ;
+; tb_lab_MS_SV5.sv                                             ;
++--------------------------------------------------------------+
+
+
