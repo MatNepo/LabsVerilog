@@ -1,0 +1,134 @@
+# Reading D:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do lab_ms_sv5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+D:/Users/Legion/Quartus\ and\ Verilog/Verilog/Third\ year/6th\ semester/labs/lab8\ \ -\ lab_MS_SV5/lab_MS_SV5_extra_task {D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/lab_MS_SV5_interface.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:15:38 on Mar 20,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task" D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/lab_MS_SV5_interface.sv 
+# -- Compiling interface bus_MM
+# 
+# Top level modules:
+# 	--none--
+# End time: 16:15:38 on Mar 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Users/Legion/Quartus\ and\ Verilog/Verilog/Third\ year/6th\ semester/labs/lab8\ \ -\ lab_MS_SV5/lab_MS_SV5_extra_task {D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/slave_ODD.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:15:38 on Mar 20,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task" D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/slave_ODD.sv 
+# -- Compiling module slave_ODD
+# 
+# Top level modules:
+# 	slave_ODD
+# End time: 16:15:38 on Mar 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Users/Legion/Quartus\ and\ Verilog/Verilog/Third\ year/6th\ semester/labs/lab8\ \ -\ lab_MS_SV5/lab_MS_SV5_extra_task {D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/slave_EVEN.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:15:39 on Mar 20,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task" D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/slave_EVEN.sv 
+# -- Compiling module slave_EVEN
+# 
+# Top level modules:
+# 	slave_EVEN
+# End time: 16:15:39 on Mar 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Users/Legion/Quartus\ and\ Verilog/Verilog/Third\ year/6th\ semester/labs/lab8\ \ -\ lab_MS_SV5/lab_MS_SV5_extra_task {D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/master.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:15:39 on Mar 20,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task" D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/master.sv 
+# -- Compiling module master
+# 
+# Top level modules:
+# 	master
+# End time: 16:15:39 on Mar 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Users/Legion/Quartus\ and\ Verilog/Verilog/Third\ year/6th\ semester/labs/lab8\ \ -\ lab_MS_SV5/lab_MS_SV5_extra_task {D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/lab_ms_sv5.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:15:39 on Mar 20,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task" D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/lab_ms_sv5.sv 
+# -- Compiling module lab_ms_sv5
+# 
+# Top level modules:
+# 	lab_ms_sv5
+# End time: 16:15:39 on Mar 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+D:/Users/Legion/Quartus\ and\ Verilog/Verilog/Third\ year/6th\ semester/labs/lab8\ \ -\ lab_MS_SV5/lab_MS_SV5_extra_task {D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/tb_lab_MS_SV5.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:15:39 on Mar 20,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task" D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/tb_lab_MS_SV5.sv 
+# -- Compiling module tb_lab_MS_SV5
+# 
+# Top level modules:
+# 	tb_lab_MS_SV5
+# End time: 16:15:39 on Mar 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_lab_MS_SV5
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_lab_MS_SV5 
+# Start time: 16:15:39 on Mar 20,2024
+# Loading sv_std.std
+# Loading work.tb_lab_MS_SV5
+# Loading work.lab_ms_sv5
+# Loading work.bus_MM
+# Loading work.master
+# Loading work.slave_EVEN
+# Loading work.slave_ODD
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/tb_lab_MS_SV5.sv(14)
+#    Time: 320 ns  Iteration: 1  Instance: /tb_lab_MS_SV5
+# Break in Module tb_lab_MS_SV5 at D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5_extra_task/tb_lab_MS_SV5.sv line 14
+restart
+do wave.do
+# Cannot open macro file: wave.do
+quit -sim
+# End time: 16:16:29 on Mar 20,2024, Elapsed time: 0:00:50
+# Errors: 1, Warnings: 0
+vsim work.tb_lab_MS_SV5
+# vsim work.tb_lab_MS_SV5 
+# Start time: 16:16:32 on Mar 20,2024
+# Loading sv_std.std
+# Loading work.tb_lab_MS_SV5
+# Loading work.lab_ms_sv5
+# Loading work.bus_MM
+# Loading work.master
+# Loading work.slave_EVEN
+# Loading work.slave_ODD
+do wave.do
+# Cannot open macro file: wave.do
+quit -sim
+# End time: 16:17:08 on Mar 20,2024, Elapsed time: 0:00:36
+# Errors: 1, Warnings: 0
+cd {D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab8  - lab_MS_SV5\lab_MS_SV5}
+# reading D:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini
+vsim work.tb_lab_MS_SV5
+# vsim work.tb_lab_MS_SV5 
+# Start time: 16:17:28 on Mar 20,2024
+# Loading sv_std.std
+# Loading work.tb_lab_MS_SV5
+# Loading work.lab_ms_sv5
+# Loading work.bus_MM
+# Loading work.master
+# Loading work.slave_EVEN
+# Loading work.slave_ODD
+do wave.do
+run -all
+# ** Note: $stop    : D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5/tb_lab_MS_SV5.sv(14)
+#    Time: 320 ns  Iteration: 1  Instance: /tb_lab_MS_SV5
+# Break in Module tb_lab_MS_SV5 at D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab8  - lab_MS_SV5/lab_MS_SV5/tb_lab_MS_SV5.sv line 14
+# End time: 19:00:32 on Mar 20,2024, Elapsed time: 2:43:04
+# Errors: 0, Warnings: 0
