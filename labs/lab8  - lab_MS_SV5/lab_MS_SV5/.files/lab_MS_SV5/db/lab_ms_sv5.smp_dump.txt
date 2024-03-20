@@ -1,0 +1,6 @@
+
+State Machine - |db_lab_MS_SV5|lab_ms_sv5:UUT|master:UUT_master|fsm_MM
+Name fsm_MM.initSM fsm_MM.wr1D fsm_MM.nop 
+fsm_MM.initSM 0 0 0 
+fsm_MM.nop 1 0 1 
+fsm_MM.wr1D 1 1 0 

@@ -1,0 +1,28 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate "D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab8  - lab_MS_SV5\lab_MS_SV5\SP_unit.qsys" --block-symbol-file --output-directory="D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab8  - lab_MS_SV5\lab_MS_SV5\SP_unit" --family="Cyclone IV E" --part=EP4CE6E22C8
+Progress: Loading lab_MS_SV5/SP_unit.qsys
+Progress: Reading input file
+Progress: Adding in_system_sources_probes_0 [altera_in_system_sources_probes 18.1]
+Progress: Parameterizing module in_system_sources_probes_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab8  - lab_MS_SV5\lab_MS_SV5\SP_unit.qsys" --synthesis=VERILOG --output-directory="D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab8  - lab_MS_SV5\lab_MS_SV5\SP_unit\synthesis" --family="Cyclone IV E" --part=EP4CE6E22C8
+Progress: Loading lab_MS_SV5/SP_unit.qsys
+Progress: Reading input file
+Progress: Adding in_system_sources_probes_0 [altera_in_system_sources_probes 18.1]
+Progress: Parameterizing module in_system_sources_probes_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: SP_unit: Generating SP_unit "SP_unit" for QUARTUS_SYNTH
+Info: in_system_sources_probes_0: "SP_unit" instantiated altera_in_system_sources_probes "in_system_sources_probes_0"
+Info: SP_unit: Done "SP_unit" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
