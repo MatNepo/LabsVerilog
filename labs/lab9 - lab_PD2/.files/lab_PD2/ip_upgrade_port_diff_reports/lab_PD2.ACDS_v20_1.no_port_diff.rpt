@@ -1,0 +1,23 @@
+IP Ports Diff Report for lab_PD2
+Mon Mar 25 17:22:49 2024
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. IP Information
+
+
+
++----------------------------------------------------+
+; IP Information                                     ;
++----------------------+-----------------------------+
+; IP Variation Name    ; lab_PD2                     ;
+; Prior Version        ; ACDS_v16.1                  ;
+; New Version          ; ACDS_v20.1                  ;
+; New File             ; lab_PD2/synthesis/lab_PD2.v ;
+; Has Port Differences ; No                          ;
++----------------------+-----------------------------+
+
+

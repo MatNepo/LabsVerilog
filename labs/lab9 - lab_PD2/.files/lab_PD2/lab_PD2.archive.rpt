@@ -1,0 +1,134 @@
+Archive Project report for lab_PD2
+Tue Mar 26 16:09:43 2024
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Tue Mar 26 16:09:43 2024 ;
+; Revision Name          ; lab_PD2                               ;
+; Top-level Entity Name  ; lab_PD2_top                           ;
+; Family                 ; Cyclone IV E                          ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab9 - lab_PD2/lab_PD2/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab9 - lab_PD2/lab_PD2/lab_PD2.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'lab_PD2.archive.rpt'
+Info (23030): Evaluation of Tcl script d:/intelfpga/20.1.1/quartuslitesetup/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4826 megabytes
+    Info: Processing ended: Tue Mar 26 16:09:43 2024
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+
++------------------------------------------------------------------------+
+; Files Archived                                                         ;
++------------------------------------------------------------------------+
+; File Name                                                              ;
++------------------------------------------------------------------------+
+; db/lab_PD2_auto_stripped.stp                                           ;
+; db_lab_PD2_top.sv                                                      ;
+; lab_PD2.qpf                                                            ;
+; lab_PD2.qsf                                                            ;
+; lab_PD2.sopcinfo                                                       ;
+; lab_PD2.stp                                                            ;
+; lab_PD2/simulation/../../lab_PD2.qsys                                  ;
+; lab_PD2/simulation/../lab_PD2.spd                                      ;
+; lab_PD2/simulation/lab_PD2.sip                                         ;
+; lab_PD2/simulation/lab_PD2.v                                           ;
+; lab_PD2/simulation/submodules/altera_avalon_sc_fifo.v                  ;
+; lab_PD2/simulation/submodules/MyST_sink.sv                             ;
+; lab_PD2/simulation/submodules/MyST_source.sv                           ;
+; lab_PD2/synthesis/../../lab_PD2.qsys                                   ;
+; lab_PD2/synthesis/../../lab_PD2.sopcinfo                               ;
+; lab_PD2/synthesis/../lab_PD2.cmp                                       ;
+; lab_PD2/synthesis/lab_PD2.debuginfo                                    ;
+; lab_PD2/synthesis/lab_PD2.qip                                          ;
+; lab_PD2/synthesis/lab_PD2.v                                            ;
+; lab_PD2/synthesis/submodules/altera_avalon_sc_fifo.v                   ;
+; lab_PD2/synthesis/submodules/MyST_sink.sv                              ;
+; lab_PD2/synthesis/submodules/MyST_source.sv                            ;
+; lab_PD2_assignment_defaults.qdf                                        ;
+; lab_PD2_top.sv                                                         ;
+; SP_unit.qsys                                                           ;
+; SP_unit.sopcinfo                                                       ;
+; SP_unit/simulation/aldec/rivierapro_setup.tcl                          ;
+; SP_unit/simulation/cadence/cds.lib                                     ;
+; SP_unit/simulation/cadence/cds_libs/in_system_sources_probes_0.cds.lib ;
+; SP_unit/simulation/cadence/hdl.var                                     ;
+; SP_unit/simulation/cadence/ncsim_setup.sh                              ;
+; SP_unit/simulation/mentor/msim_setup.tcl                               ;
+; SP_unit/simulation/SP_unit.sip                                         ;
+; SP_unit/simulation/SP_unit.v                                           ;
+; SP_unit/simulation/submodules/altsource_probe.v                        ;
+; SP_unit/simulation/synopsys/vcs/vcs_setup.sh                           ;
+; SP_unit/simulation/synopsys/vcsmx/synopsys_sim.setup                   ;
+; SP_unit/simulation/synopsys/vcsmx/vcsmx_setup.sh                       ;
+; SP_unit/SP_unit.bsf                                                    ;
+; SP_unit/SP_unit.cmp                                                    ;
+; SP_unit/SP_unit.csv                                                    ;
+; SP_unit/SP_unit.html                                                   ;
+; SP_unit/SP_unit.ppf                                                    ;
+; SP_unit/SP_unit.spd                                                    ;
+; SP_unit/SP_unit.xml                                                    ;
+; SP_unit/SP_unit_bb.v                                                   ;
+; SP_unit/SP_unit_generation.rpt                                         ;
+; SP_unit/SP_unit_generation_previous.rpt                                ;
+; SP_unit/SP_unit_inst.v                                                 ;
+; SP_unit/SP_unit_inst.vhd                                               ;
+; SP_unit/synthesis/../../SP_unit.qsys                                   ;
+; SP_unit/synthesis/../../SP_unit.sopcinfo                               ;
+; SP_unit/synthesis/../SP_unit.cmp                                       ;
+; SP_unit/synthesis/SP_unit.debuginfo                                    ;
+; SP_unit/synthesis/SP_unit.qip                                          ;
+; SP_unit/synthesis/SP_unit.v                                            ;
+; SP_unit/synthesis/submodules/altsource_probe_top.v                     ;
+; tb_lab_PD2_top.sv                                                      ;
++------------------------------------------------------------------------+
+
+
