@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Mar 27 16:40:46 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : lab_PD3_extra_task
+Top-level Entity Name : lab_PD3_extra_task_top
+Family : Cyclone IV E
+Device : EP4CE6E22C8
+Timing Models : Final
+Total logic elements : 2,969 / 6,272 ( 47 % )
+    Total combinational functions : 1,097 / 6,272 ( 17 % )
+    Dedicated logic registers : 2,738 / 6,272 ( 44 % )
+Total registers : 2738
+Total pins : 42 / 92 ( 46 % )
+Total virtual pins : 0
+Total memory bits : 12,608 / 276,480 ( 5 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

@@ -1,0 +1,129 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ledA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ledA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ledA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ledA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ledA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ledA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ledA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ledA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ledB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ledB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ledB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ledB[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ledB[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ledB[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ledB[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ledB[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ledB[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ledB[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ledB[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ledB[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ledB[17]",
+					"strict" : false
+				},
+				{
+					"name" : "ledB[21]",
+					"strict" : false
+				},
+				{
+					"name" : "ledB[24]",
+					"strict" : false
+				},
+				{
+					"name" : "ledB[28]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

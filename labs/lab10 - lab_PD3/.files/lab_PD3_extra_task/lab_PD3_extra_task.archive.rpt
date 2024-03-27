@@ -1,0 +1,160 @@
+Archive Project report for lab_PD3_extra_task
+Wed Mar 27 19:35:13 2024
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++------------------------------------------------------------+
+; Archive Project Summary                                    ;
++------------------------+-----------------------------------+
+; Archive Project Status ; Failed - Wed Mar 27 19:35:13 2024 ;
+; Revision Name          ; lab_PD3_extra_task                ;
+; Top-level Entity Name  ; lab_PD3_extra_task_top            ;
+; Family                 ; Cyclone IV E                      ;
++------------------------+-----------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory C:/Users/Legion/Desktop/Polytech/Verilog/6 семестр/Labs/Lab 10 - Lab_PD3/lab_PD3/.files/lab_PD3_extra_task/
+Error: Failed to generate 'C:/Users/Legion/Desktop/Polytech/Verilog/6 семестр/Labs/Lab 10 - Lab_PD3/lab_PD3/.files/lab_PD3_extra_task/lab_PD3_extra_task.qar'
+Info: Generated report 'lab_PD3_extra_task.archive.rpt'
+Error (23031): Evaluation of Tcl script d:/intelfpga/20.1.1/quartuslitesetup/quartus/common/tcl/apps/qpm/qar.tcl unsuccessful
+Error: Quartus Prime Shell was unsuccessful. 2 errors, 0 warnings
+    Error: Peak virtual memory: 4832 megabytes
+    Error: Processing ended: Wed Mar 27 19:35:13 2024
+    Error: Elapsed time: 00:00:00
+    Error: Total CPU time (on all processors): 00:00:01
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Files Archived                                                                                                         ;
++------------------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                              ;
++------------------------------------------------------------------------------------------------------------------------+
+; db/lab_PD3_extra_task_auto_stripped.stp                                                                                ;
+; db_lab_PD3_extra_task_top.sv                                                                                           ;
+; lab_PD3_extra_task.stp                                                                                                 ;
+; lab_PD3_extra_task/simulation/../../lab_PD3_extra_task.qsys                                                            ;
+; lab_PD3_extra_task/simulation/../lab_PD3_extra_task.spd                                                                ;
+; lab_PD3_extra_task/simulation/lab_PD3_extra_task.sip                                                                   ;
+; lab_PD3_extra_task/simulation/lab_PD3_extra_task.v                                                                     ;
+; lab_PD3_extra_task/simulation/submodules/altera_avalon_sc_fifo.v                                                       ;
+; lab_PD3_extra_task/simulation/submodules/altera_avalon_st_pipeline_base.v                                              ;
+; lab_PD3_extra_task/simulation/submodules/altera_avalon_st_pipeline_stage.sv                                            ;
+; lab_PD3_extra_task/simulation/submodules/altera_default_burst_converter.sv                                             ;
+; lab_PD3_extra_task/simulation/submodules/altera_incr_burst_converter.sv                                                ;
+; lab_PD3_extra_task/simulation/submodules/altera_merlin_address_alignment.sv                                            ;
+; lab_PD3_extra_task/simulation/submodules/altera_merlin_arbitrator.sv                                                   ;
+; lab_PD3_extra_task/simulation/submodules/altera_merlin_burst_adapter.sv                                                ;
+; lab_PD3_extra_task/simulation/submodules/altera_merlin_burst_adapter_13_1.sv                                           ;
+; lab_PD3_extra_task/simulation/submodules/altera_merlin_burst_adapter_new.sv                                            ;
+; lab_PD3_extra_task/simulation/submodules/altera_merlin_burst_adapter_uncmpr.sv                                         ;
+; lab_PD3_extra_task/simulation/submodules/altera_merlin_burst_uncompressor.sv                                           ;
+; lab_PD3_extra_task/simulation/submodules/altera_merlin_master_agent.sv                                                 ;
+; lab_PD3_extra_task/simulation/submodules/altera_merlin_master_translator.sv                                            ;
+; lab_PD3_extra_task/simulation/submodules/altera_merlin_slave_agent.sv                                                  ;
+; lab_PD3_extra_task/simulation/submodules/altera_merlin_slave_translator.sv                                             ;
+; lab_PD3_extra_task/simulation/submodules/altera_merlin_width_adapter.sv                                                ;
+; lab_PD3_extra_task/simulation/submodules/altera_wrap_burst_converter.sv                                                ;
+; lab_PD3_extra_task/simulation/submodules/lab_PD3_extra_task_mm_interconnect_0.v                                        ;
+; lab_PD3_extra_task/simulation/submodules/lab_PD3_extra_task_mm_interconnect_0_avalon_st_adapter.v                      ;
+; lab_PD3_extra_task/simulation/submodules/lab_PD3_extra_task_mm_interconnect_0_avalon_st_adapter_001.v                  ;
+; lab_PD3_extra_task/simulation/submodules/lab_PD3_extra_task_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0.sv ;
+; lab_PD3_extra_task/simulation/submodules/lab_PD3_extra_task_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv     ;
+; lab_PD3_extra_task/simulation/submodules/lab_PD3_extra_task_mm_interconnect_0_cmd_demux.sv                             ;
+; lab_PD3_extra_task/simulation/submodules/lab_PD3_extra_task_mm_interconnect_0_cmd_mux.sv                               ;
+; lab_PD3_extra_task/simulation/submodules/lab_PD3_extra_task_mm_interconnect_0_router.sv                                ;
+; lab_PD3_extra_task/simulation/submodules/lab_PD3_extra_task_mm_interconnect_0_router_001.sv                            ;
+; lab_PD3_extra_task/simulation/submodules/lab_PD3_extra_task_mm_interconnect_0_router_002.sv                            ;
+; lab_PD3_extra_task/simulation/submodules/lab_PD3_extra_task_mm_interconnect_0_rsp_demux.sv                             ;
+; lab_PD3_extra_task/simulation/submodules/lab_PD3_extra_task_mm_interconnect_0_rsp_mux.sv                               ;
+; lab_PD3_extra_task/simulation/submodules/my_master.sv                                                                  ;
+; lab_PD3_extra_task/simulation/submodules/my_slave.sv                                                                   ;
+; lab_PD3_extra_task/simulation/submodules/my_slaveWS.sv                                                                 ;
+; lab_PD3_extra_task/synthesis/../../lab_PD3_extra_task.qsys                                                             ;
+; lab_PD3_extra_task/synthesis/../../lab_PD3_extra_task.sopcinfo                                                         ;
+; lab_PD3_extra_task/synthesis/../lab_PD3_extra_task.cmp                                                                 ;
+; lab_PD3_extra_task/synthesis/lab_PD3_extra_task.debuginfo                                                              ;
+; lab_PD3_extra_task/synthesis/lab_PD3_extra_task.qip                                                                    ;
+; lab_PD3_extra_task/synthesis/lab_PD3_extra_task.v                                                                      ;
+; lab_PD3_extra_task/synthesis/submodules/altera_avalon_sc_fifo.v                                                        ;
+; lab_PD3_extra_task/synthesis/submodules/altera_avalon_st_pipeline_base.v                                               ;
+; lab_PD3_extra_task/synthesis/submodules/altera_avalon_st_pipeline_stage.sv                                             ;
+; lab_PD3_extra_task/synthesis/submodules/altera_default_burst_converter.sv                                              ;
+; lab_PD3_extra_task/synthesis/submodules/altera_incr_burst_converter.sv                                                 ;
+; lab_PD3_extra_task/synthesis/submodules/altera_merlin_address_alignment.sv                                             ;
+; lab_PD3_extra_task/synthesis/submodules/altera_merlin_arbitrator.sv                                                    ;
+; lab_PD3_extra_task/synthesis/submodules/altera_merlin_burst_adapter.sv                                                 ;
+; lab_PD3_extra_task/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv                                            ;
+; lab_PD3_extra_task/synthesis/submodules/altera_merlin_burst_adapter_new.sv                                             ;
+; lab_PD3_extra_task/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv                                          ;
+; lab_PD3_extra_task/synthesis/submodules/altera_merlin_burst_uncompressor.sv                                            ;
+; lab_PD3_extra_task/synthesis/submodules/altera_merlin_master_agent.sv                                                  ;
+; lab_PD3_extra_task/synthesis/submodules/altera_merlin_master_translator.sv                                             ;
+; lab_PD3_extra_task/synthesis/submodules/altera_merlin_slave_agent.sv                                                   ;
+; lab_PD3_extra_task/synthesis/submodules/altera_merlin_slave_translator.sv                                              ;
+; lab_PD3_extra_task/synthesis/submodules/altera_merlin_width_adapter.sv                                                 ;
+; lab_PD3_extra_task/synthesis/submodules/altera_wrap_burst_converter.sv                                                 ;
+; lab_PD3_extra_task/synthesis/submodules/lab_PD3_extra_task_mm_interconnect_0.v                                         ;
+; lab_PD3_extra_task/synthesis/submodules/lab_PD3_extra_task_mm_interconnect_0_avalon_st_adapter.v                       ;
+; lab_PD3_extra_task/synthesis/submodules/lab_PD3_extra_task_mm_interconnect_0_avalon_st_adapter_001.v                   ;
+; lab_PD3_extra_task/synthesis/submodules/lab_PD3_extra_task_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0.sv  ;
+; lab_PD3_extra_task/synthesis/submodules/lab_PD3_extra_task_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv      ;
+; lab_PD3_extra_task/synthesis/submodules/lab_PD3_extra_task_mm_interconnect_0_cmd_demux.sv                              ;
+; lab_PD3_extra_task/synthesis/submodules/lab_PD3_extra_task_mm_interconnect_0_cmd_mux.sv                                ;
+; lab_PD3_extra_task/synthesis/submodules/lab_PD3_extra_task_mm_interconnect_0_router.sv                                 ;
+; lab_PD3_extra_task/synthesis/submodules/lab_PD3_extra_task_mm_interconnect_0_router_001.sv                             ;
+; lab_PD3_extra_task/synthesis/submodules/lab_PD3_extra_task_mm_interconnect_0_router_002.sv                             ;
+; lab_PD3_extra_task/synthesis/submodules/lab_PD3_extra_task_mm_interconnect_0_rsp_demux.sv                              ;
+; lab_PD3_extra_task/synthesis/submodules/lab_PD3_extra_task_mm_interconnect_0_rsp_mux.sv                                ;
+; lab_PD3_extra_task/synthesis/submodules/my_master.sv                                                                   ;
+; lab_PD3_extra_task/synthesis/submodules/my_slave.sv                                                                    ;
+; lab_PD3_extra_task/synthesis/submodules/my_slaveWS.sv                                                                  ;
+; lab_PD3_extra_task_top.sv                                                                                              ;
+; output_files/Spf1.spf                                                                                                  ;
+; SP_unit/synthesis/../../SP_unit.qsys                                                                                   ;
+; SP_unit/synthesis/../../SP_unit.sopcinfo                                                                               ;
+; SP_unit/synthesis/../SP_unit.cmp                                                                                       ;
+; SP_unit/synthesis/SP_unit.debuginfo                                                                                    ;
+; SP_unit/synthesis/SP_unit.qip                                                                                          ;
+; SP_unit/synthesis/SP_unit.v                                                                                            ;
+; SP_unit/synthesis/submodules/altsource_probe_top.v                                                                     ;
+; tb_lab_PD3_extra_task_top.sv                                                                                           ;
++------------------------------------------------------------------------------------------------------------------------+
+
+
