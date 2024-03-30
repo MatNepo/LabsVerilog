@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="simulation/submodules/altera_avalon_sc_fifo.v"
+   type="VERILOG"
+   library="sc_fifo" />
+ <file
+   path="simulation/submodules/MyST_source.sv"
+   type="SYSTEM_VERILOG"
+   library="MyST_source" />
+ <file
+   path="simulation/submodules/MyST_sink.sv"
+   type="SYSTEM_VERILOG"
+   library="MyST_sink" />
+ <file path="simulation/lab_PD2.v" type="VERILOG" />
+ <topLevel name="lab_PD2" />
+ <deviceFamily name="cycloneive" />
+</simPackage>

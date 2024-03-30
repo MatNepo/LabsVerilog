@@ -1,0 +1,8 @@
+	component lab_PD2 is
+		port (
+			clk_clk       : in  std_logic                    := 'X'; -- clk
+			dout_export   : out std_logic_vector(3 downto 0);        -- export
+			reset_reset_n : in  std_logic                    := 'X'  -- reset_n
+		);
+	end component lab_PD2;
+

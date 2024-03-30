@@ -1,0 +1,63 @@
+set_global_assignment -entity "lab_PD2" -library "lab_PD2" -name IP_TOOL_NAME "Qsys"
+set_global_assignment -entity "lab_PD2" -library "lab_PD2" -name IP_TOOL_VERSION "20.1"
+set_global_assignment -entity "lab_PD2" -library "lab_PD2" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -library "lab_PD2" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../lab_PD2.sopcinfo"]
+set_global_assignment -entity "lab_PD2" -library "lab_PD2" -name SLD_INFO "QSYS_NAME lab_PD2 HAS_SOPCINFO 1 GENERATION_ID 1711376568"
+set_global_assignment -library "lab_PD2" -name MISC_FILE [file join $::quartus(qip_path) "../lab_PD2.cmp"]
+set_global_assignment -library "lab_PD2" -name SLD_FILE [file join $::quartus(qip_path) "lab_PD2.debuginfo"]
+set_global_assignment -entity "lab_PD2" -library "lab_PD2" -name IP_TARGETED_DEVICE_FAMILY "Cyclone IV E"
+set_global_assignment -entity "lab_PD2" -library "lab_PD2" -name IP_GENERATED_DEVICE_FAMILY "{Cyclone IV E}"
+set_global_assignment -entity "lab_PD2" -library "lab_PD2" -name IP_QSYS_MODE "SYSTEM"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "lab_PD2" -name MISC_FILE [file join $::quartus(qip_path) "../../lab_PD2.qsys"]
+set_global_assignment -entity "lab_PD2" -library "lab_PD2" -name IP_COMPONENT_NAME "bGFiX1BEMg=="
+set_global_assignment -entity "lab_PD2" -library "lab_PD2" -name IP_COMPONENT_DISPLAY_NAME "bGFiX1BEMg=="
+set_global_assignment -entity "lab_PD2" -library "lab_PD2" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "lab_PD2" -library "lab_PD2" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "lab_PD2" -library "lab_PD2" -name IP_COMPONENT_VERSION "MS4w"
+set_global_assignment -entity "lab_PD2" -library "lab_PD2" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTcxMTM3NjU2OA==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "lab_PD2" -library "lab_PD2" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBJViBF::QXV0byBERVZJQ0VfRkFNSUxZ"
+set_global_assignment -entity "lab_PD2" -library "lab_PD2" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::RVA0Q0U2RTIyQzg=::QXV0byBERVZJQ0U="
+set_global_assignment -entity "lab_PD2" -library "lab_PD2" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::OA==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
+set_global_assignment -entity "lab_PD2" -library "lab_PD2" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::LTE=::QXV0byBDTE9DS19SQVRF"
+set_global_assignment -entity "lab_PD2" -library "lab_PD2" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfRE9NQUlO::LTE=::QXV0byBDTE9DS19ET01BSU4="
+set_global_assignment -entity "lab_PD2" -library "lab_PD2" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfUkVTRVRfRE9NQUlO::LTE=::QXV0byBSRVNFVF9ET01BSU4="
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_COMPONENT_NAME "YWx0ZXJhX2F2YWxvbl9zY19maWZv"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_COMPONENT_DISPLAY_NAME "QXZhbG9uLVNUIFNpbmdsZSBDbG9jayBGSUZP"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_COMPONENT_AUTHOR "QWx0ZXJhIENvcnBvcmF0aW9u"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_COMPONENT_VERSION "MjAuMQ=="
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_COMPONENT_PARAMETER "U1lNQk9MU19QRVJfQkVBVA==::MQ==::U3ltYm9scyBwZXIgYmVhdA=="
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_COMPONENT_PARAMETER "QklUU19QRVJfU1lNQk9M::NA==::Qml0cyBwZXIgc3ltYm9s"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_COMPONENT_PARAMETER "RklGT19ERVBUSA==::MTY=::RklGTyBkZXB0aA=="
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_COMPONENT_PARAMETER "Q0hBTk5FTF9XSURUSA==::MA==::Q2hhbm5lbCB3aWR0aA=="
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_COMPONENT_PARAMETER "RVJST1JfV0lEVEg=::MA==::RXJyb3Igd2lkdGg="
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_COMPONENT_PARAMETER "VVNFX1BBQ0tFVFM=::MA==::VXNlIHBhY2tldHM="
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_COMPONENT_PARAMETER "VVNFX0ZJTExfTEVWRUw=::MA==::VXNlIGZpbGwgbGV2ZWw="
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_COMPONENT_PARAMETER "RU1QVFlfTEFURU5DWQ==::Mw==::TGF0ZW5jeQ=="
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_COMPONENT_PARAMETER "VVNFX01FTU9SWV9CTE9DS1M=::MQ==::VXNlIG1lbW9yeSBibG9ja3M="
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_COMPONENT_PARAMETER "VVNFX1NUT1JFX0ZPUldBUkQ=::MA==::VXNlIHN0b3JlIGFuZCBmb3J3YXJk"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_COMPONENT_PARAMETER "VVNFX0FMTU9TVF9GVUxMX0lG::MA==::VXNlIGFsbW9zdCBmdWxsIHN0YXR1cw=="
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_COMPONENT_PARAMETER "VVNFX0FMTU9TVF9FTVBUWV9JRg==::MA==::VXNlIGFsbW9zdCBlbXB0eSBzdGF0dXM="
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_COMPONENT_PARAMETER "RU5BQkxFX0VYUExJQ0lUX01BWENIQU5ORUw=::ZmFsc2U=::RW5hYmxlIGV4cGxpY2l0IG1heENoYW5uZWw="
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_COMPONENT_PARAMETER "RVhQTElDSVRfTUFYQ0hBTk5FTA==::MA==::RXhwbGljaXQgbWF4Q2hhbm5lbA=="
+set_global_assignment -entity "MyST_source" -library "lab_PD2" -name IP_COMPONENT_NAME "TXlTVF9zb3VyY2U="
+set_global_assignment -entity "MyST_source" -library "lab_PD2" -name IP_COMPONENT_DISPLAY_NAME "TXlTVF9zb3VyY2VfY29tcG9uZW50"
+set_global_assignment -entity "MyST_source" -library "lab_PD2" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "MyST_source" -library "lab_PD2" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "MyST_source" -library "lab_PD2" -name IP_COMPONENT_VERSION "MS4w"
+set_global_assignment -entity "MyST_sink" -library "lab_PD2" -name IP_COMPONENT_NAME "TXlTVF9zaW5r"
+set_global_assignment -entity "MyST_sink" -library "lab_PD2" -name IP_COMPONENT_DISPLAY_NAME "TXlTVF9zaW5rX2NvbXBvbmVudA=="
+set_global_assignment -entity "MyST_sink" -library "lab_PD2" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "MyST_sink" -library "lab_PD2" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "MyST_sink" -library "lab_PD2" -name IP_COMPONENT_VERSION "MS4w"
+
+set_global_assignment -library "lab_PD2" -name VERILOG_FILE [file join $::quartus(qip_path) "lab_PD2.v"]
+set_global_assignment -library "lab_PD2" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_sc_fifo.v"]
+set_global_assignment -library "lab_PD2" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MyST_source.sv"]
+set_global_assignment -library "lab_PD2" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/MyST_sink.sv"]
+
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_TOOL_NAME "altera_avalon_sc_fifo"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_TOOL_VERSION "20.1"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lab_PD2" -name IP_TOOL_ENV "Qsys"
