@@ -1,0 +1,227 @@
+IP Upgrade report for lab_PD2
+Mon Mar 25 17:22:49 2024
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. IP Upgrade Summary
+  3. Successfully Upgraded IP Components
+  4. IP Upgrade Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------+
+; IP Upgrade Summary                                                         ;
++------------------------------+---------------------------------------------+
+; IP Components Upgrade Status ; Passed - Mon Mar 25 17:22:49 2024           ;
+; Quartus Prime Version        ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                ; lab_PD2                                     ;
+; Top-level Entity Name        ; db_lab_PD2_top                              ;
+; Family                       ; Cyclone IV E                                ;
++------------------------------+---------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Successfully Upgraded IP Components                                                                                                                      ;
++-------------+---------------------------------+---------+-------------------------------+----------------------+-------------------------------+---------+
+; Entity Name ; Component Name                  ; Version ; Original Source File          ; Generation File Path ; New Source File               ; Message ;
++-------------+---------------------------------+---------+-------------------------------+----------------------+-------------------------------+---------+
+; SP_unit     ; altera_in_system_sources_probes ; 16.1    ; SP_unit/synthesis/SP_unit.qip ; SP_unit.qsys         ; SP_unit/synthesis/SP_unit.qip ;         ;
+; lab_PD2     ; Qsys                            ; 16.1    ; lab_PD2/synthesis/lab_PD2.qip ; lab_PD2.qsys         ; lab_PD2/synthesis/lab_PD2.qip ;         ;
++-------------+---------------------------------+---------+-------------------------------+----------------------+-------------------------------+---------+
+
+
++---------------------+
+; IP Upgrade Messages ;
++---------------------+
+Info (11902): Backing up file "SP_unit.qsys" to "SP_unit.BAK.qsys"
+Info (11902): Backing up file "SP_unit/synthesis/SP_unit.v" to "SP_unit.BAK.v"
+Info (11837): Started upgrading IP component altera_in_system_sources_probes with file "SP_unit.qsys"
+Info: 2024.03.25.17:22:33 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info: 2024.03.25.17:22:33 Info: Finished upgrading the ip cores
+Info: 2024.03.25.17:22:36 Info: Saving generation log to D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab9 - lab_PD2/lab_PD2/SP_unit
+Info: 2024.03.25.17:22:36 Info: Starting: Create simulation model
+Info: 2024.03.25.17:22:36 Info: qsys-generate "D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab9 - lab_PD2\lab_PD2\SP_unit.qsys" --simulation=VERILOG --allow-mixed-language-simulation --output-directory="D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab9 - lab_PD2\lab_PD2\SP_unit\simulation" --family="Cyclone IV E" --part=EP4CE6E22C8
+Info: 2024.03.25.17:22:36 Info: Loading lab_PD2
+Info: 2024.03.25.17:22:36 Info: Reading input file
+Info: 2024.03.25.17:22:36 Info: Adding in_system_sources_probes_0 [altera_in_system_sources_probes 20.1]
+Info: 2024.03.25.17:22:36 Info: Parameterizing module in_system_sources_probes_0
+Info: 2024.03.25.17:22:36 Info: Building connections
+Info: 2024.03.25.17:22:36 Info: Parameterizing connections
+Info: 2024.03.25.17:22:36 Info: Validating
+Info: 2024.03.25.17:22:36 Info: Done reading input file
+Info: 2024.03.25.17:22:37 Info: SP_unit: Generating SP_unit "SP_unit" for SIM_VERILOG
+Info: 2024.03.25.17:22:37 Info: in_system_sources_probes_0: "SP_unit" instantiated altera_in_system_sources_probes "in_system_sources_probes_0"
+Info: 2024.03.25.17:22:37 Info: SP_unit: Done "SP_unit" with 2 modules, 2 files
+Info: 2024.03.25.17:22:37 Info: qsys-generate succeeded.
+Info: 2024.03.25.17:22:37 Info: Finished: Create simulation model
+Info: 2024.03.25.17:22:37 Info: Starting: Create Modelsim Project.
+Info: 2024.03.25.17:22:37 Info: Doing: ip-make-simscript --spd=D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab9 - lab_PD2\lab_PD2\SP_unit\SP_unit.spd --output-directory=D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab9 - lab_PD2/lab_PD2/SP_unit/simulation
+Info: 2024.03.25.17:22:38 Info: Generating the following file(s) for MODELSIM simulator in D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab9 - lab_PD2/lab_PD2/SP_unit/simulation
+Info: 2024.03.25.17:22:38 Info:     mentor
+Info: 2024.03.25.17:22:38 Info: Generating the following file(s) for VCS simulator in D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab9 - lab_PD2/lab_PD2/SP_unit/simulation
+Info: 2024.03.25.17:22:38 Info:     synopsys/vcs
+Info: 2024.03.25.17:22:38 Info: Generating the following file(s) for VCSMX simulator in D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab9 - lab_PD2/lab_PD2/SP_unit/simulation
+Info: 2024.03.25.17:22:38 Info:     synopsys/vcsmx
+Info: 2024.03.25.17:22:38 Info:     synopsys/vcsmx
+Info: 2024.03.25.17:22:38 Info: Generating the following file(s) for NCSIM simulator in D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab9 - lab_PD2/lab_PD2/SP_unit/simulation
+Info: 2024.03.25.17:22:38 Info:     cadence
+Info: 2024.03.25.17:22:38 Info:     cadence
+Info: 2024.03.25.17:22:38 Info:     cadence
+Info: 2024.03.25.17:22:38 Info:     1 .cds.lib files in cadence/cds_libs
+Info: 2024.03.25.17:22:38 Info: Generating the following file(s) for RIVIERA simulator in D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab9 - lab_PD2/lab_PD2/SP_unit/simulation
+Info: 2024.03.25.17:22:38 Info:     aldec
+Info: 2024.03.25.17:22:38 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab9 - lab_PD2/lab_PD2/SP_unit/simulation
+Info: 2024.03.25.17:22:38 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: 2024.03.25.17:22:38 Info: Finished: Create Modelsim Project.
+Info: 2024.03.25.17:22:38 Info: Starting: Create block symbol file (.bsf)
+Info: 2024.03.25.17:22:38 Info: qsys-generate "D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab9 - lab_PD2\lab_PD2\SP_unit.qsys" --block-symbol-file --output-directory="D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab9 - lab_PD2\lab_PD2\SP_unit" --family="Cyclone IV E" --part=EP4CE6E22C8
+Info: 2024.03.25.17:22:38 Info: Loading lab_PD2
+Info: 2024.03.25.17:22:38 Info: Reading input file
+Info: 2024.03.25.17:22:38 Info: Adding in_system_sources_probes_0 [altera_in_system_sources_probes 20.1]
+Info: 2024.03.25.17:22:38 Info: Parameterizing module in_system_sources_probes_0
+Info: 2024.03.25.17:22:38 Info: Building connections
+Info: 2024.03.25.17:22:38 Info: Parameterizing connections
+Info: 2024.03.25.17:22:38 Info: Validating
+Info: 2024.03.25.17:22:38 Info: Done reading input file
+Info: 2024.03.25.17:22:38 Info: qsys-generate succeeded.
+Info: 2024.03.25.17:22:38 Info: Finished: Create block symbol file (.bsf)
+Info: 2024.03.25.17:22:38 Info:
+Info: 2024.03.25.17:22:38 Info: Starting: Create HDL design files for synthesis
+Info: 2024.03.25.17:22:38 Info: qsys-generate "D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab9 - lab_PD2\lab_PD2\SP_unit.qsys" --synthesis=VERILOG --output-directory="D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab9 - lab_PD2\lab_PD2\SP_unit\synthesis" --family="Cyclone IV E" --part=EP4CE6E22C8
+Info: 2024.03.25.17:22:38 Info: Loading lab_PD2
+Info: 2024.03.25.17:22:39 Info: Reading input file
+Info: 2024.03.25.17:22:39 Info: Adding in_system_sources_probes_0 [altera_in_system_sources_probes 20.1]
+Info: 2024.03.25.17:22:39 Info: Parameterizing module in_system_sources_probes_0
+Info: 2024.03.25.17:22:39 Info: Building connections
+Info: 2024.03.25.17:22:39 Info: Parameterizing connections
+Info: 2024.03.25.17:22:39 Info: Validating
+Info: 2024.03.25.17:22:39 Info: Done reading input file
+Info: 2024.03.25.17:22:39 Info: SP_unit: Generating SP_unit "SP_unit" for QUARTUS_SYNTH
+Info: 2024.03.25.17:22:40 Info: in_system_sources_probes_0: "SP_unit" instantiated altera_in_system_sources_probes "in_system_sources_probes_0"
+Info: 2024.03.25.17:22:40 Info: SP_unit: Done "SP_unit" with 2 modules, 2 files
+Info: 2024.03.25.17:22:40 Info: qsys-generate succeeded.
+Info: 2024.03.25.17:22:40 Info: Finished: Create HDL design files for synthesis
+Info (11902): Backing up file "lab_PD2.qsys" to "lab_PD2.BAK.qsys"
+Info (11902): Backing up file "lab_PD2/synthesis/lab_PD2.v" to "lab_PD2.BAK.v"
+Info (11837): Started upgrading IP component Qsys with file "lab_PD2.qsys"
+Info: 2024.03.25.17:22:42 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info: 2024.03.25.17:22:42 Info: Finished upgrading the ip cores
+Info: 2024.03.25.17:22:45 Info: Saving generation log to D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab9 - lab_PD2/lab_PD2/lab_PD2
+Info: 2024.03.25.17:22:45 Info: Starting: Create simulation model
+Info: 2024.03.25.17:22:45 Info: qsys-generate "D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab9 - lab_PD2\lab_PD2\lab_PD2.qsys" --simulation=VERILOG --allow-mixed-language-simulation --output-directory="D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab9 - lab_PD2\lab_PD2\lab_PD2\simulation" --family="Cyclone IV E" --part=EP4CE6E22C8
+Info: 2024.03.25.17:22:45 Info: Loading lab_PD2
+Info: 2024.03.25.17:22:45 Info: Reading input file
+Info: 2024.03.25.17:22:45 Info: Adding MyST_sink [MyST_sink 1.0]
+Info: 2024.03.25.17:22:45 Info: Parameterizing module MyST_sink
+Info: 2024.03.25.17:22:45 Info: Adding MyST_source [MyST_source 1.0]
+Info: 2024.03.25.17:22:45 Info: Parameterizing module MyST_source
+Info: 2024.03.25.17:22:45 Info: Adding clk [clock_source 20.1]
+Info: 2024.03.25.17:22:45 Info: Parameterizing module clk
+Info: 2024.03.25.17:22:45 Info: Adding sc_fifo [altera_avalon_sc_fifo 20.1]
+Info: 2024.03.25.17:22:45 Info: Parameterizing module sc_fifo
+Info: 2024.03.25.17:22:45 Info: Building connections
+Info: 2024.03.25.17:22:45 Info: Parameterizing connections
+Info: 2024.03.25.17:22:45 Info: Validating
+Info: 2024.03.25.17:22:45 Info: Done reading input file
+Info: 2024.03.25.17:22:46 Info: lab_PD2: Generating lab_PD2 "lab_PD2" for SIM_VERILOG
+Info: 2024.03.25.17:22:46 Info: MyST_sink: "lab_PD2" instantiated MyST_sink "MyST_sink"
+Info: 2024.03.25.17:22:46 Info: MyST_source: "lab_PD2" instantiated MyST_source "MyST_source"
+Info: 2024.03.25.17:22:46 Info: sc_fifo: "lab_PD2" instantiated altera_avalon_sc_fifo "sc_fifo"
+Info: 2024.03.25.17:22:46 Info: lab_PD2: Done "lab_PD2" with 4 modules, 4 files
+Info: 2024.03.25.17:22:46 Info: qsys-generate succeeded.
+Info: 2024.03.25.17:22:46 Info: Finished: Create simulation model
+Info: 2024.03.25.17:22:46 Info: Starting: Create Modelsim Project.
+Info: 2024.03.25.17:22:46 Info: Doing: ip-make-simscript --spd=D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab9 - lab_PD2\lab_PD2\lab_PD2\lab_PD2.spd --output-directory=D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab9 - lab_PD2/lab_PD2/lab_PD2/simulation
+Info: 2024.03.25.17:22:47 Info: Generating the following file(s) for MODELSIM simulator in D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab9 - lab_PD2/lab_PD2/lab_PD2/simulation
+Info: 2024.03.25.17:22:47 Info:     mentor
+Info: 2024.03.25.17:22:47 Info: Generating the following file(s) for VCS simulator in D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab9 - lab_PD2/lab_PD2/lab_PD2/simulation
+Info: 2024.03.25.17:22:47 Info:     synopsys/vcs
+Info: 2024.03.25.17:22:47 Info: Generating the following file(s) for VCSMX simulator in D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab9 - lab_PD2/lab_PD2/lab_PD2/simulation
+Info: 2024.03.25.17:22:47 Info:     synopsys/vcsmx
+Info: 2024.03.25.17:22:47 Info:     synopsys/vcsmx
+Info: 2024.03.25.17:22:47 Info: Generating the following file(s) for NCSIM simulator in D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab9 - lab_PD2/lab_PD2/lab_PD2/simulation
+Info: 2024.03.25.17:22:47 Info:     cadence
+Info: 2024.03.25.17:22:47 Info:     cadence
+Info: 2024.03.25.17:22:47 Info:     cadence
+Info: 2024.03.25.17:22:47 Info:     3 .cds.lib files in cadence/cds_libs
+Info: 2024.03.25.17:22:47 Info: Generating the following file(s) for RIVIERA simulator in D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab9 - lab_PD2/lab_PD2/lab_PD2/simulation
+Info: 2024.03.25.17:22:47 Info:     aldec
+Info: 2024.03.25.17:22:47 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab9 - lab_PD2/lab_PD2/lab_PD2/simulation
+Info: 2024.03.25.17:22:47 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: 2024.03.25.17:22:47 Info: Finished: Create Modelsim Project.
+Info: 2024.03.25.17:22:47 Info: Starting: Create block symbol file (.bsf)
+Info: 2024.03.25.17:22:47 Info: qsys-generate "D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab9 - lab_PD2\lab_PD2\lab_PD2.qsys" --block-symbol-file --output-directory="D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab9 - lab_PD2\lab_PD2\lab_PD2" --family="Cyclone IV E" --part=EP4CE6E22C8
+Info: 2024.03.25.17:22:47 Info: Loading lab_PD2
+Info: 2024.03.25.17:22:47 Info: Reading input file
+Info: 2024.03.25.17:22:47 Info: Adding MyST_sink [MyST_sink 1.0]
+Info: 2024.03.25.17:22:47 Info: Parameterizing module MyST_sink
+Info: 2024.03.25.17:22:47 Info: Adding MyST_source [MyST_source 1.0]
+Info: 2024.03.25.17:22:47 Info: Parameterizing module MyST_source
+Info: 2024.03.25.17:22:47 Info: Adding clk [clock_source 20.1]
+Info: 2024.03.25.17:22:47 Info: Parameterizing module clk
+Info: 2024.03.25.17:22:47 Info: Adding sc_fifo [altera_avalon_sc_fifo 20.1]
+Info: 2024.03.25.17:22:47 Info: Parameterizing module sc_fifo
+Info: 2024.03.25.17:22:47 Info: Building connections
+Info: 2024.03.25.17:22:47 Info: Parameterizing connections
+Info: 2024.03.25.17:22:47 Info: Validating
+Info: 2024.03.25.17:22:47 Info: Done reading input file
+Info: 2024.03.25.17:22:48 Info: qsys-generate succeeded.
+Info: 2024.03.25.17:22:48 Info: Finished: Create block symbol file (.bsf)
+Info: 2024.03.25.17:22:48 Info:
+Info: 2024.03.25.17:22:48 Info: Starting: Create HDL design files for synthesis
+Info: 2024.03.25.17:22:48 Info: qsys-generate "D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab9 - lab_PD2\lab_PD2\lab_PD2.qsys" --synthesis=VERILOG --output-directory="D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab9 - lab_PD2\lab_PD2\lab_PD2\synthesis" --family="Cyclone IV E" --part=EP4CE6E22C8
+Info: 2024.03.25.17:22:48 Info: Loading lab_PD2
+Info: 2024.03.25.17:22:48 Info: Reading input file
+Info: 2024.03.25.17:22:48 Info: Adding MyST_sink [MyST_sink 1.0]
+Info: 2024.03.25.17:22:48 Info: Parameterizing module MyST_sink
+Info: 2024.03.25.17:22:48 Info: Adding MyST_source [MyST_source 1.0]
+Info: 2024.03.25.17:22:48 Info: Parameterizing module MyST_source
+Info: 2024.03.25.17:22:48 Info: Adding clk [clock_source 20.1]
+Info: 2024.03.25.17:22:48 Info: Parameterizing module clk
+Info: 2024.03.25.17:22:48 Info: Adding sc_fifo [altera_avalon_sc_fifo 20.1]
+Info: 2024.03.25.17:22:48 Info: Parameterizing module sc_fifo
+Info: 2024.03.25.17:22:48 Info: Building connections
+Info: 2024.03.25.17:22:48 Info: Parameterizing connections
+Info: 2024.03.25.17:22:48 Info: Validating
+Info: 2024.03.25.17:22:48 Info: Done reading input file
+Info: 2024.03.25.17:22:48 Info: lab_PD2: Generating lab_PD2 "lab_PD2" for QUARTUS_SYNTH
+Info: 2024.03.25.17:22:49 Info: MyST_sink: "lab_PD2" instantiated MyST_sink "MyST_sink"
+Info: 2024.03.25.17:22:49 Info: MyST_source: "lab_PD2" instantiated MyST_source "MyST_source"
+Info: 2024.03.25.17:22:49 Info: sc_fifo: "lab_PD2" instantiated altera_avalon_sc_fifo "sc_fifo"
+Info: 2024.03.25.17:22:49 Info: lab_PD2: Done "lab_PD2" with 4 modules, 4 files
+Info: 2024.03.25.17:22:49 Info: qsys-generate succeeded.
+Info: 2024.03.25.17:22:49 Info: Finished: Create HDL design files for synthesis
+Info (11131): Completed upgrading IP component altera_in_system_sources_probes with file "SP_unit.qsys"
+Info (11131): Completed upgrading IP component Qsys with file "lab_PD2.qsys"
+Info (23030): Evaluation of Tcl script d:/intelfpga/20.1.1/quartuslitesetup/quartus/common/tcl/internal/ip_regen/ip_regen.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4858 megabytes
+    Info: Processing ended: Mon Mar 25 17:22:49 2024
+    Info: Elapsed time: 00:00:23
+    Info: Total CPU time (on all processors): 00:00:31
+
+
