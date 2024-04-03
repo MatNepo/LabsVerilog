@@ -1,0 +1,18 @@
+# system info SP_unit on 2024.04.03.02:13:06
+system_info:
+name,value
+DEVICE,EP4CE6E22C8
+DEVICE_FAMILY,Cyclone IV E
+GENERATION_ID,1712099586
+#
+#
+# Files generated for SP_unit on 2024.04.03.02:13:06
+files:
+filepath,kind,attributes,module,is_top
+simulation/SP_unit.v,VERILOG,,SP_unit,true
+simulation/submodules/altsource_probe.v,VERILOG,,altsource_probe,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+SP_unit.in_system_sources_probes_0,altsource_probe

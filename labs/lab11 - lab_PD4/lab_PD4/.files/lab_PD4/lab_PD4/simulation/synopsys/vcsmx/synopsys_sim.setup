@@ -1,0 +1,27 @@
+
+WORK > DEFAULT
+DEFAULT:                     ./libraries/work/                       
+work:                        ./libraries/work/                       
+error_adapter_0:             ./libraries/error_adapter_0/            
+avalon_st_adapter:           ./libraries/avalon_st_adapter/          
+rsp_mux:                     ./libraries/rsp_mux/                    
+rsp_demux:                   ./libraries/rsp_demux/                  
+cmd_mux:                     ./libraries/cmd_mux/                    
+cmd_demux:                   ./libraries/cmd_demux/                  
+router_001:                  ./libraries/router_001/                 
+router:                      ./libraries/router/                     
+my_Dslave_s0_agent_rsp_fifo: ./libraries/my_Dslave_s0_agent_rsp_fifo/
+my_Dslave_s0_agent:          ./libraries/my_Dslave_s0_agent/         
+my_master_m0_agent:          ./libraries/my_master_m0_agent/         
+my_Dslave_s0_translator:     ./libraries/my_Dslave_s0_translator/    
+my_master_m0_translator:     ./libraries/my_master_m0_translator/    
+mm_interconnect_0:           ./libraries/mm_interconnect_0/          
+my_slave_1:                  ./libraries/my_slave_1/                 
+my_master:                   ./libraries/my_master/                  
+my_Dslave:                   ./libraries/my_Dslave/                  
+altera_ver:                  ./libraries/altera_ver/                 
+lpm_ver:                     ./libraries/lpm_ver/                    
+sgate_ver:                   ./libraries/sgate_ver/                  
+altera_mf_ver:               ./libraries/altera_mf_ver/              
+altera_lnsim_ver:            ./libraries/altera_lnsim_ver/           
+cycloneive_ver:              ./libraries/cycloneive_ver/             

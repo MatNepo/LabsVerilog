@@ -1,0 +1,107 @@
+Info: Starting: Create simulation model
+Info: qsys-generate "D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab11 - lab_PD4\lab_PD4\lab_PD4.qsys" --simulation=VERILOG --allow-mixed-language-simulation --output-directory="D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab11 - lab_PD4\lab_PD4\lab_PD4\simulation" --family="Cyclone IV E" --part=EP4CE6E22C8
+Progress: Loading lab_PD4/lab_PD4.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 20.1]
+Progress: Parameterizing module clk
+Progress: Adding my_Dslave [my_Dslave 1.0]
+Progress: Parameterizing module my_Dslave
+Progress: Adding my_master [my_master 1.0]
+Progress: Parameterizing module my_master
+Progress: Adding my_slave_1 [my_slave 1.0]
+Progress: Parameterizing module my_slave_1
+Progress: Adding my_slave_2 [my_slave 1.0]
+Progress: Parameterizing module my_slave_2
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: lab_PD4: Generating lab_PD4 "lab_PD4" for SIM_VERILOG
+Info: my_Dslave: "lab_PD4" instantiated my_Dslave "my_Dslave"
+Info: my_master: "lab_PD4" instantiated my_master "my_master"
+Info: my_slave_1: "lab_PD4" instantiated my_slave "my_slave_1"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "lab_PD4" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: my_master_m0_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "my_master_m0_translator"
+Info: my_Dslave_s0_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "my_Dslave_s0_translator"
+Info: my_master_m0_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "my_master_m0_agent"
+Info: my_Dslave_s0_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "my_Dslave_s0_agent"
+Info: my_Dslave_s0_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "my_Dslave_s0_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab11 - lab_PD4/lab_PD4/lab_PD4/simulation/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: lab_PD4: Done "lab_PD4" with 18 modules, 20 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd="D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab11 - lab_PD4\lab_PD4\lab_PD4\lab_PD4.spd" --output-directory="D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab11 - lab_PD4/lab_PD4/lab_PD4/simulation/" --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab11 - lab_PD4\lab_PD4\lab_PD4\lab_PD4.spd --output-directory=D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab11 - lab_PD4/lab_PD4/lab_PD4/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab11 - lab_PD4/lab_PD4/lab_PD4/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab11 - lab_PD4/lab_PD4/lab_PD4/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab11 - lab_PD4/lab_PD4/lab_PD4/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab11 - lab_PD4/lab_PD4/lab_PD4/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	17 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab11 - lab_PD4/lab_PD4/lab_PD4/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab11 - lab_PD4/lab_PD4/lab_PD4/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab11 - lab_PD4\lab_PD4\lab_PD4.qsys" --synthesis=VERILOG --output-directory="D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\lab11 - lab_PD4\lab_PD4\lab_PD4\synthesis" --family="Cyclone IV E" --part=EP4CE6E22C8
+Progress: Loading lab_PD4/lab_PD4.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 20.1]
+Progress: Parameterizing module clk
+Progress: Adding my_Dslave [my_Dslave 1.0]
+Progress: Parameterizing module my_Dslave
+Progress: Adding my_master [my_master 1.0]
+Progress: Parameterizing module my_master
+Progress: Adding my_slave_1 [my_slave 1.0]
+Progress: Parameterizing module my_slave_1
+Progress: Adding my_slave_2 [my_slave 1.0]
+Progress: Parameterizing module my_slave_2
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: lab_PD4: Generating lab_PD4 "lab_PD4" for QUARTUS_SYNTH
+Info: my_Dslave: "lab_PD4" instantiated my_Dslave "my_Dslave"
+Info: my_master: "lab_PD4" instantiated my_master "my_master"
+Info: my_slave_1: "lab_PD4" instantiated my_slave "my_slave_1"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "lab_PD4" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: my_master_m0_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "my_master_m0_translator"
+Info: my_Dslave_s0_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "my_Dslave_s0_translator"
+Info: my_master_m0_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "my_master_m0_agent"
+Info: my_Dslave_s0_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "my_Dslave_s0_agent"
+Info: my_Dslave_s0_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "my_Dslave_s0_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/lab11 - lab_PD4/lab_PD4/lab_PD4/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: lab_PD4: Done "lab_PD4" with 18 modules, 20 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

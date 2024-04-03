@@ -1,0 +1,26 @@
+set_global_assignment -entity "lab_PD4" -library "lib_lab_PD4" -name IP_TOOL_NAME "Qsys"
+set_global_assignment -entity "lab_PD4" -library "lib_lab_PD4" -name IP_TOOL_VERSION "20.1"
+set_global_assignment -entity "lab_PD4" -library "lib_lab_PD4" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -library "lib_lab_PD4" -name SPD_FILE [file join $::quartus(sip_path) "../lab_PD4.spd"]
+set_global_assignment -library "lib_lab_PD4" -name MISC_FILE [file join $::quartus(sip_path) "../../lab_PD4.qsys"]
+
+set_global_assignment -library "lib_lab_PD4" -name MISC_FILE [file join $::quartus(sip_path) "lab_PD4.v"]
+set_global_assignment -library "lib_lab_PD4" -name MISC_FILE [file join $::quartus(sip_path) "submodules/lab_PD4_mm_interconnect_0.v"]
+set_global_assignment -library "lib_lab_PD4" -name MISC_FILE [file join $::quartus(sip_path) "submodules/lab_PD4_mm_interconnect_0_avalon_st_adapter.v"]
+set_global_assignment -library "lib_lab_PD4" -name MISC_FILE [file join $::quartus(sip_path) "submodules/lab_PD4_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv"]
+set_global_assignment -library "lib_lab_PD4" -name MISC_FILE [file join $::quartus(sip_path) "submodules/lab_PD4_mm_interconnect_0_rsp_mux.sv"]
+set_global_assignment -library "lib_lab_PD4" -name MISC_FILE [file join $::quartus(sip_path) "submodules/altera_merlin_arbitrator.sv"]
+set_global_assignment -library "lib_lab_PD4" -name MISC_FILE [file join $::quartus(sip_path) "submodules/lab_PD4_mm_interconnect_0_rsp_demux.sv"]
+set_global_assignment -library "lib_lab_PD4" -name MISC_FILE [file join $::quartus(sip_path) "submodules/lab_PD4_mm_interconnect_0_cmd_mux.sv"]
+set_global_assignment -library "lib_lab_PD4" -name MISC_FILE [file join $::quartus(sip_path) "submodules/lab_PD4_mm_interconnect_0_cmd_demux.sv"]
+set_global_assignment -library "lib_lab_PD4" -name MISC_FILE [file join $::quartus(sip_path) "submodules/lab_PD4_mm_interconnect_0_router_001.sv"]
+set_global_assignment -library "lib_lab_PD4" -name MISC_FILE [file join $::quartus(sip_path) "submodules/lab_PD4_mm_interconnect_0_router.sv"]
+set_global_assignment -library "lib_lab_PD4" -name MISC_FILE [file join $::quartus(sip_path) "submodules/altera_avalon_sc_fifo.v"]
+set_global_assignment -library "lib_lab_PD4" -name MISC_FILE [file join $::quartus(sip_path) "submodules/altera_merlin_slave_agent.sv"]
+set_global_assignment -library "lib_lab_PD4" -name MISC_FILE [file join $::quartus(sip_path) "submodules/altera_merlin_burst_uncompressor.sv"]
+set_global_assignment -library "lib_lab_PD4" -name MISC_FILE [file join $::quartus(sip_path) "submodules/altera_merlin_master_agent.sv"]
+set_global_assignment -library "lib_lab_PD4" -name MISC_FILE [file join $::quartus(sip_path) "submodules/altera_merlin_slave_translator.sv"]
+set_global_assignment -library "lib_lab_PD4" -name MISC_FILE [file join $::quartus(sip_path) "submodules/altera_merlin_master_translator.sv"]
+set_global_assignment -library "lib_lab_PD4" -name MISC_FILE [file join $::quartus(sip_path) "submodules/my_slave.sv"]
+set_global_assignment -library "lib_lab_PD4" -name MISC_FILE [file join $::quartus(sip_path) "submodules/my_master.sv"]
+set_global_assignment -library "lib_lab_PD4" -name MISC_FILE [file join $::quartus(sip_path) "submodules/my_Dslave.sv"]

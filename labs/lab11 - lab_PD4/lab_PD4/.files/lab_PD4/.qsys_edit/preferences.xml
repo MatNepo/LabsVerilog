@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces" showClockDomains="0" showResetDomains="0">
+  <columns>
+   <connections preferredWidth="31" />
+   <irq preferredWidth="34" />
+   <defaultSlave visible="1" preferredWidth="117" />
+   <endaddress preferredWidth="86" />
+   <baseaddress preferredWidth="112" />
+   <description preferredWidth="239" />
+  </columns>
+ </systemtable>
+ <library expandedCategories="Library,Project" />
+ <window width="1599" height="1176" x="508" y="267" />
+ <clocktool showOnlyClockDomainInterfaces="1" />
+ <generation block_symbol_file="0" simulation="VERILOG" />
+</preferences>

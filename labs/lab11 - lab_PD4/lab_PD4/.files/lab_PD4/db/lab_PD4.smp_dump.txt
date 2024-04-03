@@ -1,0 +1,7 @@
+
+State Machine - |db_lab_PD4_top|lab_PD4_top:lab_PD4_top_inst|lab_PD4:Lab4_sys_inst|my_master:my_master|fsm_MM
+Name fsm_MM.del2 fsm_MM.wr1D fsm_MM.del1 fsm_MM.initSM 
+fsm_MM.initSM 0 0 0 0 
+fsm_MM.del1 0 0 1 1 
+fsm_MM.wr1D 0 1 0 1 
+fsm_MM.del2 1 0 0 1 
