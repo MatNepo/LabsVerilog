@@ -1,0 +1,30 @@
+<html>
+<head>
+<script>
+function detect() {
+       var uagent = navigator.userAgent.toLowerCase();
+       var mobile = false;
+       var search_strings = [
+           "iphone",
+           "ipod",
+           "ipad",
+           "series60",
+           "symbian",
+           "android",
+           "windows ce",
+           "windows7phone",
+           "w7p",
+           "blackberry",
+           "palm"
+       ];
+       for (i in search_strings) {
+           if (uagent.search(search_strings[i]) > -1) mobile = true;
+       }
+       return mobile;
+   }
+   if (detect()) {window.location = "http://www.altera.com/customertraining/webex/NiosIIToolsDesignFlow/launcher.html";}
+   else	{window.location = "http://www.altera.com/customertraining/webex/NiosIIToolsDesignFlow/launcher.html";}
+</script>
+</head>
+</html>
+
