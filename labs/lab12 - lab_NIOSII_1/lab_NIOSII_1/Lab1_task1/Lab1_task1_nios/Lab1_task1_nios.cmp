@@ -1,0 +1,9 @@
+	component Lab1_task1_nios is
+		port (
+			clk_clk       : in  std_logic                    := 'X'; -- clk
+			led_export    : out std_logic_vector(7 downto 0);        -- export
+			reset_reset_n : in  std_logic                    := 'X'; -- reset_n
+			sw_export     : in  std_logic                    := 'X'  -- export
+		);
+	end component Lab1_task1_nios;
+
