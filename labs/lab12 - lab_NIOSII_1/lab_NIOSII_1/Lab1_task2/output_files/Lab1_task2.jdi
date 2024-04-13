@@ -1,0 +1,16 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="dd4215dd6f7ac2ed8dba"/>
+  </project>
+  <file_info>
+    <file device="EP4CE6E22C8" path="Lab1_task2.sof" usercode="0xFFFFFFFF"/>
+  </file_info>
+  <sld_infos>
+    <sld_info hpath="Lab1_task2_nios:u0" name="u0">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME Lab1_task2_nios HAS_SOPCINFO 1 GENERATION_ID 1712661092"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+  </sld_infos>
+</sld_project_info>
