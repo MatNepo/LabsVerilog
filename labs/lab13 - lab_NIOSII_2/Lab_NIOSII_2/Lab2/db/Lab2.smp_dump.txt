@@ -1,0 +1,9 @@
+
+State Machine - |lab2|Lab2_nios:u0|Lab2_nios_nios2_PD:nios2_pd|Lab2_nios_nios2_PD_cpu:cpu|Lab2_nios_nios2_PD_cpu_nios2_oci:the_Lab2_nios_nios2_PD_cpu_nios2_oci|Lab2_nios_nios2_PD_cpu_debug_slave_wrapper:the_Lab2_nios_nios2_PD_cpu_debug_slave_wrapper|Lab2_nios_nios2_PD_cpu_debug_slave_tck:the_Lab2_nios_nios2_PD_cpu_debug_slave_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 
