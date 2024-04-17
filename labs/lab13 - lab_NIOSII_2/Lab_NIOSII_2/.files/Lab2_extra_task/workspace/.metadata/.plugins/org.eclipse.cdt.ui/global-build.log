@@ -1,0 +1,15 @@
+15:26:32 **** Incremental Build of configuration Nios II for project lab2_extra_task_sw ****
+make all 
+Info: Building ../lab2_extra_task_sw_bsp/
+D:/intelFPGA/18.1/QuartusLiteSetup/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab2_extra_task_sw_bsp/
+[BSP build complete]
+Info: Compiling lab2_extra_task_source.c to obj/default/lab2_extra_task_source.o
+nios2-elf-gcc -xc -MP -MMD -c -I../lab2_extra_task_sw_bsp//HAL/inc -I../lab2_extra_task_sw_bsp/ -I../lab2_extra_task_sw_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/lab2_extra_task_source.o lab2_extra_task_source.c
+Info: Linking lab2_extra_task_sw.elf
+nios2-elf-g++  -T'../lab2_extra_task_sw_bsp//linker.x' -msys-crt0='../lab2_extra_task_sw_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../lab2_extra_task_sw_bsp/   -Wl,-Map=lab2_extra_task_sw.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o lab2_extra_task_sw.elf obj/default/lab2_extra_task_source.o -lm -msys-lib=m
+nios2-elf-insert lab2_extra_task_sw.elf --thread_model hal --cpu_name nios2_PD --qsys true --simulation_enabled false --stderr_dev none --stdin_dev none --stdout_dev none --sopc_system_name Lab2_extra_task_nios --quartus_project_dir "D:/Users/Legion/Eclipse/Lab2/Lab2_1" --sopcinfo D:/Users/Legion/Eclipse/Lab2/Lab2_1/software/lab2_extra_task_sw_bsp/../../Lab2_nios.sopcinfo
+Info: (lab2_extra_task_sw.elf) 4612 Bytes program size (code + initialized data).
+Info:                          10 KBytes free for stack + heap.
+Info: Creating lab2_extra_task_sw.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source lab2_extra_task_sw.elf >lab2_extra_task_sw.objdump
+[lab2_extra_task_sw build complete]

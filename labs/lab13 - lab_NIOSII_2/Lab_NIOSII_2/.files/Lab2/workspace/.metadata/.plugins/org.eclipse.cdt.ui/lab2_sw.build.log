@@ -1,0 +1,9 @@
+16:50:31 **** Build of configuration Nios II for project lab2_sw ****
+make all 
+Info: Building ../lab2_sw_bsp/
+D:/intelFPGA/18.1/QuartusLiteSetup/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab2_sw_bsp/
+[BSP build complete]
+[lab2_sw build complete]
+
+16:50:31 Build Finished (took 451ms)
+
