@@ -1,0 +1,65 @@
+.shadow{overflow:hidden}.cpMainContainer{background-color:#2f2f2f;height:100%;width:100%;padding:0;position:absolute}.blocker{position:fixed;left:0;top:0;display:none}.loadingBackground{background-color:#777;opacity:.5}.loadingString{color:#fff;font-family:"Lucida Sans Unicode","Lucida Grande",sans-serif;font-size:12px}.cp-movie{display:none;overflow:hidden;position:absolute}.cp-rewrap{display:block;position:absolute}.cp-frameset{display:none;overflow:visible;position:absolute}.cp-input{display:block;position:absolute;left:0;top:0;width:0;height:0}.cp-audio{display:none;position:fixed;left:0;top:0;width:0;height:0}.cp-video,.cp-shape,.cp-mc,.cp-gf{display:block;position:absolute;left:0;top:0;width:0;height:0}body{background-color:#fff}.autoPlayButton,.autoPlayButton:hover{background:url('../htmlimages/Play_icon.png') no-repeat;width:96px;height:96px;float:left;position:absolute;left:50px}.cp-vtxt{display:block;position:absolute}@-webkit-keyframes fadeinfadeout{0%{opacity:0}50%{opacity:1}to{opacity:0}}.playButton
+{
+	background:url('../Playbar_icons/Play_icon.png') no-repeat;
+	width:58px;
+	height:59px;
+	float:left;
+	position:absolute;
+	left:50px;
+}
+.playButton:hover
+{
+	background:url('../Playbar_icons/Play_icon.png') no-repeat;
+	width:58px;
+	height:59px;
+	float:left;
+	position:absolute;
+	left:50px;
+}
+.playbarBackGround
+{
+	-webkit-box-shadow: 5px 5px 5px #aaa; 
+	-moz-box-shadow: 5px 5px 5px #aaa; 
+	box-shadow: 5px 5px 5px #aaa; 
+	height:36px;
+}
+.playbarSmallButton
+{
+	width:25px;
+	height:24px;
+	float:left;
+	display:inline;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none; 
+}
+.playbarSmallButton:hover {cursor:pointer;} 
+.playbarBigButton
+{
+	width:48px;
+	height:28px;
+	float:left;
+	display:inline;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none; 
+}
+.playbarBigButton:hover {cursor:pointer;} 
+.playbarSlider
+{
+	width:60px;
+	float:left;
+	display:inline;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none; 
+}
+.playbarSliderThumb
+{
+	position : absolute;
+	top : 6px;
+}
+.playbarSliderThumb:hover {cursor:pointer;} 
