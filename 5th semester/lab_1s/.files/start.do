@@ -1,0 +1,9 @@
+vlib work
+vlog ./rst_rg.sv
+vlog ./cnt_div.sv
+vlog ./cnt_div_tb.sv
+vlog ./led_drv.sv
+vlog ./led_drv_tb.sv
+vlog ./led_rg.sv
+vlog ./lab_1s.sv
+vlog ./lab_1s_tb.sv

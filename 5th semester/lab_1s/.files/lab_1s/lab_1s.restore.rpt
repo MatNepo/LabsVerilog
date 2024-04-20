@@ -1,0 +1,86 @@
+Restore Archived Project report for lab_1s
+Thu Nov 02 10:51:42 2023
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Thu Nov 02 10:51:42 2023 ;
+; Revision Name                   ; lab_1s                                ;
+; Top-level Entity Name           ; lab_1s                                ;
+; Family                          ; Cyclone IV E                          ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'D:/Users/Legion/Quartus/Works_Verilog/Third year/5th semester/lab9/lab_1s.qar' into the 'D:/Users/Legion/Quartus/Works_Verilog/Third year/5th semester/lab9/lab_1s/' directory
+Info: Generated report 'lab_1s.restore.rpt'
+Info (23030): Evaluation of Tcl script d:/intelfpga_lite/18.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4824 megabytes
+    Info: Processing ended: Thu Nov 02 10:51:42 2023
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:00
+
+
++-------------------------+
+; Files Restored          ;
++-------------------------+
+; File Name               ;
++-------------------------+
+; qar_info.json           ;
+; cnt_div.sv              ;
+; cnt_div_tb.sv           ;
+; lab_1s.qpf              ;
+; lab_1s.qsf              ;
+; lab_1s.sv               ;
+; lab_1s_tb.sv            ;
+; led_drv.sv              ;
+; led_drv_tb.sv           ;
+; led_rg.sv               ;
+; mem.txt                 ;
+; rst_rg.sv               ;
+; assignment_defaults.qdf ;
++-------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+
