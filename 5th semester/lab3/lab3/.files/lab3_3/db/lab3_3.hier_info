@@ -1,0 +1,16 @@
+|lab3_3
+a[0] => res.DATAA
+a[1] => res.DATAA
+a[2] => res.DATAA
+a[3] => res.DATAA
+b[0] => res.DATAB
+b[1] => res.DATAB
+b[2] => res.DATAB
+b[3] => res.DATAB
+sel => Decoder0.IN0
+res[0] <= res.DB_MAX_OUTPUT_PORT_TYPE
+res[1] <= res.DB_MAX_OUTPUT_PORT_TYPE
+res[2] <= res.DB_MAX_OUTPUT_PORT_TYPE
+res[3] <= res.DB_MAX_OUTPUT_PORT_TYPE
+
+

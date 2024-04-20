@@ -1,0 +1,39 @@
+|lab2_1
+switch => res.OUTPUTSELECT
+switch => res.OUTPUTSELECT
+a[0] => LessThan0.IN2
+a[0] => max1[0].DATAB
+a[0] => LessThan2.IN2
+a[0] => min1[0].DATAB
+a[1] => LessThan0.IN1
+a[1] => max1[1].DATAB
+a[1] => LessThan2.IN1
+a[1] => min1[1].DATAB
+b[0] => LessThan0.IN4
+b[0] => max1[0].DATAA
+b[0] => LessThan2.IN4
+b[0] => min1[0].DATAA
+b[1] => LessThan0.IN3
+b[1] => max1[1].DATAA
+b[1] => LessThan2.IN3
+b[1] => min1[1].DATAA
+c[0] => LessThan1.IN2
+c[0] => max2[0].DATAB
+c[0] => LessThan3.IN2
+c[0] => min2[0].DATAB
+c[1] => LessThan1.IN1
+c[1] => max2[1].DATAB
+c[1] => LessThan3.IN1
+c[1] => min2[1].DATAB
+d[0] => LessThan1.IN4
+d[0] => max2[0].DATAA
+d[0] => LessThan3.IN4
+d[0] => min2[0].DATAA
+d[1] => LessThan1.IN3
+d[1] => max2[1].DATAA
+d[1] => LessThan3.IN3
+d[1] => min2[1].DATAA
+res[0] <= res.DB_MAX_OUTPUT_PORT_TYPE
+res[1] <= res.DB_MAX_OUTPUT_PORT_TYPE
+
+

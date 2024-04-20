@@ -1,0 +1,80 @@
+Archive Project report for Lab1_1
+Sun Sep 10 21:57:18 2023
+Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2016  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Sun Sep 10 21:57:18 2023 ;
+; Revision Name          ; Lab1_1                                ;
+; Top-level Entity Name  ; Lab1_1                                ;
+; Family                 ; Cyclone IV E                          ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory D:/Users/Legion/Quartus/Works_Verilog/Third year/5th semester/Lab1/Lab1_1/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'D:/Users/Legion/Quartus/Works_Verilog/Third year/5th semester/Lab1/Lab1_1/Lab1_1.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'Lab1_1.archive.rpt'
+Info (23030): Evaluation of Tcl script d:/users/legion/quartus/intelfpga_lite/16.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4825 megabytes
+    Info: Processing ended: Sun Sep 10 21:57:18 2023
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+
++-----------------------------------------------------------------------------------+
+; Files Archived                                                                    ;
++-----------------------------------------------------------------------------------+
+; File Name                                                                         ;
++-----------------------------------------------------------------------------------+
+; d:/users/legion/quartus/intelfpga_lite/16.1/quartus/bin64/assignment_defaults.qdf ;
+; Lab1_1.qpf                                                                        ;
+; Lab1_1.qsf                                                                        ;
+; Lab1_1.sv                                                                         ;
+; Waveform.vwf                                                                      ;
++-----------------------------------------------------------------------------------+
+
+

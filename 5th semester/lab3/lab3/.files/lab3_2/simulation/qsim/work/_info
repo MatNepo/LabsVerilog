@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Dima/Desktop/verilog/lab3/lab3_2/simulation/qsim
+vhard_block
+Z0 !s110 1695743402
+!i10b 1
+!s100 kS;aI[1k?j]LSfHjBQ[T`3
+IcO9LIY_9WkWOzFlzWQoQ`1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Users/Legion/Quartus/Works_Verilog/Third year/5th semester/lab3/lab3_2/simulation/qsim
+Z3 w1695743402
+Z4 8lab3_2.vo
+Z5 Flab3_2.vo
+L0 354
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1695743402.000000
+Z8 !s107 lab3_2.vo|
+Z9 !s90 -work|work|lab3_2.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vlab3_2
+R0
+!i10b 1
+!s100 T>4dami6Re0P;oGhjSO1i1
+IX;WIk_=4QRD7PcmX668oV0
+R1
+R2
+R3
+R4
+R5
+L0 32
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vlab3_2_vlg_vec_tst
+R0
+!i10b 1
+!s100 >1X]C@7hI`Dd:<7UBCK4T2
+IO1=<QBGCNSM:_dAljm@dW0
+R1
+R2
+w1695743401
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11

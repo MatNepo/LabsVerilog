@@ -1,0 +1,30 @@
+module lab2_1#(parameter comp_type = "minsel",comptype = "maxsel", WIDTH = 2)(
+    // inputs
+	 input [WIDTH-1:0] a,
+    input [WIDTH-1:0] b,
+    input [WIDTH-1:0] c,
+    input [WIDTH-1:0] d,
+	 // outputs
+    output wire [WIDTH-1:0] res_min,
+    output wire [WIDTH-1:0] res_max
+);
+    // temporary variables
+	 wire [WIDTH-1:0] temp1;
+    wire [WIDTH-1:0] temp2;
+    wire [WIDTH-1:0] temp3;
+    wire [WIDTH-1:0] temp4;
+
+    // max vslue
+    assign temp1 = (a>b) ? a : b;
+    assign temp2 = (c>d) ? c : d;
+	 // min value
+    assign temp3 = (c<d) ? c : d;
+    assign temp4 = (a<b) ? a : b; 
+
+
+	 // find max between temp1 and temp2
+    assign res = (comp_type == "minsel") ? ((temp1>temp2) ? temp1 : temp2) : ((temp1<temp2) ? temp1 : temp2);
+	 // find min between temp3 and temp4
+    assign res2 = (comptype == "maxsel") ? ((temp3<temp4) ? temp3 : temp4) : ((temp3>temp4) ? temp3 : temp4);
+
+endmodule

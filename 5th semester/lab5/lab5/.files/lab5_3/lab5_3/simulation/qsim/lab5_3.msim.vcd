@@ -1,0 +1,641 @@
+$comment
+	File created using the following command:
+		vcd file lab5_3.msim.vcd -direction
+$end
+$date
+	Thu Oct 05 11:44:13 2023
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module lab5_3_vlg_vec_tst $end
+$var reg 1 ! clk $end
+$var reg 8 " sw [7:0] $end
+$var wire 1 # q [7] $end
+$var wire 1 $ q [6] $end
+$var wire 1 % q [5] $end
+$var wire 1 & q [4] $end
+$var wire 1 ' q [3] $end
+$var wire 1 ( q [2] $end
+$var wire 1 ) q [1] $end
+$var wire 1 * q [0] $end
+
+$scope module i1 $end
+$var wire 1 + gnd $end
+$var wire 1 , vcc $end
+$var wire 1 - unknown $end
+$var tri1 1 . devclrn $end
+$var tri1 1 / devpor $end
+$var tri1 1 0 devoe $end
+$var wire 1 1 q[0]~output_o $end
+$var wire 1 2 q[1]~output_o $end
+$var wire 1 3 q[2]~output_o $end
+$var wire 1 4 q[3]~output_o $end
+$var wire 1 5 q[4]~output_o $end
+$var wire 1 6 q[5]~output_o $end
+$var wire 1 7 q[6]~output_o $end
+$var wire 1 8 q[7]~output_o $end
+$var wire 1 9 clk~input_o $end
+$var wire 1 : clk~inputclkctrl_outclk $end
+$var wire 1 ; sw[4]~input_o $end
+$var wire 1 < sw[5]~input_o $end
+$var wire 1 = sw[6]~input_o $end
+$var wire 1 > sw[7]~input_o $end
+$var wire 1 ? sw[0]~input_o $end
+$var wire 1 @ sw[1]~input_o $end
+$var wire 1 A sw[2]~input_o $end
+$var wire 1 B sw[3]~input_o $end
+$var wire 1 C lab5_2|rom_rtl_0|auto_generated|ram_block1a0~portadataout $end
+$var wire 1 D lab5_2|rom_rtl_0|auto_generated|ram_block1a1 $end
+$var wire 1 E lab5_2|rom_rtl_0|auto_generated|ram_block1a2 $end
+$var wire 1 F lab5_2|rom_rtl_0|auto_generated|ram_block1a3 $end
+$var wire 1 G lab5_2|rom_rtl_0|auto_generated|ram_block1a4 $end
+$var wire 1 H lab5_2|rom_rtl_0|auto_generated|ram_block1a5 $end
+$var wire 1 I lab5_2|rom_rtl_0|auto_generated|ram_block1a6 $end
+$var wire 1 J lab5_2|rom_rtl_0|auto_generated|ram_block1a7 $end
+$var wire 1 K lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [17] $end
+$var wire 1 L lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [16] $end
+$var wire 1 M lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [15] $end
+$var wire 1 N lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [14] $end
+$var wire 1 O lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [13] $end
+$var wire 1 P lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [12] $end
+$var wire 1 Q lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [11] $end
+$var wire 1 R lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [10] $end
+$var wire 1 S lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [9] $end
+$var wire 1 T lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [8] $end
+$var wire 1 U lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [7] $end
+$var wire 1 V lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [6] $end
+$var wire 1 W lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [5] $end
+$var wire 1 X lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [4] $end
+$var wire 1 Y lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [3] $end
+$var wire 1 Z lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [2] $end
+$var wire 1 [ lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [1] $end
+$var wire 1 \ lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b11111111 "
+1*
+1)
+1(
+1'
+1&
+1%
+1$
+1#
+0+
+1,
+x-
+1.
+1/
+10
+11
+12
+13
+14
+15
+16
+17
+18
+09
+0:
+1;
+1<
+1=
+1>
+1?
+1@
+1A
+1B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+$end
+#10000
+1!
+19
+1:
+#10001
+1\
+1W
+1V
+1U
+1J
+1I
+1H
+1C
+01
+06
+07
+08
+0#
+0$
+0%
+0*
+#20000
+b1111111 "
+b111111 "
+b11111 "
+b1111 "
+b111 "
+b11 "
+b1 "
+b0 "
+0!
+0?
+0@
+0A
+0B
+0;
+0<
+0=
+0>
+09
+0:
+#30000
+1!
+19
+1:
+#30001
+0\
+0W
+0V
+0U
+0J
+0I
+0H
+0C
+11
+16
+17
+18
+1#
+1$
+1%
+1*
+#40000
+b10000000 "
+b10100000 "
+b10100100 "
+b10100101 "
+0!
+1?
+1A
+1<
+1>
+09
+0:
+#50000
+1!
+19
+1:
+#50001
+1[
+1X
+1W
+1H
+1G
+1D
+02
+05
+06
+0%
+0&
+0)
+#60000
+b11100101 "
+b11101101 "
+b1101101 "
+b1001101 "
+b1001001 "
+b1001000 "
+0!
+0?
+0A
+1B
+0<
+1=
+0>
+09
+0:
+#70000
+1!
+19
+1:
+#70001
+0[
+0X
+0G
+0D
+12
+15
+1&
+1)
+#80000
+b1000 "
+b0 "
+0!
+0B
+0=
+09
+0:
+#90000
+1!
+19
+1:
+#90001
+0W
+0H
+16
+1%
+#100000
+0!
+09
+0:
+#110000
+1!
+19
+1:
+#120000
+0!
+09
+0:
+#130000
+1!
+19
+1:
+#140000
+0!
+09
+0:
+#150000
+1!
+19
+1:
+#160000
+0!
+09
+0:
+#170000
+1!
+19
+1:
+#180000
+0!
+09
+0:
+#190000
+1!
+19
+1:
+#200000
+0!
+09
+0:
+#210000
+1!
+19
+1:
+#220000
+0!
+09
+0:
+#230000
+1!
+19
+1:
+#240000
+0!
+09
+0:
+#250000
+1!
+19
+1:
+#260000
+0!
+09
+0:
+#270000
+1!
+19
+1:
+#280000
+0!
+09
+0:
+#290000
+1!
+19
+1:
+#300000
+0!
+09
+0:
+#310000
+1!
+19
+1:
+#320000
+0!
+09
+0:
+#330000
+1!
+19
+1:
+#340000
+0!
+09
+0:
+#350000
+1!
+19
+1:
+#360000
+0!
+09
+0:
+#370000
+1!
+19
+1:
+#380000
+0!
+09
+0:
+#390000
+1!
+19
+1:
+#400000
+0!
+09
+0:
+#410000
+1!
+19
+1:
+#420000
+0!
+09
+0:
+#430000
+1!
+19
+1:
+#440000
+0!
+09
+0:
+#450000
+1!
+19
+1:
+#460000
+0!
+09
+0:
+#470000
+1!
+19
+1:
+#480000
+0!
+09
+0:
+#490000
+1!
+19
+1:
+#500000
+0!
+09
+0:
+#510000
+1!
+19
+1:
+#520000
+0!
+09
+0:
+#530000
+1!
+19
+1:
+#540000
+0!
+09
+0:
+#550000
+1!
+19
+1:
+#560000
+0!
+09
+0:
+#570000
+1!
+19
+1:
+#580000
+0!
+09
+0:
+#590000
+1!
+19
+1:
+#600000
+0!
+09
+0:
+#610000
+1!
+19
+1:
+#620000
+0!
+09
+0:
+#630000
+1!
+19
+1:
+#640000
+0!
+09
+0:
+#650000
+1!
+19
+1:
+#660000
+0!
+09
+0:
+#670000
+1!
+19
+1:
+#680000
+0!
+09
+0:
+#690000
+1!
+19
+1:
+#700000
+0!
+09
+0:
+#710000
+1!
+19
+1:
+#720000
+0!
+09
+0:
+#730000
+1!
+19
+1:
+#740000
+0!
+09
+0:
+#750000
+1!
+19
+1:
+#760000
+0!
+09
+0:
+#770000
+1!
+19
+1:
+#780000
+0!
+09
+0:
+#790000
+1!
+19
+1:
+#800000
+0!
+09
+0:
+#810000
+1!
+19
+1:
+#820000
+0!
+09
+0:
+#830000
+1!
+19
+1:
+#840000
+0!
+09
+0:
+#850000
+1!
+19
+1:
+#860000
+0!
+09
+0:
+#870000
+1!
+19
+1:
+#880000
+0!
+09
+0:
+#890000
+1!
+19
+1:
+#900000
+0!
+09
+0:
+#910000
+1!
+19
+1:
+#920000
+0!
+09
+0:
+#930000
+1!
+19
+1:
+#940000
+0!
+09
+0:
+#950000
+1!
+19
+1:
+#960000
+0!
+09
+0:
+#970000
+1!
+19
+1:
+#980000
+0!
+09
+0:
+#990000
+1!
+19
+1:
+#1000000

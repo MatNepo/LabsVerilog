@@ -1,0 +1,45 @@
+|lab5_2
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+clk => q[5]~reg0.CLK
+clk => q[6]~reg0.CLK
+clk => q[7]~reg0.CLK
+clk => q[8]~reg0.CLK
+clk => q[9]~reg0.CLK
+clk => q[10]~reg0.CLK
+clk => q[11]~reg0.CLK
+clk => q[12]~reg0.CLK
+clk => q[13]~reg0.CLK
+da[0] => rom.RADDR7
+da[1] => rom.RADDR8
+da[2] => rom.RADDR9
+da[3] => rom.RADDR10
+da[4] => rom.RADDR11
+da[5] => rom.RADDR12
+da[6] => rom.RADDR13
+db[0] => rom.RADDR
+db[1] => rom.RADDR1
+db[2] => rom.RADDR2
+db[3] => rom.RADDR3
+db[4] => rom.RADDR4
+db[5] => rom.RADDR5
+db[6] => rom.RADDR6
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[8] <= q[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[9] <= q[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[10] <= q[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[11] <= q[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[12] <= q[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[13] <= q[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,40 @@
+module lab3_2(
+    input [3:0] a,
+    output reg [6:0] d7seg
+);
+
+// Массив сегментных кодов для цифр от 0 до 9
+reg [6:0] segment_codes [0:9];
+
+// Сегментные коды для цифр
+initial begin
+    segment_codes[0] = 7'b1111110; // 0
+    segment_codes[1] = 7'b0110000; // 1
+    segment_codes[2] = 7'b1101101; // 2
+    segment_codes[3] = 7'b1111001; // 3
+    segment_codes[4] = 7'b0110011; // 4
+    segment_codes[5] = 7'b1011011; // 5
+    segment_codes[6] = 7'b1011111; // 6
+    segment_codes[7] = 7'b1110000; // 7
+    segment_codes[8] = 7'b1111111; // 8
+    segment_codes[9] = 7'b1110011; // 9
+end
+
+// Преобразование двоичного кода в 7-сегментный код
+always @(*) begin
+    case(a)
+        4'b0000: d7seg = segment_codes[0];
+        4'b0001: d7seg = segment_codes[1];
+        4'b0010: d7seg = segment_codes[2];
+        4'b0011: d7seg = segment_codes[3];
+        4'b0100: d7seg = segment_codes[4];
+        4'b0101: d7seg = segment_codes[5];
+        4'b0110: d7seg = segment_codes[6];
+        4'b0111: d7seg = segment_codes[7];
+        4'b1000: d7seg = segment_codes[8];
+        4'b1001: d7seg = segment_codes[9];
+        default: d7seg = 7'b1111111; // Недопустимое значение
+    endcase
+end
+
+endmodule

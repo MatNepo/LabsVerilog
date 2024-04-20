@@ -1,0 +1,199 @@
+$comment
+	File created using the following command:
+		vcd file Lab1_1.msim.vcd -direction
+$end
+$date
+	Sun Sep 10 20:51:28 2023
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module Lab1_1_vlg_vec_tst $end
+$var reg 1 ! sw0 $end
+$var reg 1 " sw1 $end
+$var reg 1 # sw2 $end
+$var wire 1 $ led0 $end
+$var wire 1 % led1 $end
+$var wire 1 & led2 $end
+$var wire 1 ' led3 $end
+$var wire 1 ( led4 $end
+$var wire 1 ) led5 $end
+$var wire 1 * led6 $end
+$var wire 1 + led7 $end
+$var wire 1 , led8 $end
+$var wire 1 - led9 $end
+
+$scope module i1 $end
+$var wire 1 . gnd $end
+$var wire 1 / vcc $end
+$var wire 1 0 unknown $end
+$var tri1 1 1 devclrn $end
+$var tri1 1 2 devpor $end
+$var tri1 1 3 devoe $end
+$var wire 1 4 led0~output_o $end
+$var wire 1 5 led1~output_o $end
+$var wire 1 6 led2~output_o $end
+$var wire 1 7 led3~output_o $end
+$var wire 1 8 led4~output_o $end
+$var wire 1 9 led5~output_o $end
+$var wire 1 : led6~output_o $end
+$var wire 1 ; led7~output_o $end
+$var wire 1 < led8~output_o $end
+$var wire 1 = led9~output_o $end
+$var wire 1 > sw0~input_o $end
+$var wire 1 ? sw2~input_o $end
+$var wire 1 @ sw1~input_o $end
+$var wire 1 A led1~0_combout $end
+$var wire 1 B temp~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+1$
+x%
+x&
+1'
+0(
+0)
+0*
+0+
+0,
+0-
+0.
+1/
+x0
+11
+12
+13
+14
+x5
+x6
+17
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+xA
+xB
+$end
+#1874
+0A
+#2170
+0B
+#5609
+16
+1&
+#5880
+05
+0%
+#100000
+1#
+#100764
+1?
+#200000
+1"
+0#
+#200766
+1@
+#200811
+0?
+#202212
+1A
+#202764
+1B
+#204892
+0A
+#206283
+06
+0&
+#300000
+1#
+#300764
+1?
+#304659
+1A
+#308837
+15
+1%
+#400000
+1!
+0"
+0#
+#400766
+1>
+#400811
+0?
+#400812
+0@
+#404892
+0A
+#408898
+05
+0%
+#500000
+1#
+#500764
+1?
+#504659
+1A
+#508837
+15
+1%
+#600000
+1"
+0#
+#600766
+1@
+#600811
+0?
+#604892
+0A
+#608898
+05
+0%
+#700000
+1#
+#700764
+1?
+#704659
+1A
+#708837
+15
+1%
+#800000
+0!
+0"
+0#
+#800811
+0?
+#800812
+0@
+0>
+#802686
+0A
+#802982
+0B
+#806421
+16
+1&
+#806692
+05
+0%
+#900000
+1#
+#900764
+1?
+#1000000

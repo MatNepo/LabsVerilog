@@ -1,0 +1,12 @@
+module Lab1_2 (
+    input sw7, sw6,
+    input sw1, sw0,
+    input button,
+    output led0, led1
+);
+
+
+assign led1 = button & sw7 | ~button & sw1; // how led1 works
+assign led0 = button & sw6 | ~button & sw0; // how led2 works
+
+endmodule

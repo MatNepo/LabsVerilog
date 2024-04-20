@@ -1,0 +1,13 @@
+|Lab1_2
+sw7 => led1.IN0
+sw6 => led0.IN0
+sw1 => led1.IN0
+sw0 => led0.IN0
+button => led1.IN1
+button => led0.IN1
+button => led1.IN1
+button => led0.IN1
+led1 << led1.DB_MAX_OUTPUT_PORT_TYPE
+led0 << led0.DB_MAX_OUTPUT_PORT_TYPE
+
+

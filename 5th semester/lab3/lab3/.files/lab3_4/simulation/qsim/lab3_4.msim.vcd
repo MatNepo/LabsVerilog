@@ -1,0 +1,824 @@
+$comment
+	File created using the following command:
+		vcd file lab3_4.msim.vcd -direction
+$end
+$date
+	Tue Sep 26 19:04:23 2023
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module lab3_4_vlg_vec_tst $end
+$var reg 4 ! a [3:0] $end
+$var reg 4 " b [3:0] $end
+$var reg 1 # sel $end
+$var wire 1 $ DIG [4] $end
+$var wire 1 % DIG [3] $end
+$var wire 1 & DIG [2] $end
+$var wire 1 ' DIG [1] $end
+$var wire 1 ( d7seg [6] $end
+$var wire 1 ) d7seg [5] $end
+$var wire 1 * d7seg [4] $end
+$var wire 1 + d7seg [3] $end
+$var wire 1 , d7seg [2] $end
+$var wire 1 - d7seg [1] $end
+$var wire 1 . d7seg [0] $end
+
+$scope module i1 $end
+$var wire 1 / gnd $end
+$var wire 1 0 vcc $end
+$var wire 1 1 unknown $end
+$var tri1 1 2 devclrn $end
+$var tri1 1 3 devpor $end
+$var tri1 1 4 devoe $end
+$var wire 1 5 d7seg[0]~output_o $end
+$var wire 1 6 d7seg[1]~output_o $end
+$var wire 1 7 d7seg[2]~output_o $end
+$var wire 1 8 d7seg[3]~output_o $end
+$var wire 1 9 d7seg[4]~output_o $end
+$var wire 1 : d7seg[5]~output_o $end
+$var wire 1 ; d7seg[6]~output_o $end
+$var wire 1 < DIG[1]~output_o $end
+$var wire 1 = DIG[2]~output_o $end
+$var wire 1 > DIG[3]~output_o $end
+$var wire 1 ? DIG[4]~output_o $end
+$var wire 1 @ a[2]~input_o $end
+$var wire 1 A a[1]~input_o $end
+$var wire 1 B b[0]~input_o $end
+$var wire 1 C a[0]~input_o $end
+$var wire 1 D b[1]~input_o $end
+$var wire 1 E par1|LessThan0~0_combout $end
+$var wire 1 F b[2]~input_o $end
+$var wire 1 G par1|LessThan0~1_combout $end
+$var wire 1 H a[3]~input_o $end
+$var wire 1 I b[3]~input_o $end
+$var wire 1 J par1|LessThan0~2_combout $end
+$var wire 1 K par1|dmin[2]~4_combout $end
+$var wire 1 L par1|dmin[1]~3_combout $end
+$var wire 1 M par1|dmin[3]~5_combout $end
+$var wire 1 N par1|dmin[0]~2_combout $end
+$var wire 1 O par2|segment_codes~0_combout $end
+$var wire 1 P sel~input_o $end
+$var wire 1 Q par1|dmax[3]~5_combout $end
+$var wire 1 R par1|dmax[2]~4_combout $end
+$var wire 1 S par1|dmax[1]~3_combout $end
+$var wire 1 T par1|dmax[0]~2_combout $end
+$var wire 1 U par3|segment_codes~0_combout $end
+$var wire 1 V par4|res[0]~0_combout $end
+$var wire 1 W par2|segment_codes~1_combout $end
+$var wire 1 X par3|segment_codes~1_combout $end
+$var wire 1 Y par4|res[1]~1_combout $end
+$var wire 1 Z par3|segment_codes~2_combout $end
+$var wire 1 [ par2|segment_codes~2_combout $end
+$var wire 1 \ par4|res[2]~2_combout $end
+$var wire 1 ] par3|segment_codes~3_combout $end
+$var wire 1 ^ par2|segment_codes~3_combout $end
+$var wire 1 _ par4|res[3]~3_combout $end
+$var wire 1 ` par3|segment_codes~4_combout $end
+$var wire 1 a par2|segment_codes~4_combout $end
+$var wire 1 b par4|res[4]~4_combout $end
+$var wire 1 c par3|segment_codes~5_combout $end
+$var wire 1 d par2|segment_codes~5_combout $end
+$var wire 1 e par4|res[5]~5_combout $end
+$var wire 1 f par3|segment_codes~6_combout $end
+$var wire 1 g par2|segment_codes~6_combout $end
+$var wire 1 h par4|res[6]~6_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1010 !
+b1011 "
+0#
+0'
+1&
+0%
+0$
+1.
+1-
+1,
+0+
+1*
+1)
+1(
+0/
+10
+x1
+12
+13
+14
+15
+16
+17
+08
+19
+1:
+1;
+0<
+1=
+0>
+0?
+0@
+1A
+1B
+0C
+1D
+0E
+0F
+0G
+1H
+1I
+0J
+0K
+1L
+1M
+0N
+0O
+0P
+1Q
+0R
+1S
+1T
+1U
+0V
+0W
+1X
+0Y
+0Z
+0[
+0\
+0]
+1^
+1_
+0`
+0a
+0b
+0c
+0d
+0e
+1f
+1g
+1h
+$end
+#60000
+b10 !
+0H
+0M
+1d
+0^
+1[
+1e
+0_
+1\
+07
+18
+0:
+0)
+1+
+0,
+#120000
+b110 !
+b100 !
+b101 !
+b11 "
+b111 "
+b101 "
+b1101 !
+0D
+1F
+0I
+1C
+0A
+1@
+1H
+0S
+0L
+1R
+1K
+1J
+1N
+1c
+0X
+0d
+1a
+0[
+1W
+0e
+1Y
+1b
+0\
+17
+09
+06
+1:
+1)
+0-
+0*
+1,
+#180000
+b100 "
+b1001 !
+b1011 !
+b110 "
+b11 !
+1A
+0@
+0H
+0B
+1D
+1S
+1L
+1E
+0R
+0Q
+0J
+0N
+1`
+0U
+0a
+0T
+1R
+1N
+0K
+0b
+0c
+0`
+1X
+1d
+1a
+0W
+19
+1e
+1b
+0Y
+1*
+16
+09
+0:
+0)
+0*
+1-
+#240000
+b10 "
+b11 "
+b1 !
+b1001 !
+0A
+1H
+1B
+0F
+0L
+0E
+1Q
+1J
+1T
+0R
+1G
+0g
+1^
+1O
+0G
+1U
+0S
+1L
+1_
+1V
+1`
+0X
+0U
+1g
+0^
+0O
+0h
+0;
+05
+08
+0V
+0_
+0+
+0.
+0(
+1h
+1;
+18
+15
+1.
+1+
+1(
+#300000
+b1000 !
+b111 "
+b110 "
+b1010 !
+b10 !
+0B
+1F
+0C
+1A
+0H
+0T
+0N
+1K
+1S
+0Q
+0J
+1c
+0`
+1Z
+0d
+0a
+1W
+1R
+0K
+0e
+0b
+1Y
+0c
+0Z
+1X
+1d
+1[
+0W
+06
+19
+1:
+1e
+1\
+0Y
+1)
+1*
+0-
+16
+07
+0:
+0)
+0,
+1-
+#360000
+b1110 "
+b110 !
+b111 !
+b1010 "
+b1011 "
+b101 !
+1C
+0A
+1@
+1B
+0F
+1I
+1T
+1N
+0L
+0R
+1K
+1G
+1Q
+1U
+0d
+1a
+0[
+1W
+0e
+1b
+0\
+1Y
+06
+17
+09
+1:
+1)
+0*
+1,
+0-
+#420000
+b1001 "
+b1 !
+b1101 "
+b1100 "
+b11 !
+1A
+0@
+0B
+0D
+1F
+0S
+1L
+1E
+1R
+0K
+0G
+0T
+0f
+1Z
+0U
+1d
+0W
+1e
+0Y
+16
+0:
+0)
+1-
+#480000
+1#
+b1011 !
+b1110 "
+b1010 "
+b1011 "
+1B
+1D
+0F
+1H
+1P
+0=
+1<
+1T
+0E
+1S
+0R
+1G
+1M
+0e
+0b
+1\
+1Y
+1'
+0&
+0h
+0;
+06
+07
+19
+1:
+1f
+0Z
+1U
+0G
+1J
+0d
+0a
+1W
+1O
+1)
+1*
+0,
+0-
+0(
+0\
+1V
+0J
+1h
+1;
+05
+17
+1,
+0.
+1(
+#540000
+b11 !
+b1010 "
+0B
+0H
+0T
+1E
+0M
+1]
+0X
+0U
+1G
+1d
+1a
+0W
+0O
+1_
+0Y
+0V
+15
+16
+08
+0+
+1-
+1.
+#600000
+b10 !
+b1000 "
+b1001 "
+1B
+0D
+0C
+1T
+0N
+0S
+1`
+0]
+0a
+1[
+1b
+0_
+18
+09
+0*
+1+
+#660000
+b1 "
+b110 !
+b100 !
+0A
+1@
+0I
+0L
+0E
+1K
+0Q
+1J
+0d
+1a
+1^
+0[
+1O
+0f
+1c
+1]
+1U
+0T
+1R
+1N
+0K
+1e
+1_
+1V
+1f
+0c
+0g
+1d
+0h
+0;
+05
+08
+0:
+0e
+0)
+0+
+0.
+0(
+1h
+1;
+1:
+1)
+1(
+#720000
+b101 "
+b111 "
+b110 "
+b0 !
+b10 !
+1A
+0@
+0B
+1D
+1F
+1S
+1L
+0R
+1K
+0G
+0N
+1c
+0`
+0]
+1Z
+0U
+1g
+0d
+0a
+0^
+1W
+0O
+0J
+1e
+0b
+0_
+1\
+0V
+1R
+0K
+15
+07
+18
+19
+0:
+0c
+0Z
+1X
+1d
+1[
+0W
+0)
+1*
+1+
+0,
+1.
+0e
+0\
+1Y
+06
+17
+1:
+1)
+1,
+0-
+#780000
+b1010 !
+b1110 "
+b1100 "
+b1101 "
+b1110 !
+1B
+0D
+1I
+1@
+1H
+1T
+1E
+0S
+1Q
+1M
+1K
+1c
+0X
+1U
+1G
+0d
+1W
+1e
+0Y
+1V
+1J
+05
+16
+0:
+0T
+1S
+1N
+0L
+0)
+1-
+0.
+0c
+1Z
+1X
+0U
+1d
+0[
+0W
+1O
+0e
+1\
+1Y
+0V
+15
+06
+07
+1:
+1)
+0,
+0-
+1.
+#840000
+b1111 !
+b1100 "
+b1011 !
+0B
+1C
+0@
+1T
+0N
+0R
+0G
+0Z
+1U
+0g
+0d
+1[
+1W
+0O
+0J
+0\
+1V
+0T
+0S
+1R
+1N
+1L
+0K
+05
+17
+0f
+1Z
+0U
+1g
+0[
+1O
+1,
+0.
+1\
+0V
+0h
+0;
+15
+07
+0,
+1.
+0(
+#900000
+b1000 "
+b11 !
+b1001 "
+b111 !
+1@
+0H
+1B
+0F
+0R
+1K
+1G
+0M
+1T
+1f
+1`
+0Z
+0X
+0g
+1d
+1a
+1^
+0W
+0O
+1b
+0\
+0Y
+1h
+1;
+16
+17
+09
+0*
+1,
+1-
+1(
+#960000
+0#
+b101 !
+b1 "
+b100 !
+b0 "
+b0 !
+0B
+0I
+0C
+0A
+0@
+0P
+1=
+0<
+0T
+0N
+0E
+0Q
+1J
+0L
+0K
+1e
+1_
+0'
+1&
+0h
+0;
+08
+0:
+0f
+0`
+0d
+0a
+0^
+0G
+0)
+0+
+0(
+0b
+0e
+0_
+0J
+18
+1:
+19
+1*
+1)
+1+
+#1000000

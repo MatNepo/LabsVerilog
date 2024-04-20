@@ -1,0 +1,15 @@
+module lab3_4
+
+(
+    input [3:0] a,
+	 input [3:0] b,
+    input sel,
+	 
+    output reg [w-1:0] res
+);
+always @*
+    case(sel)
+        1: res = b;
+        default res = a;
+    endcase
+endmodule

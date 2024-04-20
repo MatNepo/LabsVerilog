@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Users/Legion/Quartus/Works_Verilog/Third year/5th semester/lab5/lab5_3/lab5_3/simulation/qsim
+vhard_block
+Z1 !s110 1696495452
+!i10b 1
+!s100 o7V0N>Q@XiL7DPQW:M3mz3
+Imf0WSTn0lzL1c@gh5=jd93
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1696495452
+Z4 8lab5_3.vo
+Z5 Flab5_3.vo
+L0 392
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1696495452.000000
+Z8 !s107 lab5_3.vo|
+Z9 !s90 -work|work|lab5_3.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vlab5_3
+R1
+!i10b 1
+!s100 O:7W5TdjH8oVAFh9H1z3V2
+IBlU;]Z^i1jJ;mc?6_Im7^1
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vlab5_3_vlg_vec_tst
+R1
+!i10b 1
+!s100 6X^?U7L51`XW7V?MU5RGf1
+IQP7=HkK>LQj8RkjcV79GO0
+R2
+R0
+R3
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11

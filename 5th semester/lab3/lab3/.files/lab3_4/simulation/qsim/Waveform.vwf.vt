@@ -1,0 +1,169 @@
+// Copyright (C) 2016  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Intel and sold by Intel or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "09/26/2023 19:04:22"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          lab3_4
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module lab3_4_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [3:0] a;
+reg [3:0] b;
+reg sel;
+// wires                                               
+wire [4:1] DIG;
+wire [6:0] d7seg;
+
+// assign statements (if any)                          
+lab3_4 i1 (
+// port map - connection between master ports and signals/registers   
+	.DIG(DIG),
+	.a(a),
+	.b(b),
+	.d7seg(d7seg),
+	.sel(sel)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// sel
+initial
+begin
+	sel = 1'b0;
+	sel = #480000 1'b1;
+	sel = #480000 1'b0;
+end 
+// a[ 3 ]
+initial
+begin
+	a[3] = 1'b1;
+	a[3] = #60000 1'b0;
+	a[3] = #60000 1'b1;
+	a[3] = #60000 1'b0;
+	a[3] = #60000 1'b1;
+	a[3] = #60000 1'b0;
+	a[3] = #180000 1'b1;
+	a[3] = #60000 1'b0;
+	a[3] = #240000 1'b1;
+	a[3] = #120000 1'b0;
+end 
+// a[ 2 ]
+initial
+begin
+	a[2] = 1'b0;
+	a[2] = #120000 1'b1;
+	a[2] = #60000 1'b0;
+	a[2] = #180000 1'b1;
+	a[2] = #60000 1'b0;
+	a[2] = #240000 1'b1;
+	a[2] = #60000 1'b0;
+	a[2] = #60000 1'b1;
+	a[2] = #60000 1'b0;
+	a[2] = #60000 1'b1;
+	a[2] = #60000 1'b0;
+end 
+// a[ 1 ]
+initial
+begin
+	a[1] = 1'b1;
+	a[1] = #120000 1'b0;
+	a[1] = #60000 1'b1;
+	a[1] = #60000 1'b0;
+	a[1] = #60000 1'b1;
+	a[1] = #60000 1'b0;
+	a[1] = #60000 1'b1;
+	a[1] = #240000 1'b0;
+	a[1] = #60000 1'b1;
+	a[1] = #240000 1'b0;
+end 
+// a[ 0 ]
+initial
+begin
+	a[0] = 1'b0;
+	a[0] = #120000 1'b1;
+	a[0] = #180000 1'b0;
+	a[0] = #60000 1'b1;
+	a[0] = #240000 1'b0;
+	a[0] = #240000 1'b1;
+	a[0] = #120000 1'b0;
+end 
+// b[ 3 ]
+initial
+begin
+	b[3] = 1'b1;
+	b[3] = #120000 1'b0;
+	b[3] = #240000 1'b1;
+	b[3] = #300000 1'b0;
+	b[3] = #120000 1'b1;
+	b[3] = #180000 1'b0;
+end 
+// b[ 2 ]
+initial
+begin
+	b[2] = 1'b0;
+	b[2] = #120000 1'b1;
+	b[2] = #120000 1'b0;
+	b[2] = #60000 1'b1;
+	b[2] = #60000 1'b0;
+	b[2] = #60000 1'b1;
+	b[2] = #60000 1'b0;
+	b[2] = #240000 1'b1;
+	b[2] = #180000 1'b0;
+end 
+// b[ 1 ]
+initial
+begin
+	b[1] = 1'b1;
+	b[1] = #120000 1'b0;
+	b[1] = #60000 1'b1;
+	b[1] = #240000 1'b0;
+	b[1] = #60000 1'b1;
+	b[1] = #120000 1'b0;
+	b[1] = #120000 1'b1;
+	b[1] = #60000 1'b0;
+end 
+// b[ 0 ]
+initial
+begin
+	b[0] = 1'b1;
+	b[0] = #180000 1'b0;
+	b[0] = #60000 1'b1;
+	b[0] = #60000 1'b0;
+	b[0] = #60000 1'b1;
+	b[0] = #60000 1'b0;
+	b[0] = #60000 1'b1;
+	b[0] = #60000 1'b0;
+	b[0] = #60000 1'b1;
+	b[0] = #120000 1'b0;
+	b[0] = #60000 1'b1;
+	b[0] = #60000 1'b0;
+	b[0] = #60000 1'b1;
+	b[0] = #60000 1'b0;
+end 
+endmodule
+

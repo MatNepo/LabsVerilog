@@ -1,0 +1,35 @@
+Quartus Prime Archive log --	D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/lab3_4.qarlog
+
+Archive:	D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/lab3_4.qar
+Date:		Sun Apr 21 00:39:59 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_2/lab3_2.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_3/lab3_3.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/Waveform.vwf
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/lab3_4.qpf
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/lab3_4.qsf
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/lab3_4.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/lab3_4_assignment_defaults.qdf
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/output_files/Chain1.cdf
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/output_files/lab3_4.asm.rpt
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/output_files/lab3_4.done
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/output_files/lab3_4.eda.rpt
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/output_files/lab3_4.fit.rpt
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/output_files/lab3_4.fit.smsg
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/output_files/lab3_4.fit.summary
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/output_files/lab3_4.flow.rpt
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/output_files/lab3_4.jdi
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/output_files/lab3_4.map.rpt
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/output_files/lab3_4.map.summary
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/output_files/lab3_4.pin
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/output_files/lab3_4.sld
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/output_files/lab3_4.sof
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/output_files/lab3_4.sta.rpt
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/output_files/lab3_4.sta.summary
+d:/intelfpga/18.1/quartuslitesetup/quartus/bin64/assignment_defaults.qdf
+	======= Total: 24 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

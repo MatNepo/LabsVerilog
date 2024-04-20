@@ -1,0 +1,104 @@
+// Copyright (C) 2016  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Intel and sold by Intel or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "09/10/2023 21:27:16"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          Lab1_2
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module Lab1_2_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg button;
+reg sw0;
+reg sw1;
+reg sw6;
+reg sw7;
+// wires                                               
+wire led0;
+wire led1;
+
+// assign statements (if any)                          
+Lab1_2 i1 (
+// port map - connection between master ports and signals/registers   
+	.button(button),
+	.led0(led0),
+	.led1(led1),
+	.sw0(sw0),
+	.sw1(sw1),
+	.sw6(sw6),
+	.sw7(sw7)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// button
+always
+begin
+	button = 1'b0;
+	button = #100000 1'b1;
+	#100000;
+end 
+
+// sw0
+initial
+begin
+	sw0 = 1'b0;
+	sw0 = #400000 1'b1;
+	sw0 = #400000 1'b0;
+end 
+
+// sw1
+initial
+begin
+	repeat(2)
+	begin
+		sw1 = 1'b0;
+		sw1 = #200000 1'b1;
+		# 200000;
+	end
+	sw1 = 1'b0;
+end 
+
+// sw6
+initial
+begin
+	sw6 = 1'b1;
+	sw6 = #400000 1'b0;
+	sw6 = #400000 1'b1;
+end 
+
+// sw7
+initial
+begin
+	sw7 = 1'b1;
+	sw7 = #200000 1'b0;
+	sw7 = #200000 1'b1;
+	sw7 = #200000 1'b0;
+	sw7 = #200000 1'b1;
+end 
+endmodule
+

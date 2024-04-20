@@ -1,0 +1,116 @@
+|lab6_3
+a[0] => a[0]~0.DATAIN
+a[1] => a[1]~1.DATAIN
+b[0] => b[0]~0.DATAIN
+b[1] => b[1]~1.DATAIN
+c[0] => c[0]~0.DATAIN
+c[1] => c[1]~1.DATAIN
+d[0] => d[0]~0.DATAIN
+d[1] => d[1]~1.DATAIN
+clk => clk~0.DATAIN
+rst => rst~0.DATAIN
+min[0] << min[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+min[1] << min[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+midl[0] << midl[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+midl[1] << midl[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+midh[0] << midh[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+midh[1] << midh[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+max[0] << max[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+max[1] << max[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab6_3|lab6_2:lab6_2.lab6_2_1
+a[0] => LessThan0.IN2
+a[0] => Fmin.DATAB
+a[0] => Fmax.DATAA
+a[1] => LessThan0.IN1
+a[1] => Fmin.DATAB
+a[1] => Fmax.DATAA
+b[0] => LessThan0.IN4
+b[0] => Fmin.DATAA
+b[0] => Fmax.DATAB
+b[1] => LessThan0.IN3
+b[1] => Fmin.DATAA
+b[1] => Fmax.DATAB
+min[0] <= Fmin.DB_MAX_OUTPUT_PORT_TYPE
+min[1] <= Fmin.DB_MAX_OUTPUT_PORT_TYPE
+max[0] <= Fmax.DB_MAX_OUTPUT_PORT_TYPE
+max[1] <= Fmax.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab6_3|lab6_2:lab6_2.lab6_2_2
+a[0] => LessThan0.IN2
+a[0] => Fmin.DATAB
+a[0] => Fmax.DATAA
+a[1] => LessThan0.IN1
+a[1] => Fmin.DATAB
+a[1] => Fmax.DATAA
+b[0] => LessThan0.IN4
+b[0] => Fmin.DATAA
+b[0] => Fmax.DATAB
+b[1] => LessThan0.IN3
+b[1] => Fmin.DATAA
+b[1] => Fmax.DATAB
+min[0] <= Fmin.DB_MAX_OUTPUT_PORT_TYPE
+min[1] <= Fmin.DB_MAX_OUTPUT_PORT_TYPE
+max[0] <= Fmax.DB_MAX_OUTPUT_PORT_TYPE
+max[1] <= Fmax.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab6_3|lab6_2:lab6_2.lab6_2_3
+a[0] => LessThan0.IN2
+a[0] => Fmin.DATAB
+a[0] => Fmax.DATAA
+a[1] => LessThan0.IN1
+a[1] => Fmin.DATAB
+a[1] => Fmax.DATAA
+b[0] => LessThan0.IN4
+b[0] => Fmin.DATAA
+b[0] => Fmax.DATAB
+b[1] => LessThan0.IN3
+b[1] => Fmin.DATAA
+b[1] => Fmax.DATAB
+min[0] <= Fmin.DB_MAX_OUTPUT_PORT_TYPE
+min[1] <= Fmin.DB_MAX_OUTPUT_PORT_TYPE
+max[0] <= Fmax.DB_MAX_OUTPUT_PORT_TYPE
+max[1] <= Fmax.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab6_3|lab6_2:lab6_2.lab6_2_4
+a[0] => LessThan0.IN2
+a[0] => Fmin.DATAB
+a[0] => Fmax.DATAA
+a[1] => LessThan0.IN1
+a[1] => Fmin.DATAB
+a[1] => Fmax.DATAA
+b[0] => LessThan0.IN4
+b[0] => Fmin.DATAA
+b[0] => Fmax.DATAB
+b[1] => LessThan0.IN3
+b[1] => Fmin.DATAA
+b[1] => Fmax.DATAB
+min[0] <= Fmin.DB_MAX_OUTPUT_PORT_TYPE
+min[1] <= Fmin.DB_MAX_OUTPUT_PORT_TYPE
+max[0] <= Fmax.DB_MAX_OUTPUT_PORT_TYPE
+max[1] <= Fmax.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab6_3|lab6_2:lab6_2.lab6_2_5
+a[0] => LessThan0.IN2
+a[0] => Fmin.DATAB
+a[0] => Fmax.DATAA
+a[1] => LessThan0.IN1
+a[1] => Fmin.DATAB
+a[1] => Fmax.DATAA
+b[0] => LessThan0.IN4
+b[0] => Fmin.DATAA
+b[0] => Fmax.DATAB
+b[1] => LessThan0.IN3
+b[1] => Fmin.DATAA
+b[1] => Fmax.DATAB
+min[0] <= Fmin.DB_MAX_OUTPUT_PORT_TYPE
+min[1] <= Fmin.DB_MAX_OUTPUT_PORT_TYPE
+max[0] <= Fmax.DB_MAX_OUTPUT_PORT_TYPE
+max[1] <= Fmax.DB_MAX_OUTPUT_PORT_TYPE
+
+

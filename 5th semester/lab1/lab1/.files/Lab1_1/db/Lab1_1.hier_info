@@ -1,0 +1,16 @@
+|Lab1_1
+sw0 => temp.IN0
+sw1 => temp.IN1
+sw2 => led1.IN1
+led0 << <VCC>
+led1 << led1.DB_MAX_OUTPUT_PORT_TYPE
+led2 << temp.DB_MAX_OUTPUT_PORT_TYPE
+led3 << <VCC>
+led4 << <GND>
+led5 << <GND>
+led6 << <GND>
+led7 << <GND>
+led8 << <GND>
+led9 << <GND>
+
+

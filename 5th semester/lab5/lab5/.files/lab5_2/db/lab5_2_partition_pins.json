@@ -1,0 +1,125 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "q[0]",
+					"strict" : false
+				},
+				{
+					"name" : "q[1]",
+					"strict" : false
+				},
+				{
+					"name" : "q[2]",
+					"strict" : false
+				},
+				{
+					"name" : "q[3]",
+					"strict" : false
+				},
+				{
+					"name" : "q[4]",
+					"strict" : false
+				},
+				{
+					"name" : "q[5]",
+					"strict" : false
+				},
+				{
+					"name" : "q[6]",
+					"strict" : false
+				},
+				{
+					"name" : "q[7]",
+					"strict" : false
+				},
+				{
+					"name" : "q[8]",
+					"strict" : false
+				},
+				{
+					"name" : "q[9]",
+					"strict" : false
+				},
+				{
+					"name" : "q[10]",
+					"strict" : false
+				},
+				{
+					"name" : "q[11]",
+					"strict" : false
+				},
+				{
+					"name" : "q[12]",
+					"strict" : false
+				},
+				{
+					"name" : "q[13]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "da[6]",
+					"strict" : false
+				},
+				{
+					"name" : "db[0]",
+					"strict" : false
+				},
+				{
+					"name" : "db[1]",
+					"strict" : false
+				},
+				{
+					"name" : "db[2]",
+					"strict" : false
+				},
+				{
+					"name" : "db[3]",
+					"strict" : false
+				},
+				{
+					"name" : "db[4]",
+					"strict" : false
+				},
+				{
+					"name" : "db[5]",
+					"strict" : false
+				},
+				{
+					"name" : "db[6]",
+					"strict" : false
+				},
+				{
+					"name" : "da[0]",
+					"strict" : false
+				},
+				{
+					"name" : "da[1]",
+					"strict" : false
+				},
+				{
+					"name" : "da[2]",
+					"strict" : false
+				},
+				{
+					"name" : "da[3]",
+					"strict" : false
+				},
+				{
+					"name" : "da[4]",
+					"strict" : false
+				},
+				{
+					"name" : "da[5]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

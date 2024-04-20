@@ -1,0 +1,6 @@
+
+State Machine - |lab5_1|state
+Name state.S0 state.S2 state.S1 
+state.S0 0 0 0 
+state.S1 1 0 1 
+state.S2 1 1 0 

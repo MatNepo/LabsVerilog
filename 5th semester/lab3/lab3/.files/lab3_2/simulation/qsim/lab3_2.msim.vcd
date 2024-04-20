@@ -1,0 +1,433 @@
+$comment
+	File created using the following command:
+		vcd file lab3_2.msim.vcd -direction
+$end
+$date
+	Tue Sep 26 18:50:02 2023
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module lab3_2_vlg_vec_tst $end
+$var reg 4 ! a [3:0] $end
+$var wire 1 " d7seg [6] $end
+$var wire 1 # d7seg [5] $end
+$var wire 1 $ d7seg [4] $end
+$var wire 1 % d7seg [3] $end
+$var wire 1 & d7seg [2] $end
+$var wire 1 ' d7seg [1] $end
+$var wire 1 ( d7seg [0] $end
+
+$scope module i1 $end
+$var wire 1 ) gnd $end
+$var wire 1 * vcc $end
+$var wire 1 + unknown $end
+$var tri1 1 , devclrn $end
+$var tri1 1 - devpor $end
+$var tri1 1 . devoe $end
+$var wire 1 / d7seg[0]~output_o $end
+$var wire 1 0 d7seg[1]~output_o $end
+$var wire 1 1 d7seg[2]~output_o $end
+$var wire 1 2 d7seg[3]~output_o $end
+$var wire 1 3 d7seg[4]~output_o $end
+$var wire 1 4 d7seg[5]~output_o $end
+$var wire 1 5 d7seg[6]~output_o $end
+$var wire 1 6 a[3]~input_o $end
+$var wire 1 7 a[1]~input_o $end
+$var wire 1 8 a[2]~input_o $end
+$var wire 1 9 a[0]~input_o $end
+$var wire 1 : segment_codes~0_combout $end
+$var wire 1 ; segment_codes~1_combout $end
+$var wire 1 < segment_codes~2_combout $end
+$var wire 1 = segment_codes~3_combout $end
+$var wire 1 > segment_codes~4_combout $end
+$var wire 1 ? segment_codes~5_combout $end
+$var wire 1 @ segment_codes~6_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+1(
+1'
+1&
+1%
+1$
+1#
+0"
+0)
+1*
+x+
+1,
+1-
+1.
+1/
+10
+11
+12
+13
+14
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+$end
+#40000
+b1 !
+19
+1?
+1>
+1=
+1:
+0/
+02
+03
+04
+0#
+0$
+0%
+0(
+#80000
+b11 !
+b10 !
+09
+17
+0>
+0=
+1<
+0:
+1@
+15
+1/
+01
+12
+13
+1$
+1%
+0&
+1(
+1"
+#120000
+b11 !
+19
+1>
+0<
+11
+03
+0$
+1&
+#160000
+b111 !
+b101 !
+b100 !
+09
+07
+18
+0?
+1=
+1:
+0/
+02
+14
+1#
+0%
+0(
+#200000
+b101 !
+19
+0=
+1;
+0:
+1/
+00
+12
+1%
+0'
+1(
+#240000
+b111 !
+b110 !
+09
+17
+0>
+13
+1$
+#280000
+b111 !
+19
+1?
+1>
+1=
+0;
+0@
+05
+10
+02
+03
+04
+0#
+0$
+0%
+1'
+0"
+#320000
+b1111 !
+b1011 !
+b1001 !
+b1000 !
+09
+07
+08
+16
+0?
+0>
+0=
+1@
+15
+12
+13
+14
+1#
+1$
+1%
+1"
+#360000
+b1001 !
+19
+1>
+03
+0$
+#400000
+b1011 !
+b1010 !
+09
+17
+0>
+1=
+02
+13
+1$
+0%
+#440000
+b1011 !
+19
+0=
+1;
+1:
+0/
+00
+12
+1%
+0'
+0(
+#480000
+b1111 !
+b1101 !
+b1100 !
+09
+07
+18
+1<
+0:
+0@
+05
+1/
+01
+0&
+1(
+0"
+#520000
+b1101 !
+19
+1?
+0<
+0;
+1:
+1@
+15
+0/
+10
+11
+04
+0#
+1&
+1'
+0(
+1"
+#560000
+b1111 !
+b1110 !
+09
+17
+0?
+1<
+1;
+0:
+1/
+00
+01
+14
+1#
+0&
+0'
+1(
+#600000
+b1111 !
+19
+1=
+02
+0%
+#640000
+b111 !
+b11 !
+b1 !
+b0 !
+09
+07
+08
+06
+0=
+0<
+0;
+0@
+05
+10
+11
+12
+1%
+1&
+1'
+0"
+#680000
+b1 !
+19
+1?
+1>
+1=
+1:
+0/
+02
+03
+04
+0#
+0$
+0%
+0(
+#720000
+b11 !
+b10 !
+09
+17
+0>
+0=
+1<
+0:
+1@
+15
+1/
+01
+12
+13
+1$
+1%
+0&
+1(
+1"
+#760000
+b11 !
+19
+1>
+0<
+11
+03
+0$
+1&
+#800000
+b111 !
+b101 !
+b100 !
+09
+07
+18
+0?
+1=
+1:
+0/
+02
+14
+1#
+0%
+0(
+#840000
+b101 !
+19
+0=
+1;
+0:
+1/
+00
+12
+1%
+0'
+1(
+#880000
+b111 !
+b110 !
+09
+17
+0>
+13
+1$
+#920000
+b111 !
+19
+1?
+1>
+1=
+0;
+0@
+05
+10
+02
+03
+04
+0#
+0$
+0%
+1'
+0"
+#960000
+b1111 !
+b1011 !
+b1001 !
+b1000 !
+09
+07
+08
+16
+0?
+0>
+0=
+1@
+15
+12
+13
+14
+1#
+1$
+1%
+1"
+#1000000

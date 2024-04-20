@@ -1,0 +1,25 @@
+module lab2_1#(WIDTH = 2) (
+    input [WIDTH-1:0] a,
+    input [WIDTH-1:0] b,
+    input [WIDTH-1:0] c,
+    input [WIDTH-1:0] d,
+    output wire [WIDTH-1:0] maxRes
+);
+    wire [WIDTH-1:0] min1;
+    wire [WIDTH-1:0] min2;
+    wire [WIDTH-1:0] max1;
+    wire [WIDTH-1:0] max2;
+		
+	 // find max between a andn b
+    assign max1 = (a>b) ? a : b;
+	 // find max between c andn d
+    assign max2 = (c>d) ? c : d; 
+ 
+ 	 // find max between a andn b
+    assign min1 = (a>b) ? a : b;
+	 // find max between c andn d
+    assign min2 = (c>d) ? c : d; 
+ 
+    assign maxRes = (max1 > max2) ? max1 : max2;
+
+endmodule

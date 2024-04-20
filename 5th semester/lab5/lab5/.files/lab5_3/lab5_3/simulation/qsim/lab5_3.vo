@@ -1,0 +1,425 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
+
+// DATE "10/05/2023 11:44:12"
+
+// 
+// Device: Altera EP4CE6E22C8 Package TQFP144
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module lab5_3 (
+	clk,
+	sw,
+	q);
+input 	clk;
+input 	[7:0] sw;
+output 	[7:0] q;
+
+// Design Ports Information
+// q[0]	=>  Location: PIN_72,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// q[1]	=>  Location: PIN_71,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// q[2]	=>  Location: PIN_70,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// q[3]	=>  Location: PIN_69,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// q[4]	=>  Location: PIN_68,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// q[5]	=>  Location: PIN_67,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// q[6]	=>  Location: PIN_66,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// q[7]	=>  Location: PIN_65,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// clk	=>  Location: PIN_23,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// sw[4]	=>  Location: PIN_91,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: Default
+// sw[5]	=>  Location: PIN_90,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: Default
+// sw[6]	=>  Location: PIN_89,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: Default
+// sw[7]	=>  Location: PIN_88,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: Default
+// sw[0]	=>  Location: PIN_24,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: Default
+// sw[1]	=>  Location: PIN_25,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: Default
+// sw[2]	=>  Location: PIN_46,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: Default
+// sw[3]	=>  Location: PIN_49,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \q[0]~output_o ;
+wire \q[1]~output_o ;
+wire \q[2]~output_o ;
+wire \q[3]~output_o ;
+wire \q[4]~output_o ;
+wire \q[5]~output_o ;
+wire \q[6]~output_o ;
+wire \q[7]~output_o ;
+wire \clk~input_o ;
+wire \clk~inputclkctrl_outclk ;
+wire \sw[4]~input_o ;
+wire \sw[5]~input_o ;
+wire \sw[6]~input_o ;
+wire \sw[7]~input_o ;
+wire \sw[0]~input_o ;
+wire \sw[1]~input_o ;
+wire \sw[2]~input_o ;
+wire \sw[3]~input_o ;
+wire \lab5_2|rom_rtl_0|auto_generated|ram_block1a0~portadataout ;
+wire \lab5_2|rom_rtl_0|auto_generated|ram_block1a1 ;
+wire \lab5_2|rom_rtl_0|auto_generated|ram_block1a2 ;
+wire \lab5_2|rom_rtl_0|auto_generated|ram_block1a3 ;
+wire \lab5_2|rom_rtl_0|auto_generated|ram_block1a4 ;
+wire \lab5_2|rom_rtl_0|auto_generated|ram_block1a5 ;
+wire \lab5_2|rom_rtl_0|auto_generated|ram_block1a6 ;
+wire \lab5_2|rom_rtl_0|auto_generated|ram_block1a7 ;
+
+wire [17:0] \lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus ;
+
+assign \lab5_2|rom_rtl_0|auto_generated|ram_block1a0~portadataout  = \lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [0];
+assign \lab5_2|rom_rtl_0|auto_generated|ram_block1a1  = \lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [1];
+assign \lab5_2|rom_rtl_0|auto_generated|ram_block1a2  = \lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [2];
+assign \lab5_2|rom_rtl_0|auto_generated|ram_block1a3  = \lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [3];
+assign \lab5_2|rom_rtl_0|auto_generated|ram_block1a4  = \lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [4];
+assign \lab5_2|rom_rtl_0|auto_generated|ram_block1a5  = \lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [5];
+assign \lab5_2|rom_rtl_0|auto_generated|ram_block1a6  = \lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [6];
+assign \lab5_2|rom_rtl_0|auto_generated|ram_block1a7  = \lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [7];
+
+hard_block auto_generated_inst(
+	.devpor(devpor),
+	.devclrn(devclrn),
+	.devoe(devoe));
+
+// Location: IOOBUF_X32_Y0_N9
+cycloneive_io_obuf \q[0]~output (
+	.i(!\lab5_2|rom_rtl_0|auto_generated|ram_block1a0~portadataout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\q[0]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \q[0]~output .bus_hold = "false";
+defparam \q[0]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X32_Y0_N16
+cycloneive_io_obuf \q[1]~output (
+	.i(!\lab5_2|rom_rtl_0|auto_generated|ram_block1a1 ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\q[1]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \q[1]~output .bus_hold = "false";
+defparam \q[1]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X32_Y0_N23
+cycloneive_io_obuf \q[2]~output (
+	.i(!\lab5_2|rom_rtl_0|auto_generated|ram_block1a2 ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\q[2]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \q[2]~output .bus_hold = "false";
+defparam \q[2]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X30_Y0_N2
+cycloneive_io_obuf \q[3]~output (
+	.i(!\lab5_2|rom_rtl_0|auto_generated|ram_block1a3 ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\q[3]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \q[3]~output .bus_hold = "false";
+defparam \q[3]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X30_Y0_N9
+cycloneive_io_obuf \q[4]~output (
+	.i(!\lab5_2|rom_rtl_0|auto_generated|ram_block1a4 ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\q[4]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \q[4]~output .bus_hold = "false";
+defparam \q[4]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X30_Y0_N23
+cycloneive_io_obuf \q[5]~output (
+	.i(!\lab5_2|rom_rtl_0|auto_generated|ram_block1a5 ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\q[5]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \q[5]~output .bus_hold = "false";
+defparam \q[5]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X28_Y0_N2
+cycloneive_io_obuf \q[6]~output (
+	.i(!\lab5_2|rom_rtl_0|auto_generated|ram_block1a6 ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\q[6]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \q[6]~output .bus_hold = "false";
+defparam \q[6]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X28_Y0_N23
+cycloneive_io_obuf \q[7]~output (
+	.i(!\lab5_2|rom_rtl_0|auto_generated|ram_block1a7 ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\q[7]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \q[7]~output .bus_hold = "false";
+defparam \q[7]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y11_N8
+cycloneive_io_ibuf \clk~input (
+	.i(clk),
+	.ibar(gnd),
+	.o(\clk~input_o ));
+// synopsys translate_off
+defparam \clk~input .bus_hold = "false";
+defparam \clk~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: CLKCTRL_G2
+cycloneive_clkctrl \clk~inputclkctrl (
+	.ena(vcc),
+	.inclk({vcc,vcc,vcc,\clk~input_o }),
+	.clkselect(2'b00),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.outclk(\clk~inputclkctrl_outclk ));
+// synopsys translate_off
+defparam \clk~inputclkctrl .clock_type = "global clock";
+defparam \clk~inputclkctrl .ena_register_mode = "none";
+// synopsys translate_on
+
+// Location: IOIBUF_X34_Y12_N1
+cycloneive_io_ibuf \sw[4]~input (
+	.i(sw[4]),
+	.ibar(gnd),
+	.o(\sw[4]~input_o ));
+// synopsys translate_off
+defparam \sw[4]~input .bus_hold = "false";
+defparam \sw[4]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X34_Y12_N8
+cycloneive_io_ibuf \sw[5]~input (
+	.i(sw[5]),
+	.ibar(gnd),
+	.o(\sw[5]~input_o ));
+// synopsys translate_off
+defparam \sw[5]~input .bus_hold = "false";
+defparam \sw[5]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X34_Y12_N15
+cycloneive_io_ibuf \sw[6]~input (
+	.i(sw[6]),
+	.ibar(gnd),
+	.o(\sw[6]~input_o ));
+// synopsys translate_off
+defparam \sw[6]~input .bus_hold = "false";
+defparam \sw[6]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X34_Y12_N22
+cycloneive_io_ibuf \sw[7]~input (
+	.i(sw[7]),
+	.ibar(gnd),
+	.o(\sw[7]~input_o ));
+// synopsys translate_off
+defparam \sw[7]~input .bus_hold = "false";
+defparam \sw[7]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y11_N15
+cycloneive_io_ibuf \sw[0]~input (
+	.i(sw[0]),
+	.ibar(gnd),
+	.o(\sw[0]~input_o ));
+// synopsys translate_off
+defparam \sw[0]~input .bus_hold = "false";
+defparam \sw[0]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y11_N22
+cycloneive_io_ibuf \sw[1]~input (
+	.i(sw[1]),
+	.ibar(gnd),
+	.o(\sw[1]~input_o ));
+// synopsys translate_off
+defparam \sw[1]~input .bus_hold = "false";
+defparam \sw[1]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X7_Y0_N1
+cycloneive_io_ibuf \sw[2]~input (
+	.i(sw[2]),
+	.ibar(gnd),
+	.o(\sw[2]~input_o ));
+// synopsys translate_off
+defparam \sw[2]~input .bus_hold = "false";
+defparam \sw[2]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X13_Y0_N15
+cycloneive_io_ibuf \sw[3]~input (
+	.i(sw[3]),
+	.ibar(gnd),
+	.o(\sw[3]~input_o ));
+// synopsys translate_off
+defparam \sw[3]~input .bus_hold = "false";
+defparam \sw[3]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: M9K_X27_Y4_N0
+cycloneive_ram_block \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 (
+	.portawe(vcc),
+	.portare(vcc),
+	.portaaddrstall(gnd),
+	.portbwe(gnd),
+	.portbre(vcc),
+	.portbaddrstall(gnd),
+	.clk0(\clk~inputclkctrl_outclk ),
+	.clk1(gnd),
+	.ena0(vcc),
+	.ena1(vcc),
+	.ena2(vcc),
+	.ena3(vcc),
+	.clr0(gnd),
+	.clr1(gnd),
+	.portadatain(18'b000000000000000000),
+	.portaaddr({\sw[3]~input_o ,\sw[2]~input_o ,\sw[1]~input_o ,\sw[0]~input_o ,\sw[7]~input_o ,\sw[6]~input_o ,\sw[5]~input_o ,\sw[4]~input_o }),
+	.portabyteenamasks(1'b1),
+	.portbdatain(18'b000000000000000000),
+	.portbaddr(8'b00000000),
+	.portbbyteenamasks(1'b1),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.portadataout(\lab5_2|rom_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus ),
+	.portbdataout());
+// synopsys translate_off
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .data_interleave_offset_in_bits = 1;
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .data_interleave_width_in_bits = 1;
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .init_file = "db/lab5_3.ram0_lab5_2_9b0cac2c.hdl.mif";
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .init_file_layout = "port_a";
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .logical_ram_name = "lab5_2:lab5_2|altsyncram:rom_rtl_0|altsyncram_oh61:auto_generated|ALTSYNCRAM";
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .operation_mode = "rom";
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .port_a_address_clear = "none";
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .port_a_address_width = 8;
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .port_a_byte_enable_clock = "none";
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .port_a_data_out_clear = "none";
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .port_a_data_out_clock = "none";
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .port_a_data_width = 18;
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .port_a_first_address = 0;
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .port_a_first_bit_number = 0;
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .port_a_last_address = 255;
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .port_a_logical_ram_depth = 256;
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .port_a_logical_ram_width = 8;
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .port_a_read_during_write_mode = "new_data_with_nbe_read";
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .port_a_write_enable_clock = "none";
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .port_b_address_width = 8;
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .port_b_data_width = 18;
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .ram_block_type = "M9K";
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .mem_init2 = 512'h0038400D20030C00B40029400960021C0078001A4005A0012C003C000B4001E0003C00000034800C4002D800A800268008C001F8007000188005400118003800;
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .mem_init1 = 2048'h0A8001C0003800000030C00B6002A4009C0023C0082001D400680016C004E0010400340009C001A000340000002D000A8002700090002100078001B00060001500048000F0003000090001800030000000294009A0023C0084001E4006E0018C0058001340042000DC002C0008400160002C000000258008C002080078001B8006400168005000118003C000C800280007800140002800000021C007E001D4006C0018C005A001440048000FC0036000B400240006C0012000240000001E00070001A00060001600050001200040000E00030000A00020000600010000200000001A400620016C0054001340046000FC0038000C4002A0008C001C00054000E0;
+defparam \lab5_2|rom_rtl_0|auto_generated|ram_block1a0 .mem_init0 = 2048'h001C000000168005400138004800108003C000D80030000A8002400078001800048000C0001800000012C004600104003C000DC0032000B400280008C001E0006400140003C000A000140000000F00038000D00030000B00028000900020000700018000500010000300008000100000000B4002A0009C002400084001E0006C00180005400120003C000C0002400060000C000000078001C00068001800058001400048001000038000C0002800080001800040000800000003C000E00034000C0002C000A0002400080001C00060001400040000C0002000040000000000000000000000000000000000000000000000000000000000000000000000000000;
+// synopsys translate_on
+
+assign q[0] = \q[0]~output_o ;
+
+assign q[1] = \q[1]~output_o ;
+
+assign q[2] = \q[2]~output_o ;
+
+assign q[3] = \q[3]~output_o ;
+
+assign q[4] = \q[4]~output_o ;
+
+assign q[5] = \q[5]~output_o ;
+
+assign q[6] = \q[6]~output_o ;
+
+assign q[7] = \q[7]~output_o ;
+
+endmodule
+
+module hard_block (
+
+	devpor,
+	devclrn,
+	devoe);
+
+// Design Ports Information
+// ~ALTERA_ASDO_DATA1~	=>  Location: PIN_6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ~ALTERA_FLASH_nCE_nCSO~	=>  Location: PIN_8,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ~ALTERA_DCLK~	=>  Location: PIN_12,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ~ALTERA_DATA0~	=>  Location: PIN_13,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ~ALTERA_nCEO~	=>  Location: PIN_101,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 8mA
+
+input 	devpor;
+input 	devclrn;
+input 	devoe;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+wire \~ALTERA_ASDO_DATA1~~padout ;
+wire \~ALTERA_FLASH_nCE_nCSO~~padout ;
+wire \~ALTERA_DATA0~~padout ;
+wire \~ALTERA_ASDO_DATA1~~ibuf_o ;
+wire \~ALTERA_FLASH_nCE_nCSO~~ibuf_o ;
+wire \~ALTERA_DATA0~~ibuf_o ;
+
+
+endmodule

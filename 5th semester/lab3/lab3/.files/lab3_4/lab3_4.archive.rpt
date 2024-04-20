@@ -1,0 +1,107 @@
+Archive Project report for lab3_4
+Sun Apr 21 00:39:59 2024
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Sun Apr 21 00:39:59 2024 ;
+; Revision Name          ; lab3_4                                ;
+; Top-level Entity Name  ; lab3_4                                ;
+; Family                 ; Cyclone IV E                          ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Critical Warning: Analysis & Elaboration was not run successfully.
+    Critical Warning: The 'Automatically detected source files' file subset will attempt to guess which files are needed. The archive file will likely be larger than required and may still be incomplete.
+Warning (225010): Analysis was not performed on the current project. The Quartus Prime software may not be able to automatically locate all project files.
+Info: Parsing: ../lab3_2/lab3_2.v
+Info: Parsing: ../lab3_3/lab3_3.v
+Info: Parsing: lab3_4.v
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_4/lab3_4.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'lab3_4.archive.rpt'
+Error (23031): Evaluation of Tcl script d:/intelfpga/18.1/quartuslitesetup/quartus/common/tcl/apps/qpm/qar.tcl unsuccessful
+Error: Quartus Prime Shell was unsuccessful. 4 errors, 9 warnings
+    Error: Peak virtual memory: 4829 megabytes
+    Error: Processing ended: Sun Apr 21 00:39:59 2024
+    Error: Elapsed time: 00:00:07
+    Error: Total CPU time (on all processors): 00:00:05
+
+
++------------------------------------------------------------------------------------------+
+; Files Archived                                                                           ;
++------------------------------------------------------------------------------------------+
+; File Name                                                                                ;
++------------------------------------------------------------------------------------------+
+; ../lab3_2/lab3_2.v                                                                       ;
+; ../lab3_3/lab3_3.v                                                                       ;
+; d:/intelfpga/18.1/quartuslitesetup/quartus/bin64/assignment_defaults.qdf                 ;
+; D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_2/lab3_2.v ;
+; D:/Users/Legion/Quartus and Verilog/Verilog/Third year/5th semester/lab3/lab3_3/lab3_3.v ;
+; lab3_4.qpf                                                                               ;
+; lab3_4.qsf                                                                               ;
+; lab3_4.v                                                                                 ;
+; lab3_4_assignment_defaults.qdf                                                           ;
+; output_files/Chain1.cdf                                                                  ;
+; output_files/lab3_4.asm.rpt                                                              ;
+; output_files/lab3_4.done                                                                 ;
+; output_files/lab3_4.eda.rpt                                                              ;
+; output_files/lab3_4.fit.rpt                                                              ;
+; output_files/lab3_4.fit.smsg                                                             ;
+; output_files/lab3_4.fit.summary                                                          ;
+; output_files/lab3_4.flow.rpt                                                             ;
+; output_files/lab3_4.jdi                                                                  ;
+; output_files/lab3_4.map.rpt                                                              ;
+; output_files/lab3_4.map.summary                                                          ;
+; output_files/lab3_4.pin                                                                  ;
+; output_files/lab3_4.sld                                                                  ;
+; output_files/lab3_4.sof                                                                  ;
+; output_files/lab3_4.sta.rpt                                                              ;
+; output_files/lab3_4.sta.summary                                                          ;
+; Waveform.vwf                                                                             ;
++------------------------------------------------------------------------------------------+
+
+
