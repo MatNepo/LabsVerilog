@@ -1,0 +1,15 @@
+{D:/Users/Legion/Quartus/Works_Verilog/Third year/5th semester/lab8/test_1/lab5_1.sv} {1 {vlog -work work -sv -stats=none {D:/Users/Legion/Quartus/Works_Verilog/Third year/5th semester/lab8/test_1/lab5_1.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab5_1
+
+Top level modules:
+	lab5_1
+
+} {} {}} {D:/Users/Legion/Quartus/Works_Verilog/Third year/5th semester/lab8/test_1/lab5_1_tb.sv} {1 {vlog -work work -sv -stats=none {D:/Users/Legion/Quartus/Works_Verilog/Third year/5th semester/lab8/test_1/lab5_1_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab5_1_tb
+
+Top level modules:
+	lab5_1_tb
+
+} {} {}}

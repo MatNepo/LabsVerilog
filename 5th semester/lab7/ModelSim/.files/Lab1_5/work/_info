@@ -1,0 +1,93 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intel_trn/ModelSim/Lab1_5
+v\dp_syn_ram-rtl 
+Z1 !s110 1697630440
+!i10b 1
+!s100 2ThSRJVBjV^8M2_g06`e`1
+IEcNG<aUYM_YdJ=C@Qcneo3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1697576042
+8dp_syn_ram.v
+Fdp_syn_ram.v
+L0 9
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1697630440.000000
+Z6 !s107 sp_syn_ram.v|ram_tb.v|dp_syn_ram.v|
+Z7 !s90 -reportprogress|300|dp_syn_ram.v|ram_tb.v|sp_syn_ram.v|
+!i113 1
+Z8 tCvgOpt 0
+n@134dp_syn_ram-rtl@040
+v\sp_syn_ram-3D 
+R1
+!i10b 1
+!s100 87QjUac]k313]F9DkCOB<3
+IffzP_eC0X`UzXh4Pkcd[A0
+R2
+R0
+R3
+Z9 8sp_syn_ram.v
+Z10 Fsp_syn_ram.v
+L0 34
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@134sp_syn_ram-3@d@040
+v\sp_syn_ram-rtl 
+R1
+!i10b 1
+!s100 4]l54@`2>@7<d^hF:ilSz0
+IBO355oj_a`D2MjbRf^C^I0
+R2
+R0
+R3
+R9
+R10
+L0 9
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@134sp_syn_ram-rtl@040
+vram_tb
+R1
+!i10b 1
+!s100 `KgS]jFdSP9ZSRP79GnD@3
+Ib8JIQe50185cRO6KQh<Ei3
+R2
+R0
+R3
+8ram_tb.v
+Fram_tb.v
+L0 11
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8

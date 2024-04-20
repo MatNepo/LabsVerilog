@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/intelFPGA/18.1
+vcounter
+Z0 !s110 1697593567
+!i10b 1
+!s100 3?F0KzONgd6z;R5k_6e9f0
+IBP^Bc=l<:zcllknJAC8BR1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/intel_trn/ModelSim/Lab1_2
+Z3 w1697576042
+8D:\intel_trn\ModelSim\Lab1_2\counter.v
+FD:\intel_trn\ModelSim\Lab1_2\counter.v
+Z4 L0 10
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1697593567.000000
+!s107 D:\intel_trn\ModelSim\Lab1_2\counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\intel_trn\ModelSim\Lab1_2\counter.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vtest_counter
+R0
+!i10b 1
+!s100 W1XRSIW<YX:kRUTWR:NVX3
+IhMDU^YCH]RjLeX^YMNVA=1
+R1
+R2
+R3
+8D:/intel_trn/ModelSim/Lab1_2/tcounter.v
+FD:/intel_trn/ModelSim/Lab1_2/tcounter.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/intel_trn/ModelSim/Lab1_2/tcounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intel_trn/ModelSim/Lab1_2/tcounter.v|
+!i113 1
+R7
+R8

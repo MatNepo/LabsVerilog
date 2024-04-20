@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/intel_trn/ModelSim/Lab1_3/resource_library
+vtest_counter
+!s110 1697598205
+!i10b 1
+!s100 4>j3>?KiNN^B3GYj>G^D<0
+I8cI[08^?cjhNJj884@eAm1
+VDg1SIo80bB@j0V0VzS_@n1
+dD:/intel_trn/ModelSim/Lab1_3/testbench
+w1697576042
+8D:/intel_trn/ModelSim/Lab1_3/testbench/tcounter.v
+FD:/intel_trn/ModelSim/Lab1_3/testbench/tcounter.v
+L0 11
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1697598205.000000
+!s107 D:/intel_trn/ModelSim/Lab1_3/testbench/tcounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intel_trn/ModelSim/Lab1_3/testbench/tcounter.v|
+!i113 1
+o-work work
+tCvgOpt 0

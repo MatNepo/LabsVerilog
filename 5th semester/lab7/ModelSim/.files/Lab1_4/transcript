@@ -1,0 +1,8 @@
+# vsim -c -do "sim.do" counter -wlf counter.wlf 
+# Start time: 07:22:21 on Oct 18,2023
+# Loading work.counter
+# do sim.do
+# Reset OK. COUNT is 0.
+# Test passed. COUNT is 100.
+# End time: 07:22:22 on Oct 18,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
