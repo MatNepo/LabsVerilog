@@ -1,0 +1,666 @@
+Analysis & Synthesis report for lab_3s_real
+Thu Nov 23 10:49:07 2023
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Analysis & Synthesis RAM Summary
+  9. State Machine - |lab_3s|ss_cntr:UUT0|FSM:FSM|state
+ 10. Registers Removed During Synthesis
+ 11. Removed Registers Triggering Further Register Optimizations
+ 12. General Register Statistics
+ 13. Registers Packed Into Inferred Megafunctions
+ 14. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 15. Source assignments for Top-level Entity: |lab_3s
+ 16. Source assignments for b2bd_ROM:UUT_ROM|altsyncram:bd_ROM_rtl_0|altsyncram_2671:auto_generated
+ 17. Parameter Settings for User Entity Instance: ss_cntr:UUT0
+ 18. Parameter Settings for User Entity Instance: ss_cntr:UUT0|cnt_div:cnt_div
+ 19. Parameter Settings for User Entity Instance: ss_cntr:UUT0|FSM:FSM
+ 20. Parameter Settings for User Entity Instance: ss_cntr:UUT0|MUX:MUX2
+ 21. Parameter Settings for Inferred Entity Instance: b2bd_ROM:UUT_ROM|altsyncram:bd_ROM_rtl_0
+ 22. altsyncram Parameter Settings by Entity Instance
+ 23. Port Connectivity Checks: "ss_cntr:UUT0"
+ 24. Post-Synthesis Netlist Statistics for Top Partition
+ 25. Elapsed Time Per Partition
+ 26. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Thu Nov 23 10:49:07 2023       ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                      ; lab_3s_real                                 ;
+; Top-level Entity Name              ; lab_3s                                      ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; 93                                          ;
+;     Total combinational functions  ; 68                                          ;
+;     Dedicated logic registers      ; 68                                          ;
+; Total registers                    ; 68                                          ;
+; Total pins                         ; 20                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 3,072                                       ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; EP4CE6E22C8        ;                    ;
+; Top-level entity name                                            ; lab_3s             ; lab_3s_real        ;
+; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 32          ;
+; Maximum allowed            ; 16          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 16          ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-16        ;   0.0%      ;
++----------------------------+-------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                            ;
++----------------------------------------------+-----------------+-------------------------------------------------------+----------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path             ; Used in Netlist ; File Type                                             ; File Name with Absolute Path                                                                                   ; Library ;
++----------------------------------------------+-----------------+-------------------------------------------------------+----------------------------------------------------------------------------------------------------------------+---------+
+; lab_3s.sv                                    ; yes             ; User SystemVerilog HDL File                           ; C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_3s.sv                                    ;         ;
+; b2bd_ROM.sv                                  ; yes             ; User SystemVerilog HDL File                           ; C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/b2bd_ROM.sv                                  ;         ;
+; ss_cntr.sv                                   ; yes             ; Auto-Found SystemVerilog HDL File                     ; C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/ss_cntr.sv                            ;         ;
+; rst_rg.sv                                    ; yes             ; Auto-Found SystemVerilog HDL File                     ; C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/rst_rg.sv                             ;         ;
+; cnt_div.sv                                   ; yes             ; Auto-Found SystemVerilog HDL File                     ; C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/cnt_div.sv                            ;         ;
+; d_rg.sv                                      ; yes             ; Auto-Found SystemVerilog HDL File                     ; C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/d_rg.sv                               ;         ;
+; fsm.sv                                       ; yes             ; Auto-Found SystemVerilog HDL File                     ; C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/fsm.sv                                ;         ;
+; mux.sv                                       ; yes             ; Auto-Found SystemVerilog HDL File                     ; C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/mux.sv                                ;         ;
+; b2ss.sv                                      ; yes             ; Auto-Found SystemVerilog HDL File                     ; C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/b2ss.sv                               ;         ;
+; ss_rg.sv                                     ; yes             ; Auto-Found SystemVerilog HDL File                     ; C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/ss_rg.sv                              ;         ;
+; dig_rg.sv                                    ; yes             ; Auto-Found SystemVerilog HDL File                     ; C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/dig_rg.sv                             ;         ;
+; altsyncram.tdf                               ; yes             ; Megafunction                                          ; d:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf                                          ;         ;
+; stratix_ram_block.inc                        ; yes             ; Megafunction                                          ; d:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc                                   ;         ;
+; lpm_mux.inc                                  ; yes             ; Megafunction                                          ; d:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.inc                                             ;         ;
+; lpm_decode.inc                               ; yes             ; Megafunction                                          ; d:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_decode.inc                                          ;         ;
+; aglobal181.inc                               ; yes             ; Megafunction                                          ; d:/intelfpga_lite/18.1/quartus/libraries/megafunctions/aglobal181.inc                                          ;         ;
+; a_rdenreg.inc                                ; yes             ; Megafunction                                          ; d:/intelfpga_lite/18.1/quartus/libraries/megafunctions/a_rdenreg.inc                                           ;         ;
+; altrom.inc                                   ; yes             ; Megafunction                                          ; d:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altrom.inc                                              ;         ;
+; altram.inc                                   ; yes             ; Megafunction                                          ; d:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altram.inc                                              ;         ;
+; altdpram.inc                                 ; yes             ; Megafunction                                          ; d:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altdpram.inc                                            ;         ;
+; db/altsyncram_2671.tdf                       ; yes             ; Auto-Generated Megafunction                           ; C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/db/altsyncram_2671.tdf                       ;         ;
+; db/lab_3s_real.ram0_b2bd_ROM_e400703.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/db/lab_3s_real.ram0_b2bd_ROM_e400703.hdl.mif ;         ;
++----------------------------------------------+-----------------+-------------------------------------------------------+----------------------------------------------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimated Total logic elements              ; 93        ;
+;                                             ;           ;
+; Total combinational functions               ; 68        ;
+; Logic element usage by number of LUT inputs ;           ;
+;     -- 4 input functions                    ; 25        ;
+;     -- 3 input functions                    ; 5         ;
+;     -- <=2 input functions                  ; 38        ;
+;                                             ;           ;
+; Logic elements by mode                      ;           ;
+;     -- normal mode                          ; 37        ;
+;     -- arithmetic mode                      ; 31        ;
+;                                             ;           ;
+; Total registers                             ; 68        ;
+;     -- Dedicated logic registers            ; 68        ;
+;     -- I/O registers                        ; 0         ;
+;                                             ;           ;
+; I/O pins                                    ; 20        ;
+; Total memory bits                           ; 3072      ;
+;                                             ;           ;
+; Embedded Multiplier 9-bit elements          ; 0         ;
+;                                             ;           ;
+; Maximum fan-out node                        ; clk~input ;
+; Maximum fan-out                             ; 80        ;
+; Total fan-out                               ; 466       ;
+; Average fan-out                             ; 2.48      ;
++---------------------------------------------+-----------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                     ;
++-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------+-----------------+--------------+
+; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                             ; Entity Name     ; Library Name ;
++-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------+-----------------+--------------+
+; |lab_3s                                   ; 68 (0)              ; 68 (0)                    ; 3072        ; 0            ; 0       ; 0         ; 20   ; 0            ; |lab_3s                                                                         ; lab_3s          ; work         ;
+;    |b2bd_ROM:UUT_ROM|                     ; 0 (0)               ; 8 (8)                     ; 3072        ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab_3s|b2bd_ROM:UUT_ROM                                                        ; b2bd_ROM        ; work         ;
+;       |altsyncram:bd_ROM_rtl_0|           ; 0 (0)               ; 0 (0)                     ; 3072        ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab_3s|b2bd_ROM:UUT_ROM|altsyncram:bd_ROM_rtl_0                                ; altsyncram      ; work         ;
+;          |altsyncram_2671:auto_generated| ; 0 (0)               ; 0 (0)                     ; 3072        ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab_3s|b2bd_ROM:UUT_ROM|altsyncram:bd_ROM_rtl_0|altsyncram_2671:auto_generated ; altsyncram_2671 ; work         ;
+;    |ss_cntr:UUT0|                         ; 68 (0)              ; 60 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab_3s|ss_cntr:UUT0                                                            ; ss_cntr         ; work         ;
+;       |FSM:FSM|                           ; 4 (4)               ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab_3s|ss_cntr:UUT0|FSM:FSM                                                    ; FSM             ; work         ;
+;       |MUX:MUX2|                          ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab_3s|ss_cntr:UUT0|MUX:MUX2                                                   ; MUX             ; work         ;
+;       |b2ss:b2ss|                         ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab_3s|ss_cntr:UUT0|b2ss:b2ss                                                  ; b2ss            ; work         ;
+;       |cnt_div:cnt_div|                   ; 48 (48)             ; 33 (33)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab_3s|ss_cntr:UUT0|cnt_div:cnt_div                                            ; cnt_div         ; work         ;
+;       |d_rg:d_rg|                         ; 0 (0)               ; 12 (12)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab_3s|ss_cntr:UUT0|d_rg:d_rg                                                  ; d_rg            ; work         ;
+;       |dig_rg:dig_rg|                     ; 1 (1)               ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab_3s|ss_cntr:UUT0|dig_rg:dig_rg                                              ; dig_rg          ; work         ;
+;       |ss_rg:ss_rg|                       ; 0 (0)               ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab_3s|ss_cntr:UUT0|ss_rg:ss_rg                                                ; ss_rg           ; work         ;
++-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------+-----------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                                                   ;
++------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+------+----------------------------------------------+
+; Name                                                                               ; Type ; Mode ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size ; MIF                                          ;
++------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+------+----------------------------------------------+
+; b2bd_ROM:UUT_ROM|altsyncram:bd_ROM_rtl_0|altsyncram_2671:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; 256          ; 12           ; --           ; --           ; 3072 ; db/lab_3s_real.ram0_b2bd_ROM_e400703.hdl.mif ;
++------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+------+----------------------------------------------+
+
+
+Encoding Type:  One-Hot
++------------------------------------------------------+
+; State Machine - |lab_3s|ss_cntr:UUT0|FSM:FSM|state   ;
++----------+----------+----------+----------+----------+
+; Name     ; state.S3 ; state.S2 ; state.S1 ; state.S0 ;
++----------+----------+----------+----------+----------+
+; state.S0 ; 0        ; 0        ; 0        ; 0        ;
+; state.S1 ; 0        ; 0        ; 1        ; 1        ;
+; state.S2 ; 0        ; 1        ; 0        ; 1        ;
+; state.S3 ; 1        ; 0        ; 0        ; 1        ;
++----------+----------+----------+----------+----------+
+
+
++--------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                             ;
++---------------------------------------+----------------------------------------+
+; Register name                         ; Reason for Removal                     ;
++---------------------------------------+----------------------------------------+
+; ss_cntr:UUT0|d_rg:d_rg|Ai[0..3]       ; Stuck at GND due to stuck port data_in ;
+; ss_cntr:UUT0|rst_rg:rst_rg|rst_temp   ; Stuck at VCC due to stuck port data_in ;
+; ss_cntr:UUT0|rst_rg:rst_rg|rst_n_i    ; Stuck at VCC due to stuck port data_in ;
+; ss_cntr:UUT0|FSM:FSM|state~4          ; Lost fanout                            ;
+; ss_cntr:UUT0|FSM:FSM|state~5          ; Lost fanout                            ;
+; Total Number of Removed Registers = 8 ;                                        ;
++---------------------------------------+----------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                              ;
++-------------------------------------+---------------------------+----------------------------------------+
+; Register name                       ; Reason for Removal        ; Registers Removed due to This Register ;
++-------------------------------------+---------------------------+----------------------------------------+
+; ss_cntr:UUT0|rst_rg:rst_rg|rst_temp ; Stuck at VCC              ; ss_cntr:UUT0|rst_rg:rst_rg|rst_n_i     ;
+;                                     ; due to stuck port data_in ;                                        ;
++-------------------------------------+---------------------------+----------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 68    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 4     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++--------------------------------------------------------------------+
+; Registers Packed Into Inferred Megafunctions                       ;
++-----------------------------+-------------------------------+------+
+; Register Name               ; Megafunction                  ; Type ;
++-----------------------------+-------------------------------+------+
+; b2bd_ROM:UUT_ROM|bdc[0..11] ; b2bd_ROM:UUT_ROM|bd_ROM_rtl_0 ; RAM  ;
++-----------------------------+-------------------------------+------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output         ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------+
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |lab_3s|ss_cntr:UUT0|MUX:MUX2|Mux3 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------+
+
+
++--------------------------------------------------+
+; Source assignments for Top-level Entity: |lab_3s ;
++-------------+--------------+------+--------------+
+; Assignment  ; Value        ; From ; To           ;
++-------------+--------------+------+--------------+
+; LOCATION    ; Pin_88       ; -    ; bc[7]        ;
+; LOCATION    ; Pin_89       ; -    ; bc[6]        ;
+; LOCATION    ; Pin_90       ; -    ; bc[5]        ;
+; LOCATION    ; Pin_91       ; -    ; bc[4]        ;
+; LOCATION    ; Pin_49       ; -    ; bc[3]        ;
+; LOCATION    ; Pin_46       ; -    ; bc[2]        ;
+; LOCATION    ; Pin_25       ; -    ; bc[1]        ;
+; LOCATION    ; Pin_24       ; -    ; bc[0]        ;
+; LOCATION    ; Pin_84       ; -    ; ss[6]        ;
+; LOCATION    ; Pin_76       ; -    ; ss[5]        ;
+; LOCATION    ; Pin_85       ; -    ; ss[4]        ;
+; LOCATION    ; Pin_77       ; -    ; ss[3]        ;
+; LOCATION    ; Pin_86       ; -    ; ss[2]        ;
+; LOCATION    ; Pin_133      ; -    ; ss[1]        ;
+; LOCATION    ; Pin_87       ; -    ; ss[0]        ;
+; LOCATION    ; Pin_73       ; -    ; dig[4]       ;
+; LOCATION    ; Pin_80       ; -    ; dig[3]       ;
+; LOCATION    ; Pin_74       ; -    ; dig[2]       ;
+; LOCATION    ; Pin_83       ; -    ; dig[1]       ;
+; IO_STANDARD ; 3.3-V LVCMOS ; -    ; clk          ;
+; LOCATION    ; Pin_23       ; -    ; clk          ;
+; IO_STANDARD ; 3.3-V LVCMOS ; -    ; bc[7]        ;
+; IO_STANDARD ; 3.3-V LVCMOS ; -    ; bc[6]        ;
+; IO_STANDARD ; 3.3-V LVCMOS ; -    ; bc[5]        ;
+; IO_STANDARD ; 3.3-V LVCMOS ; -    ; bc[4]        ;
+; IO_STANDARD ; 3.3-V LVCMOS ; -    ; bc[3]        ;
+; IO_STANDARD ; 3.3-V LVCMOS ; -    ; bc[2]        ;
+; IO_STANDARD ; 3.3-V LVCMOS ; -    ; bc[1]        ;
+; IO_STANDARD ; 3.3-V LVCMOS ; -    ; bc[0]        ;
+; IO_STANDARD ; 3.3-V LVCMOS ; -    ; ss[6]        ;
+; IO_STANDARD ; 3.3-V LVCMOS ; -    ; ss[5]        ;
+; IO_STANDARD ; 3.3-V LVCMOS ; -    ; ss[4]        ;
+; IO_STANDARD ; 3.3-V LVCMOS ; -    ; ss[3]        ;
+; IO_STANDARD ; 3.3-V LVCMOS ; -    ; ss[2]        ;
+; IO_STANDARD ; 3.3-V LVCMOS ; -    ; ss[1]        ;
+; IO_STANDARD ; 3.3-V LVCMOS ; -    ; ss[0]        ;
+; IO_STANDARD ; 3.3-V LVCMOS ; -    ; dig[4]       ;
+; IO_STANDARD ; 3.3-V LVCMOS ; -    ; dig[3]       ;
+; IO_STANDARD ; 3.3-V LVCMOS ; -    ; dig[2]       ;
+; IO_STANDARD ; 3.3-V LVCMOS ; -    ; dig[1]       ;
++-------------+--------------+------+--------------+
+
+
++------------------------------------------------------------------------------------------------+
+; Source assignments for b2bd_ROM:UUT_ROM|altsyncram:bd_ROM_rtl_0|altsyncram_2671:auto_generated ;
++---------------------------------+--------------------+------+----------------------------------+
+; Assignment                      ; Value              ; From ; To                               ;
++---------------------------------+--------------------+------+----------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                ;
++---------------------------------+--------------------+------+----------------------------------+
+
+
++-----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ss_cntr:UUT0 ;
++----------------+-------+----------------------------------+
+; Parameter Name ; Value ; Type                             ;
++----------------+-------+----------------------------------+
+; divider        ; 10000 ; Signed Integer                   ;
++----------------+-------+----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ss_cntr:UUT0|cnt_div:cnt_div ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; N              ; 10000 ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ss_cntr:UUT0|FSM:FSM ;
++----------------+-------+------------------------------------------+
+; Parameter Name ; Value ; Type                                     ;
++----------------+-------+------------------------------------------+
+; S0             ; 0     ; Signed Integer                           ;
+; S1             ; 1     ; Signed Integer                           ;
+; S2             ; 2     ; Signed Integer                           ;
+; S3             ; 3     ; Signed Integer                           ;
++----------------+-------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ss_cntr:UUT0|MUX:MUX2 ;
++----------------+-------+-------------------------------------------+
+; Parameter Name ; Value ; Type                                      ;
++----------------+-------+-------------------------------------------+
+; N              ; 4     ; Signed Integer                            ;
++----------------+-------+-------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: b2bd_ROM:UUT_ROM|altsyncram:bd_ROM_rtl_0          ;
++------------------------------------+----------------------------------------------+----------------+
+; Parameter Name                     ; Value                                        ; Type           ;
++------------------------------------+----------------------------------------------+----------------+
+; BYTE_SIZE_BLOCK                    ; 8                                            ; Untyped        ;
+; AUTO_CARRY_CHAINS                  ; ON                                           ; AUTO_CARRY     ;
+; IGNORE_CARRY_BUFFERS               ; OFF                                          ; IGNORE_CARRY   ;
+; AUTO_CASCADE_CHAINS                ; ON                                           ; AUTO_CASCADE   ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                                          ; IGNORE_CASCADE ;
+; WIDTH_BYTEENA                      ; 1                                            ; Untyped        ;
+; OPERATION_MODE                     ; ROM                                          ; Untyped        ;
+; WIDTH_A                            ; 12                                           ; Untyped        ;
+; WIDTHAD_A                          ; 8                                            ; Untyped        ;
+; NUMWORDS_A                         ; 256                                          ; Untyped        ;
+; OUTDATA_REG_A                      ; UNREGISTERED                                 ; Untyped        ;
+; ADDRESS_ACLR_A                     ; NONE                                         ; Untyped        ;
+; OUTDATA_ACLR_A                     ; NONE                                         ; Untyped        ;
+; WRCONTROL_ACLR_A                   ; NONE                                         ; Untyped        ;
+; INDATA_ACLR_A                      ; NONE                                         ; Untyped        ;
+; BYTEENA_ACLR_A                     ; NONE                                         ; Untyped        ;
+; WIDTH_B                            ; 1                                            ; Untyped        ;
+; WIDTHAD_B                          ; 1                                            ; Untyped        ;
+; NUMWORDS_B                         ; 1                                            ; Untyped        ;
+; INDATA_REG_B                       ; CLOCK1                                       ; Untyped        ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1                                       ; Untyped        ;
+; RDCONTROL_REG_B                    ; CLOCK1                                       ; Untyped        ;
+; ADDRESS_REG_B                      ; CLOCK1                                       ; Untyped        ;
+; OUTDATA_REG_B                      ; UNREGISTERED                                 ; Untyped        ;
+; BYTEENA_REG_B                      ; CLOCK1                                       ; Untyped        ;
+; INDATA_ACLR_B                      ; NONE                                         ; Untyped        ;
+; WRCONTROL_ACLR_B                   ; NONE                                         ; Untyped        ;
+; ADDRESS_ACLR_B                     ; NONE                                         ; Untyped        ;
+; OUTDATA_ACLR_B                     ; NONE                                         ; Untyped        ;
+; RDCONTROL_ACLR_B                   ; NONE                                         ; Untyped        ;
+; BYTEENA_ACLR_B                     ; NONE                                         ; Untyped        ;
+; WIDTH_BYTEENA_A                    ; 1                                            ; Untyped        ;
+; WIDTH_BYTEENA_B                    ; 1                                            ; Untyped        ;
+; RAM_BLOCK_TYPE                     ; AUTO                                         ; Untyped        ;
+; BYTE_SIZE                          ; 8                                            ; Untyped        ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                    ; Untyped        ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ                         ; Untyped        ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ                         ; Untyped        ;
+; INIT_FILE                          ; db/lab_3s_real.ram0_b2bd_ROM_e400703.hdl.mif ; Untyped        ;
+; INIT_FILE_LAYOUT                   ; PORT_A                                       ; Untyped        ;
+; MAXIMUM_DEPTH                      ; 0                                            ; Untyped        ;
+; CLOCK_ENABLE_INPUT_A               ; NORMAL                                       ; Untyped        ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL                                       ; Untyped        ;
+; CLOCK_ENABLE_OUTPUT_A              ; NORMAL                                       ; Untyped        ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL                                       ; Untyped        ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN                              ; Untyped        ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN                              ; Untyped        ;
+; ENABLE_ECC                         ; FALSE                                        ; Untyped        ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                                        ; Untyped        ;
+; WIDTH_ECCSTATUS                    ; 3                                            ; Untyped        ;
+; DEVICE_FAMILY                      ; Cyclone IV E                                 ; Untyped        ;
+; CBXI_PARAMETER                     ; altsyncram_2671                              ; Untyped        ;
++------------------------------------+----------------------------------------------+----------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------+
+; altsyncram Parameter Settings by Entity Instance                                     ;
++-------------------------------------------+------------------------------------------+
+; Name                                      ; Value                                    ;
++-------------------------------------------+------------------------------------------+
+; Number of entity instances                ; 1                                        ;
+; Entity Instance                           ; b2bd_ROM:UUT_ROM|altsyncram:bd_ROM_rtl_0 ;
+;     -- OPERATION_MODE                     ; ROM                                      ;
+;     -- WIDTH_A                            ; 12                                       ;
+;     -- NUMWORDS_A                         ; 256                                      ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                             ;
+;     -- WIDTH_B                            ; 1                                        ;
+;     -- NUMWORDS_B                         ; 1                                        ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                   ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                             ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                     ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                ;
++-------------------------------------------+------------------------------------------+
+
+
++------------------------------------------+
+; Port Connectivity Checks: "ss_cntr:UUT0" ;
++-------+-------+----------+---------------+
+; Port  ; Type  ; Severity ; Details       ;
++-------+-------+----------+---------------+
+; rst_n ; Input ; Info     ; Stuck at VCC  ;
+; A     ; Input ; Info     ; Stuck at GND  ;
++-------+-------+----------+---------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 20                          ;
+; cycloneiii_ff         ; 68                          ;
+;     ENA               ; 4                           ;
+;     plain             ; 64                          ;
+; cycloneiii_lcell_comb ; 68                          ;
+;     arith             ; 31                          ;
+;         2 data inputs ; 31                          ;
+;     normal            ; 37                          ;
+;         1 data inputs ; 4                           ;
+;         2 data inputs ; 3                           ;
+;         3 data inputs ; 5                           ;
+;         4 data inputs ; 25                          ;
+; cycloneiii_ram_block  ; 12                          ;
+;                       ;                             ;
+; Max LUT depth         ; 4.10                        ;
+; Average LUT depth     ; 2.44                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Thu Nov 23 10:48:56 2023
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab_3s_real -c lab_3s_real
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 16 of the 32 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file lab_3s.sv
+    Info (12023): Found entity 1: lab_3s File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_3s.sv Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file b2bd_sr.sv
+    Info (12023): Found entity 1: b2bd_SR File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/b2bd_SR.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file b2bd_rom.sv
+    Info (12023): Found entity 1: b2bd_ROM File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/b2bd_ROM.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file b2bd_logt.sv
+    Info (12023): Found entity 1: b2bd_LOGt File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/b2bd_LOGt.sv Line: 1
+Info (12127): Elaborating entity "lab_3s" for the top level hierarchy
+Warning (12125): Using design file lab_2s/ss_cntr.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: ss_cntr File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/ss_cntr.sv Line: 1
+Info (12128): Elaborating entity "ss_cntr" for hierarchy "ss_cntr:UUT0" File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_3s.sv Line: 24
+Warning (12125): Using design file lab_2s/rst_rg.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: rst_rg File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/rst_rg.sv Line: 1
+Info (12128): Elaborating entity "rst_rg" for hierarchy "ss_cntr:UUT0|rst_rg:rst_rg" File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/ss_cntr.sv Line: 12
+Warning (12125): Using design file lab_2s/cnt_div.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: cnt_div File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/cnt_div.sv Line: 1
+Info (12128): Elaborating entity "cnt_div" for hierarchy "ss_cntr:UUT0|cnt_div:cnt_div" File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/ss_cntr.sv Line: 17
+Warning (12125): Using design file lab_2s/d_rg.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: d_rg File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/d_rg.sv Line: 1
+Info (12128): Elaborating entity "d_rg" for hierarchy "ss_cntr:UUT0|d_rg:d_rg" File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/ss_cntr.sv Line: 18
+Warning (12125): Using design file lab_2s/fsm.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: FSM File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/fsm.sv Line: 1
+Info (12128): Elaborating entity "FSM" for hierarchy "ss_cntr:UUT0|FSM:FSM" File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/ss_cntr.sv Line: 23
+Warning (12090): Entity "MUX" obtained from "mux.sv" instead of from Quartus Prime megafunction library File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/mux.sv Line: 1
+Warning (12125): Using design file lab_2s/mux.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: MUX File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/mux.sv Line: 1
+Info (12128): Elaborating entity "MUX" for hierarchy "ss_cntr:UUT0|MUX:MUX2" File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/ss_cntr.sv Line: 27
+Warning (12125): Using design file lab_2s/b2ss.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: b2ss File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/b2ss.sv Line: 1
+Info (12128): Elaborating entity "b2ss" for hierarchy "ss_cntr:UUT0|b2ss:b2ss" File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/ss_cntr.sv Line: 31
+Warning (10030): Net "ss_arr.data_a" at b2ss.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/b2ss.sv Line: 7
+Warning (10030): Net "ss_arr.waddr_a" at b2ss.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/b2ss.sv Line: 7
+Warning (10030): Net "ss_arr.we_a" at b2ss.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/b2ss.sv Line: 7
+Warning (12125): Using design file lab_2s/ss_rg.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: ss_rg File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/ss_rg.sv Line: 1
+Info (12128): Elaborating entity "ss_rg" for hierarchy "ss_cntr:UUT0|ss_rg:ss_rg" File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/ss_cntr.sv Line: 32
+Warning (12125): Using design file lab_2s/dig_rg.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: dig_rg File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/dig_rg.sv Line: 1
+Info (12128): Elaborating entity "dig_rg" for hierarchy "ss_cntr:UUT0|dig_rg:dig_rg" File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/ss_cntr.sv Line: 33
+Info (12128): Elaborating entity "b2bd_ROM" for hierarchy "b2bd_ROM:UUT_ROM" File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_3s.sv Line: 30
+Warning (10030): Net "bd_ROM.data_a" at b2bd_ROM.sv(6) has no driver or initial value, using a default initial value '0' File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/b2bd_ROM.sv Line: 6
+Warning (10030): Net "bd_ROM.waddr_a" at b2bd_ROM.sv(6) has no driver or initial value, using a default initial value '0' File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/b2bd_ROM.sv Line: 6
+Warning (10030): Net "bd_ROM.we_a" at b2bd_ROM.sv(6) has no driver or initial value, using a default initial value '0' File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/b2bd_ROM.sv Line: 6
+Info (13014): Ignored 9 buffer(s)
+    Info (13019): Ignored 9 SOFT buffer(s)
+Info (276014): Found 1 instances of uninferred RAM logic
+    Info (276004): RAM logic "ss_cntr:UUT0|b2ss:b2ss|ss_arr" is uninferred due to inappropriate RAM size File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/lab_2s/b2ss.sv Line: 7
+Info (19000): Inferred 1 megafunctions from design logic
+    Info (276029): Inferred altsyncram megafunction from the following design logic: "b2bd_ROM:UUT_ROM|bd_ROM_rtl_0" 
+        Info (286033): Parameter OPERATION_MODE set to ROM
+        Info (286033): Parameter WIDTH_A set to 12
+        Info (286033): Parameter WIDTHAD_A set to 8
+        Info (286033): Parameter NUMWORDS_A set to 256
+        Info (286033): Parameter OUTDATA_REG_A set to UNREGISTERED
+        Info (286033): Parameter ADDRESS_ACLR_A set to NONE
+        Info (286033): Parameter OUTDATA_ACLR_A set to NONE
+        Info (286033): Parameter INDATA_ACLR_A set to NONE
+        Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
+        Info (286033): Parameter INIT_FILE set to db/lab_3s_real.ram0_b2bd_ROM_e400703.hdl.mif
+Info (12130): Elaborated megafunction instantiation "b2bd_ROM:UUT_ROM|altsyncram:bd_ROM_rtl_0"
+Info (12133): Instantiated megafunction "b2bd_ROM:UUT_ROM|altsyncram:bd_ROM_rtl_0" with the following parameter:
+    Info (12134): Parameter "OPERATION_MODE" = "ROM"
+    Info (12134): Parameter "WIDTH_A" = "12"
+    Info (12134): Parameter "WIDTHAD_A" = "8"
+    Info (12134): Parameter "NUMWORDS_A" = "256"
+    Info (12134): Parameter "OUTDATA_REG_A" = "UNREGISTERED"
+    Info (12134): Parameter "ADDRESS_ACLR_A" = "NONE"
+    Info (12134): Parameter "OUTDATA_ACLR_A" = "NONE"
+    Info (12134): Parameter "INDATA_ACLR_A" = "NONE"
+    Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
+    Info (12134): Parameter "INIT_FILE" = "db/lab_3s_real.ram0_b2bd_ROM_e400703.hdl.mif"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_2671.tdf
+    Info (12023): Found entity 1: altsyncram_2671 File: C:/Users/Legion/Desktop/Polytech/Verilog/Lab11_3s/lab_3s_restored/db/altsyncram_2671.tdf Line: 27
+Info (286030): Timing-Driven Synthesis is running
+Info (17049): 2 registers lost all their fanouts during netlist optimizations.
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 125 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 9 input pins
+    Info (21059): Implemented 11 output pins
+    Info (21061): Implemented 93 logic cells
+    Info (21064): Implemented 12 RAM segments
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 17 warnings
+    Info: Peak virtual memory: 4850 megabytes
+    Info: Processing ended: Thu Nov 23 10:49:07 2023
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:06
+
+
