@@ -1,0 +1,14 @@
+
+State Machine - |lab_4s|mult_SR_V1:UUT_mult_SR_V0|state
+Name state.END_MULT state.SUM_A state.SHIFT_ANS state.INIT 
+state.INIT 0 0 0 0 
+state.SHIFT_ANS 0 0 1 1 
+state.SUM_A 0 1 0 1 
+state.END_MULT 1 0 0 1 
+
+State Machine - |lab_4s|ss_cntr:UUT_ss_cntr|FSM:FSM|state
+Name state.S3 state.S2 state.S1 state.S0 
+state.S0 0 0 0 0 
+state.S1 0 0 1 1 
+state.S2 0 1 0 1 
+state.S3 1 0 0 1 
