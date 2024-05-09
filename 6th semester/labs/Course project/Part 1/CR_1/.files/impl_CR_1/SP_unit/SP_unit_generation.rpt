@@ -1,0 +1,63 @@
+Info: Starting: Create simulation model
+Info: qsys-generate "D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\Course project\Part 1\CR_1\impl_CR_1\SP_unit.qsys" --simulation=VERILOG --allow-mixed-language-simulation --output-directory="D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\Course project\Part 1\CR_1\impl_CR_1\SP_unit\simulation" --family="Cyclone IV E" --part=EP4CE6E22C8
+Progress: Loading impl_CR_1/SP_unit.qsys
+Progress: Reading input file
+Progress: Adding in_system_sources_probes_0 [altera_in_system_sources_probes 18.1]
+Progress: Parameterizing module in_system_sources_probes_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: SP_unit: Generating SP_unit "SP_unit" for SIM_VERILOG
+Info: in_system_sources_probes_0: "SP_unit" instantiated altera_in_system_sources_probes "in_system_sources_probes_0"
+Info: SP_unit: Done "SP_unit" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd="D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\Course project\Part 1\CR_1\impl_CR_1\SP_unit\SP_unit.spd" --output-directory="D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/impl_CR_1/SP_unit/simulation/" --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\Course project\Part 1\CR_1\impl_CR_1\SP_unit\SP_unit.spd --output-directory=D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/impl_CR_1/SP_unit/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/impl_CR_1/SP_unit/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/impl_CR_1/SP_unit/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/impl_CR_1/SP_unit/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/impl_CR_1/SP_unit/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	1 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/impl_CR_1/SP_unit/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/impl_CR_1/SP_unit/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate "D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\Course project\Part 1\CR_1\impl_CR_1\SP_unit.qsys" --block-symbol-file --output-directory="D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\Course project\Part 1\CR_1\impl_CR_1\SP_unit" --family="Cyclone IV E" --part=EP4CE6E22C8
+Progress: Loading impl_CR_1/SP_unit.qsys
+Progress: Reading input file
+Progress: Adding in_system_sources_probes_0 [altera_in_system_sources_probes 18.1]
+Progress: Parameterizing module in_system_sources_probes_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\Course project\Part 1\CR_1\impl_CR_1\SP_unit.qsys" --synthesis=VERILOG --output-directory="D:\Users\Legion\Quartus and Verilog\Verilog\Third year\6th semester\labs\Course project\Part 1\CR_1\impl_CR_1\SP_unit\synthesis" --family="Cyclone IV E" --part=EP4CE6E22C8
+Progress: Loading impl_CR_1/SP_unit.qsys
+Progress: Reading input file
+Progress: Adding in_system_sources_probes_0 [altera_in_system_sources_probes 18.1]
+Progress: Parameterizing module in_system_sources_probes_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: SP_unit: Generating SP_unit "SP_unit" for QUARTUS_SYNTH
+Info: in_system_sources_probes_0: "SP_unit" instantiated altera_in_system_sources_probes "in_system_sources_probes_0"
+Info: SP_unit: Done "SP_unit" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
