@@ -1,0 +1,7 @@
+
+State Machine - |db_CR_1|CR_1:u_CR_1|lab_3s:u_lab_3s|ss_cntr:UUT0|FSM:FSM|state
+Name state.S3 state.S2 state.S1 state.S0 
+state.S0 0 0 0 0 
+state.S1 0 0 1 1 
+state.S2 0 1 0 1 
+state.S3 1 0 0 1 
