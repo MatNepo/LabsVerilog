@@ -1,0 +1,440 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/simulation/modelsim
+vb2bd_ROM
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1715171675
+!i10b 1
+!s100 2a[i5^iW6Fg5<_;a_]bg:0
+IWUEdHGH?HSKPiAMc4l8Wj0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 b2bd_rom_sv_unit
+S1
+R0
+Z4 w1713633449
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/b2bd_rom.sv
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/b2bd_rom.sv
+L0 1
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1715171675.000000
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/b2bd_rom.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/b2bd_rom.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work {+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s}
+Z9 tCvgOpt 0
+nb2bd_@r@o@m
+vb2ss
+R1
+R2
+!i10b 1
+!s100 T0PzScR<5Sah<6M;@L_J11
+IGiHZ997_dK>a32F874Ml:1
+R3
+!s105 b2ss_sv_unit
+S1
+R0
+R4
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/b2ss.sv
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/b2ss.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/b2ss.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/b2ss.sv|
+!i113 1
+R7
+Z10 !s92 -sv -work work {+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s}
+R9
+vcnt_div
+R1
+R2
+!i10b 1
+!s100 8:KR5cfNXz;=X]bVb@HS^3
+IQ`?1mdHhHjO]87iDc:WcY2
+R3
+!s105 cnt_div_sv_unit
+S1
+R0
+R4
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/cnt_div.sv
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/cnt_div.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/cnt_div.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/cnt_div.sv|
+!i113 1
+R7
+R10
+R9
+vCR_1
+R1
+R2
+!i10b 1
+!s100 5cJ1>1n48Z@j[zT1OooAa2
+IO4PK>`Gif_5[ae@zF4?Yb0
+R3
+!s105 CR_1_sv_unit
+S1
+R0
+w1713634891
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/CR_1.sv
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/CR_1.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/CR_1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/CR_1.sv|
+!i113 1
+R7
+Z11 !s92 -sv -work work {+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1}
+R9
+n@c@r_1
+vd_rg
+R1
+R2
+!i10b 1
+!s100 DCHR?@E3b[QAV=QBf;kO90
+IE3kXOXle87z]Ki^aDBQQO3
+R3
+!s105 d_rg_sv_unit
+S1
+R0
+R4
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/d_rg.sv
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/d_rg.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/d_rg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/d_rg.sv|
+!i113 1
+R7
+R10
+R9
+vdig_rg
+R1
+R2
+!i10b 1
+!s100 oR7UO>YFhW_>E9SSYoGG`1
+IPzQ_ozC8MnDdQ=9>EDhd92
+R3
+!s105 dig_rg_sv_unit
+S1
+R0
+R4
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/dig_rg.sv
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/dig_rg.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/dig_rg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/dig_rg.sv|
+!i113 1
+R7
+R10
+R9
+vFIFO
+R2
+!i10b 1
+!s100 Z?gciGDU19kk`:^>2ojB11
+IcMg2P[OK5CU>fNbI3KkNe1
+R3
+R0
+w1713634124
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/FIFO.v
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/FIFO.v
+L0 39
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/FIFO.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/FIFO.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1}
+R9
+n@f@i@f@o
+vFSM
+R1
+R2
+!i10b 1
+!s100 oei4@9PzhBMH=14O>78E50
+IAnRIzShizA8G;a>l0IjJJ1
+R3
+!s105 fsm_sv_unit
+S1
+R0
+R4
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/fsm.sv
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/fsm.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/fsm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/fsm.sv|
+!i113 1
+R7
+R10
+R9
+n@f@s@m
+vgen
+R1
+R2
+!i10b 1
+!s100 YaHF6l`i[__MNnCYKQG[Y2
+I<:?9aCTiG0ez7^5lil8Cj2
+R3
+!s105 gen_sv_unit
+S1
+R0
+w1715121417
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/gen.sv
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/gen.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/gen.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/gen.sv|
+!i113 1
+R7
+R11
+R9
+vlab_3s
+R1
+R2
+!i10b 1
+!s100 ZoZKhb77[eGbTV@aGCO^^0
+IZS1]ee5zjG>UH`:Ra>ZjJ3
+R3
+!s105 lab_3s_sv_unit
+S1
+R0
+w1713637359
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_3s.sv
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_3s.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_3s.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_3s.sv|
+!i113 1
+R7
+R8
+R9
+vLFSR_8_7_6_4_3_2_1_F
+R1
+R2
+!i10b 1
+!s100 =_]ob92jcWfzNFc@E_Z]C2
+Ih::_8?HXC@GV_7aT4nJeQ1
+R3
+!s105 LFSR_8_7_6_4_3_2_1_F_sv_unit
+S1
+R0
+w1715094349
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/LFSR_8_7_6_4_3_2_1_F.sv
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/LFSR_8_7_6_4_3_2_1_F.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/LFSR_8_7_6_4_3_2_1_F.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/LFSR_8_7_6_4_3_2_1_F.sv|
+!i113 1
+R7
+R11
+R9
+n@l@f@s@r_8_7_6_4_3_2_1_@f
+vMUX
+R1
+R2
+!i10b 1
+!s100 f2e:8Z]nRO2VA0:KH1P2Z3
+IjWB:Rf^ddOfEl?2ijCaHX0
+R3
+!s105 mux_sv_unit
+S1
+R0
+R4
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/mux.sv
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/mux.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/mux.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/mux.sv|
+!i113 1
+R7
+R10
+R9
+n@m@u@x
+vRaF
+R1
+R2
+!i10b 1
+!s100 bdYgShM`86iAcG@z1NQn72
+Ik=z7dk>D><27[b:5SWFbT0
+R3
+!s105 RaF_sv_unit
+S1
+R0
+w1713632221
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/RaF.sv
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/RaF.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/RaF.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/RaF.sv|
+!i113 1
+R7
+R11
+R9
+n@ra@f
+vrst_rg
+R1
+R2
+!i10b 1
+!s100 5BS_XL@_l6PD^egdPAVM:1
+Ifh@?]CT[ShB;:EYPCmz583
+R3
+!s105 rst_rg_sv_unit
+S1
+R0
+R4
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/rst_rg.sv
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/rst_rg.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/rst_rg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/rst_rg.sv|
+!i113 1
+R7
+R10
+R9
+vss_cntr
+R1
+R2
+!i10b 1
+!s100 JAk6HRaY@z:YdU6dPiG2F2
+I]6ch;nNP12U<hbY[SAKF73
+R3
+!s105 ss_cntr_sv_unit
+S1
+R0
+R4
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/ss_cntr.sv
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/ss_cntr.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/ss_cntr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/ss_cntr.sv|
+!i113 1
+R7
+R10
+R9
+vss_rg
+R1
+R2
+!i10b 1
+!s100 DL40TAD:S^TUTk_jgLlX33
+IRC0C[_]3GH]fGgN8hW6=Y2
+R3
+!s105 ss_rg_sv_unit
+S1
+R0
+R4
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/ss_rg.sv
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/ss_rg.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/ss_rg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/lab_3s/lab_2s/ss_rg.sv|
+!i113 1
+R7
+R10
+R9
+vtb_CR_1
+R1
+R2
+!i10b 1
+!s100 8hlX2eSLjM]L9W0XU^mfW1
+IWY54lS]N7i]cz_<A64T1_1
+R3
+!s105 CR_1_tb_sv_unit
+S1
+R0
+w1713637656
+8D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/CR_1_tb.sv
+FD:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/CR_1_tb.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/CR_1_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1|D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/labs/Course project/Part 1/CR_1/CR_1/CR_1_tb.sv|
+!i113 1
+R7
+R11
+R9
+ntb_@c@r_1
