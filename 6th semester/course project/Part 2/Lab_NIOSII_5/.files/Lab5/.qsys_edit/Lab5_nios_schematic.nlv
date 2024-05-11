@@ -1,0 +1,22 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst Lab5_nios.led -pg 1 -lvl 3 -y 330
+preplace inst Lab5_nios.onchip_mem -pg 1 -lvl 3 -y 250
+preplace inst Lab5_nios.jtag_uart -pg 1 -lvl 3 -y 150
+preplace inst Lab5_nios -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst Lab5_nios.nios2_qsys.reset_bridge -pg 1
+preplace inst Lab5_nios.nios2_qsys.clock_bridge -pg 1
+preplace inst Lab5_nios.nios2_qsys.cpu -pg 1
+preplace inst Lab5_nios.clk -pg 1 -lvl 1 -y 80
+preplace inst Lab5_nios.buttons -pg 1 -lvl 3 -y 30
+preplace inst Lab5_nios.nios2_qsys -pg 1 -lvl 2 -y 160
+preplace netloc EXPORT<net_container>Lab5_nios</net_container>(SLAVE)Lab5_nios.pba,(SLAVE)buttons.external_connection) 1 0 3 NJ 60 NJ 60 NJ
+preplace netloc FAN_OUT<net_container>Lab5_nios</net_container>(MASTER)nios2_qsys.irq,(SLAVE)buttons.irq,(SLAVE)jtag_uart.irq) 1 2 1 720
+preplace netloc INTERCONNECT<net_container>Lab5_nios</net_container>(SLAVE)onchip_mem.s1,(MASTER)nios2_qsys.data_master,(SLAVE)nios2_qsys.debug_mem_slave,(SLAVE)buttons.s1,(SLAVE)jtag_uart.avalon_jtag_slave,(SLAVE)led.s1,(MASTER)nios2_qsys.instruction_master) 1 1 2 300 120 660
+preplace netloc EXPORT<net_container>Lab5_nios</net_container>(SLAVE)Lab5_nios.led,(SLAVE)led.external_connection) 1 0 3 NJ 360 NJ 360 NJ
+preplace netloc FAN_OUT<net_container>Lab5_nios</net_container>(MASTER)clk.clk,(SLAVE)jtag_uart.clk,(SLAVE)onchip_mem.clk1,(SLAVE)buttons.clk,(SLAVE)led.clk,(SLAVE)nios2_qsys.clk) 1 1 2 260 80 700
+preplace netloc EXPORT<net_container>Lab5_nios</net_container>(SLAVE)clk.clk_in_reset,(SLAVE)Lab5_nios.reset) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>Lab5_nios</net_container>(SLAVE)onchip_mem.reset1,(SLAVE)nios2_qsys.reset,(SLAVE)jtag_uart.reset,(SLAVE)buttons.reset,(MASTER)clk.clk_reset,(SLAVE)led.reset) 1 1 2 280 100 680
+preplace netloc EXPORT<net_container>Lab5_nios</net_container>(SLAVE)Lab5_nios.clk,(SLAVE)clk.clk_in) 1 0 1 NJ
+levelinfo -pg 1 0 50 910
+levelinfo -hier Lab5_nios 60 90 420 750 900
