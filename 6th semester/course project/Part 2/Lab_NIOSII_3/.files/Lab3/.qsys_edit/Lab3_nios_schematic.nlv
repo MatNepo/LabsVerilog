@@ -1,0 +1,22 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst Lab3_nios.led -pg 1 -lvl 3 -y 350
+preplace inst Lab3_nios -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst Lab3_nios.onchip_mem -pg 1 -lvl 3 -y 50
+preplace inst Lab3_nios.nios2_gsys.clock_bridge -pg 1
+preplace inst Lab3_nios.nios2_gsys -pg 1 -lvl 2 -y 70
+preplace inst Lab3_nios.nios2_gsys.reset_bridge -pg 1
+preplace inst Lab3_nios.jtag_uart -pg 1 -lvl 3 -y 140
+preplace inst Lab3_nios.buttons -pg 1 -lvl 3 -y 250
+preplace inst Lab3_nios.nios2_gsys.cpu -pg 1
+preplace inst Lab3_nios.clk -pg 1 -lvl 1 -y 290
+preplace netloc FAN_OUT<net_container>Lab3_nios</net_container>(SLAVE)buttons.clk,(SLAVE)nios2_gsys.clk,(MASTER)clk.clk,(SLAVE)jtag_uart.clk,(SLAVE)onchip_mem.clk1,(SLAVE)led.clk) 1 1 2 260 210 700
+preplace netloc EXPORT<net_container>Lab3_nios</net_container>(SLAVE)Lab3_nios.led,(SLAVE)led.external_connection) 1 0 3 NJ 380 NJ 380 NJ
+preplace netloc EXPORT<net_container>Lab3_nios</net_container>(SLAVE)Lab3_nios.clk,(SLAVE)clk.clk_in) 1 0 1 NJ
+preplace netloc INTERCONNECT<net_container>Lab3_nios</net_container>(MASTER)nios2_gsys.instruction_master,(SLAVE)jtag_uart.avalon_jtag_slave,(SLAVE)nios2_gsys.debug_mem_slave,(MASTER)nios2_gsys.data_master,(SLAVE)buttons.s1,(SLAVE)onchip_mem.s1,(SLAVE)led.s1) 1 1 2 280 30 680
+preplace netloc POINT_TO_POINT<net_container>Lab3_nios</net_container>(SLAVE)jtag_uart.irq,(MASTER)nios2_gsys.irq) 1 2 1 660
+preplace netloc FAN_OUT<net_container>Lab3_nios</net_container>(SLAVE)nios2_gsys.reset,(SLAVE)onchip_mem.reset1,(SLAVE)led.reset,(SLAVE)buttons.reset,(MASTER)clk.clk_reset,(SLAVE)jtag_uart.reset) 1 1 2 280 230 720
+preplace netloc EXPORT<net_container>Lab3_nios</net_container>(SLAVE)Lab3_nios.reset,(SLAVE)clk.clk_in_reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>Lab3_nios</net_container>(SLAVE)Lab3_nios.pba,(SLAVE)buttons.external_connection) 1 0 3 NJ 280 NJ 280 NJ
+levelinfo -pg 1 0 50 910
+levelinfo -hier Lab3_nios 60 90 420 750 900

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="Lab3_nios.clk" showClockDomains="0" showResetDomains="0">
+  <columns>
+   <connections preferredWidth="143" />
+   <irq preferredWidth="47" />
+   <endaddress preferredWidth="126" />
+  </columns>
+ </systemtable>
+ <library expandedCategories="Project,Library" />
+ <window width="1839" height="1458" x="372" y="74" />
+ <generation block_symbol_file="0" />
+</preferences>
