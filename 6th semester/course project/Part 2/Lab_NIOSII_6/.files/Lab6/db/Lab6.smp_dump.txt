@@ -1,0 +1,21 @@
+
+State Machine - |Lab6|Lab65_nios:u0|Lab65_nios_nios2_qsys:nios2_qsys|Lab65_nios_nios2_qsys_cpu:cpu|Lab65_nios_nios2_qsys_cpu_nios2_oci:the_Lab65_nios_nios2_qsys_cpu_nios2_oci|Lab65_nios_nios2_qsys_cpu_debug_slave_wrapper:the_Lab65_nios_nios2_qsys_cpu_debug_slave_wrapper|Lab65_nios_nios2_qsys_cpu_debug_slave_tck:the_Lab65_nios_nios2_qsys_cpu_debug_slave_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 
+
+State Machine - |Lab6|Lab65_nios:u0|Lab65_nios_jtag_uart:jtag_uart|Lab65_nios_jtag_uart_scfifo_r:the_Lab65_nios_jtag_uart_scfifo_r|scfifo:rfifo|a_fffifo:subfifo|a_fefifo:fifo_state|sm_emptyfull
+Name state_middle state_full state_empty 
+state_empty 0 0 0 
+state_middle 1 0 1 
+state_full 0 1 1 
+
+State Machine - |Lab6|Lab65_nios:u0|Lab65_nios_jtag_uart:jtag_uart|Lab65_nios_jtag_uart_scfifo_w:the_Lab65_nios_jtag_uart_scfifo_w|scfifo:wfifo|a_fffifo:subfifo|a_fefifo:fifo_state|sm_emptyfull
+Name state_middle state_full state_empty 
+state_empty 0 0 0 
+state_middle 1 0 1 
+state_full 0 1 1 

@@ -1,0 +1,69 @@
+Quartus Prime Archive log --	D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab6.qarlog
+
+Archive:	D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab6.qar
+Date:		Sat May 11 21:03:14 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/CI_Power.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/CI_power_hw.tcl
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab6.qpf
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab6.qsf
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab6.sdc
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab6.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios.qsys
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios.sopcinfo
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/Lab65_nios.cmp
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/Lab65_nios.debuginfo
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/Lab65_nios.qip
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/Lab65_nios.regmap
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/Lab65_nios.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/CI_Power.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_Data_a.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_irq_mapper.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_jtag_uart.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_led.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_avalon_st_adapter.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_cmd_demux.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_cmd_demux_001.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_cmd_mux.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_cmd_mux_001.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_router.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_router_001.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_router_002.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_router_003.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_rsp_demux.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_rsp_mux.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_rsp_mux_001.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys_cpu.sdc
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys_cpu.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys_cpu_debug_slave_sysclk.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys_cpu_debug_slave_tck.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys_cpu_debug_slave_wrapper.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys_cpu_ociram_default_contents.mif
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys_cpu_rf_ram_a.mif
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys_cpu_rf_ram_b.mif
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys_cpu_test_bench.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys_custom_instruction_master_comb_xconnect.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_onchip_mem.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/Lab65_nios_timer.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/altera_avalon_sc_fifo.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/altera_customins_master_translator.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/altera_customins_slave_translator.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/altera_merlin_arbitrator.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/altera_merlin_master_agent.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/altera_merlin_master_translator.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/altera_merlin_slave_agent.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/altera_merlin_slave_translator.sv
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/altera_reset_controller.sdc
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/altera_reset_controller.v
+D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab65_nios/synthesis/submodules/altera_reset_synchronizer.v
+d:/intelfpga/18.1/quartuslitesetup/quartus/bin64/assignment_defaults.qdf
+	======= Total: 58 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

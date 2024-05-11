@@ -1,0 +1,18 @@
+21:46:40 **** Incremental Build of configuration Nios II for project lab6_sw ****
+make all 
+Info: Building ../lab6_sw_bsp/
+D:/intelFPGA/18.1/QuartusLiteSetup/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../lab6_sw_bsp/
+[BSP build complete]
+Info: Compiling lab6_source_hw.c to obj/default/lab6_source_hw.o
+nios2-elf-gcc -xc -MP -MMD -c -I../lab6_sw_bsp//HAL/inc -I../lab6_sw_bsp/ -I../lab6_sw_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/lab6_source_hw.o lab6_source_hw.c
+Info: Linking lab6_sw.elf
+nios2-elf-g++  -T'../lab6_sw_bsp//linker.x' -msys-crt0='../lab6_sw_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../lab6_sw_bsp/  -msmallc  -Wl,-Map=lab6_sw.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o lab6_sw.elf obj/default/lab6_source_hw.o -lm -msys-lib=m
+nios2-elf-insert lab6_sw.elf --thread_model hal --cpu_name nios2_qsys --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name Lab65_nios --quartus_project_dir "D:/Users/Legion/Eclipse/Lab6/main" --sopcinfo D:/Users/Legion/Eclipse/Lab6/main/software/lab6_sw_bsp/../../Lab65_nios.sopcinfo
+Info: (lab6_sw.elf) 4856 Bytes program size (code + initialized data).
+Info:               11 KBytes free for stack + heap.
+Info: Creating lab6_sw.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source lab6_sw.elf >lab6_sw.objdump
+[lab6_sw build complete]
+
+21:46:41 Build Finished (took 954ms)
+

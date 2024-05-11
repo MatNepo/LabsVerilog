@@ -1,0 +1,133 @@
+Archive Project report for Lab6
+Sat May 11 21:03:14 2024
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Sat May 11 21:03:14 2024 ;
+; Revision Name          ; Lab6                                  ;
+; Top-level Entity Name  ; Lab6                                  ;
+; Family                 ; Cyclone IV E                          ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'D:/Users/Legion/Quartus and Verilog/Verilog/Third year/6th semester/course project/Part 2/Lab_NIOSII_6/Lab6/Lab6.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'Lab6.archive.rpt'
+Info (23030): Evaluation of Tcl script d:/intelfpga/18.1/quartuslitesetup/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4836 megabytes
+    Info: Processing ended: Sat May 11 21:03:14 2024
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+
++---------------------------------------------------------------------------------------------------+
+; Files Archived                                                                                    ;
++---------------------------------------------------------------------------------------------------+
+; File Name                                                                                         ;
++---------------------------------------------------------------------------------------------------+
+; CI_Power.sv                                                                                       ;
+; CI_power_hw.tcl                                                                                   ;
+; d:/intelfpga/18.1/quartuslitesetup/quartus/bin64/assignment_defaults.qdf                          ;
+; Lab6.qpf                                                                                          ;
+; Lab6.qsf                                                                                          ;
+; Lab6.sdc                                                                                          ;
+; Lab6.sv                                                                                           ;
+; Lab65_nios/synthesis/../../Lab65_nios.qsys                                                        ;
+; Lab65_nios/synthesis/../../Lab65_nios.sopcinfo                                                    ;
+; Lab65_nios/synthesis/../Lab65_nios.cmp                                                            ;
+; Lab65_nios/synthesis/Lab65_nios.debuginfo                                                         ;
+; Lab65_nios/synthesis/Lab65_nios.qip                                                               ;
+; Lab65_nios/synthesis/Lab65_nios.regmap                                                            ;
+; Lab65_nios/synthesis/Lab65_nios.v                                                                 ;
+; Lab65_nios/synthesis/submodules/altera_avalon_sc_fifo.v                                           ;
+; Lab65_nios/synthesis/submodules/altera_customins_master_translator.v                              ;
+; Lab65_nios/synthesis/submodules/altera_customins_slave_translator.sv                              ;
+; Lab65_nios/synthesis/submodules/altera_merlin_arbitrator.sv                                       ;
+; Lab65_nios/synthesis/submodules/altera_merlin_burst_uncompressor.sv                               ;
+; Lab65_nios/synthesis/submodules/altera_merlin_master_agent.sv                                     ;
+; Lab65_nios/synthesis/submodules/altera_merlin_master_translator.sv                                ;
+; Lab65_nios/synthesis/submodules/altera_merlin_slave_agent.sv                                      ;
+; Lab65_nios/synthesis/submodules/altera_merlin_slave_translator.sv                                 ;
+; Lab65_nios/synthesis/submodules/altera_reset_controller.sdc                                       ;
+; Lab65_nios/synthesis/submodules/altera_reset_controller.v                                         ;
+; Lab65_nios/synthesis/submodules/altera_reset_synchronizer.v                                       ;
+; Lab65_nios/synthesis/submodules/CI_Power.sv                                                       ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_Data_a.v                                               ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_irq_mapper.sv                                          ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_jtag_uart.v                                            ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_led.v                                                  ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0.v                                    ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_avalon_st_adapter.v                  ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_cmd_demux.sv                         ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_cmd_demux_001.sv                     ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_cmd_mux.sv                           ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_cmd_mux_001.sv                       ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_router.sv                            ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_router_001.sv                        ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_router_002.sv                        ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_router_003.sv                        ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_rsp_demux.sv                         ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_rsp_mux.sv                           ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_mm_interconnect_0_rsp_mux_001.sv                       ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys.v                                           ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys_cpu.sdc                                     ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys_cpu.v                                       ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys_cpu_debug_slave_sysclk.v                    ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys_cpu_debug_slave_tck.v                       ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys_cpu_debug_slave_wrapper.v                   ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys_cpu_ociram_default_contents.mif             ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys_cpu_rf_ram_a.mif                            ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys_cpu_rf_ram_b.mif                            ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys_cpu_test_bench.v                            ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_nios2_qsys_custom_instruction_master_comb_xconnect.sv  ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_onchip_mem.v                                           ;
+; Lab65_nios/synthesis/submodules/Lab65_nios_timer.v                                                ;
++---------------------------------------------------------------------------------------------------+
+
+
